@@ -1,0 +1,10 @@
+{
+  "source_id": "trainsec-black-friday",
+  "source_url": "https://trainsec.net/cybersecurity-courses-black-friday/",
+  "observed_at": "2026-11-03T10:43:50Z",
+  "method": "first_party_tool_extraction",
+  "html_sha256": "2836683e4cccaec7c2d7a3e31592c86f6d6796b122ccea366770c2e6bdb0d771",
+  "corroboration_sha256": "fc6b8da4d338ede41b92cbd161660a4a78f720a5811197ceb11726989082844a",
+  "note": "Reviewed current first-party extraction corroborates scoped captured HTML; no claim of automated HTTP success.",
+  "offers_corroborated": 33
+}

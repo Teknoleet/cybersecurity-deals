@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {"id": "training", "label": "Training & Labs"},
+    {"id": "certifications", "label": "Certifications & Exams"},
+    {"id": "software", "label": "Software & Tools"},
+    {"id": "hardware", "label": "Hardware"},
+    {"id": "books", "label": "Books & Bundles"}
+  ],
+  "topics": [
+    {"id": "offensive-security", "label": "Offensive Security & Red Team"},
+    {"id": "blue-team-dfir", "label": "Blue Team, Detection & DFIR"},
+    {"id": "appsec", "label": "AppSec"},
+    {"id": "cloud-devsecops", "label": "Cloud & DevSecOps"},
+    {"id": "ai-security", "label": "AI Security"},
+    {"id": "osint", "label": "OSINT & Threat Intelligence"},
+    {"id": "reverse-engineering", "label": "Reverse Engineering & Malware"},
+    {"id": "hardware-physical", "label": "Hardware & Physical Security"},
+    {"id": "privacy-vpn", "label": "Privacy & VPN"},
+    {"id": "llm-security", "label": "LLM Security"},
+    {"id": "agent-security", "label": "Agent Security"},
+    {"id": "mcp-security", "label": "MCP Security"},
+    {"id": "adversarial-ml", "label": "Adversarial ML"},
+    {"id": "ai-for-security", "label": "AI for Security"}
+  ]
+}

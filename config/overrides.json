@@ -1,0 +1,5 @@
+{
+  "exclude": [],
+  "corrections": {},
+  "notes": "Keys in exclude and corrections are stable deal IDs. Corrections permit description, category, topics only, as bounded plain text. They cannot change URLs, prices, campaign evidence, identity, dates or confirmation timestamps, create offers or bypass eligibility. Correct parser/source evidence through reviewed code for protected fields."
+}

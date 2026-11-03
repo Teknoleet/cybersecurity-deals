@@ -1,0 +1,170 @@
+{
+  "edition": 2026,
+  "policy": {
+    "default_max_sources": 8,
+    "max_discovered_links": 4,
+    "max_response_bytes": 2097152,
+    "max_requests": 24,
+    "per_domain_limit": 12,
+    "deadline_seconds": 95,
+    "robots": "Obey cached robots per run. Fail closed on network/403/5xx/redirect/HTML. 404/410 explicitly absent policy permits fetching.",
+    "publication": "Maintained official adapter plus scoped eligible current evidence only. Discovery lists never publish directly.",
+    "supported_official_domains": ["trainsec.net"]
+  },
+  "sources": [
+    {
+      "id": "trainsec-black-friday",
+      "name": "TrainSec Black Friday",
+      "url": "https://trainsec.net/cybersecurity-courses-black-friday/",
+      "type": "official",
+      "adapter": "trainsec",
+      "capability": "supported",
+      "enabled": true,
+      "topics": ["offensive-security", "blue-team-dfir", "reverse-engineering", "hardware-physical"],
+      "note": "Scoped individual-course cards and explicit November 2026 BF2026 campaign. Checkout not tested. Dollar symbol alone does not establish USD. Direct requests may receive 403."
+    },
+    {
+      "id": "github-0x90n",
+      "name": "0x90n / InfoSec Black Friday",
+      "url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "fetch_url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
+      "type": "github",
+      "adapter": "github_markdown",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["offensive-security", "blue-team-dfir", "appsec", "hardware-physical", "privacy-vpn"],
+      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility."
+    },
+    {
+      "id": "github-twf-nikhila",
+      "name": "twf-nikhila / Awesome Black Friday Cyber Monday deals",
+      "url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "type": "github",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "topics": ["appsec", "cloud-devsecops"],
+      "note": "Canonical repository from attachment. Raw branch and source-specific relevance filter not yet validated; no automatic fetch or publication."
+    },
+    {
+      "id": "github-hysnsec",
+      "name": "hysnsec / InfoSec Black Friday Cyber Monday Deals",
+      "url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "type": "github",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "topics": ["offensive-security", "cloud-devsecops"],
+      "note": "Discovery repository in attachment; raw branch and current contents not validated. No copied offers."
+    },
+    {
+      "id": "appsecengineer-pricing",
+      "name": "AppSecEngineer individual pricing",
+      "url": "https://www.appsecengineer.com/individuals/pricing",
+      "type": "official",
+      "adapter": null,
+      "capability": "unsupported",
+      "enabled": false,
+      "topics": ["appsec", "ai-security", "llm-security", "cloud-devsecops"],
+      "note": "Attachment reports conflicting percentage/code terms and unestablished 2026 campaign evidence. Held, not published."
+    },
+    {
+      "id": "modern-security-ai",
+      "name": "Modern Security AI security certification",
+      "url": "https://www.modernsecurity.io/courses/ai-security-certification",
+      "type": "official",
+      "adapter": null,
+      "capability": "unsupported",
+      "enabled": false,
+      "topics": ["ai-security", "llm-security", "agent-security", "mcp-security"],
+      "note": "Relevant general promotion lead; 2026 offer/campaign or original October 2026 date not substantiated. Course title alone is insufficient."
+    },
+    {
+      "id": "practical-devsecops-2025",
+      "name": "Practical DevSecOps Black Friday 2025",
+      "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
+      "type": "official",
+      "adapter": null,
+      "capability": "unsupported",
+      "enabled": false,
+      "initial_status": "historical",
+      "topics": ["cloud-devsecops", "ai-security", "mcp-security"],
+      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign."
+    },
+    {
+      "id": "dfir-diva-discounts",
+      "name": "DFIR Diva current discounts",
+      "url": "https://training.dfirdiva.com/current-discounts",
+      "type": "roundup",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "topics": ["blue-team-dfir", "osint"],
+      "note": "Attachment reports discounts moved to Community Listings; no invented replacement URL. Affiliate relationships disclosed by source."
+    },
+    {
+      "id": "bleepingcomputer-offers",
+      "name": "BleepingComputer offers",
+      "url": "https://www.bleepingcomputer.com/offer/",
+      "type": "roundup",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "topics": ["blue-team-dfir", "privacy-vpn"],
+      "note": "Discovery only; bundle prices and reference prices need current eligible seller corroboration."
+    },
+    {
+      "id": "ciphers-security-tracker",
+      "name": "Ciphers Security Black Friday tracker",
+      "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "type": "roundup",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "topics": ["offensive-security", "blue-team-dfir"],
+      "note": "2026 tracker includes not-announced entries. No inherited verification; official evidence required."
+    },
+    {
+      "id": "sans-specials-na",
+      "name": "SANS North America specials",
+      "url": "https://www.sans.org/specials/north-america",
+      "type": "official",
+      "adapter": null,
+      "capability": "unsupported",
+      "enabled": false,
+      "topics": ["blue-team-dfir", "offensive-security"],
+      "note": "Regional North America source. Netherlands eligibility must not be assumed. No maintained parser yet."
+    },
+    {
+      "id": "stacksocial",
+      "name": "StackSocial",
+      "url": "https://www.stacksocial.com",
+      "type": "marketplace",
+      "adapter": null,
+      "capability": "unsupported",
+      "enabled": false,
+      "topics": ["ai-security", "blue-team-dfir"],
+      "note": "Marketplace lead only. Software excluded absent seller authorization. A 2026 product name is not campaign evidence; training/books require scoped current seller evidence."
+    },
+    {
+      "id": "reddit-cybersecurity-2025",
+      "name": "r/cybersecurity historical 2025 megathread",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1ovlue3/",
+      "type": "community",
+      "adapter": null,
+      "capability": "discovery_only",
+      "enabled": false,
+      "initial_status": "historical",
+      "topics": ["offensive-security", "blue-team-dfir"],
+      "note": "Historical thread from attachment. No login, private communities or access restrictions bypassed."
+    }
+  ],
+  "vendor_watchlist": [
+    {"group": "Training and certifications", "names": ["TryHackMe", "Hack The Box", "OffSec", "TCM Security", "Antisyphon / BHIS", "Altered Security", "CyberWarFare Labs", "CloudBreach", "AppSecEngineer", "Practical DevSecOps", "INE Security / eLearnSecurity", "SANS", "Zero-Point Security", "MalDev Academy", "White Knight Labs", "HackTricks Training", "7ASecurity", "8kSec", "Mobile Hacking Lab", "VantagePoint / Enciphers", "SecDim", "iximiuz Labs", "Security Blue Team", "LetsDefend", "13Cubed", "Invictus Incident Response", "Level Effect", "ACE Responder", "Blu Raven Academy", "PentesterLab", "WiFiChallenge Academy", "Modern Security", "TrainSec"]},
+    {"group": "Security tools", "names": ["PortSwigger / Burp Suite", "Tenable / Nessus", "SysReptor", "Maltego", "Shodan", "Censys", "Binary Ninja", "IDA Pro / Hex-Rays", "JetBrains", "OSINT Industries", "GrayHatWarfare", "Pulsedive", "ZoomEye", "Threat.Zone", "HTTP Toolkit"]},
+    {"group": "Hardware and physical security", "names": ["Hak5", "Covert Instruments", "Sparrows", "Multipick", "Flipper Zero", "Proxmark", "O.MG cables", "Alfa adapters", "Yubico", "KSEC / OnlySecurity", "Practical Physical Exploitation"]},
+    {"group": "Books and marketplaces", "names": ["No Starch Press", "The CloudSec Engineer", "Humble Bundle", "Fanatical", "AppSumo", "StackSocial"]},
+    {"group": "Roundups and named resources without confirmed article URLs", "names": ["Nightfall AI annual Black Friday roundup", "All About Cookies cybersecurity bundles roundup", "ZDNET Black Friday coverage", "Slickdeals public RSS", "r/netsec", "r/blueteamsec", "r/AskNetsec", "r/homelab", "r/selfhosted"]}
+  ],
+  "watchlist_note": "Names only are deliberate: no guessed vendor, feed or seasonal article URLs. Historical participation is not an active offer. No private Discord/Slack ingestion, paid services, checkout or automatic public discovery."
+}

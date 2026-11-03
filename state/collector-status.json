@@ -1,0 +1,11 @@
+{
+  "completed_at": "2026-11-03T10:53:56Z",
+  "output": "state/snapshot.json",
+  "offers": 33,
+  "last_completed_at": "2026-11-03T10:53:56Z",
+  "source_count": 13,
+  "successful_sources": 1,
+  "failed_sources": 1,
+  "requests": 4,
+  "partial_failure": true
+}

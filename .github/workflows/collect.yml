@@ -1,0 +1,294 @@
+name: Collect and optionally publish
+
+# Stage 1: no push, pull_request, schedule, or external automation trigger.
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish only after separate go-live approval and production review
+        required: true
+        type: boolean
+        default: false
+
+permissions: {}
+
+# Serialize collection AND deployment, including runs dispatched from other refs.
+concurrency:
+  group: cybersecurity-deals-data-and-publish
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    outputs:
+      state_commit: ${{ steps.persist.outputs.state_commit }}
+    steps:
+      - name: Check out reviewed main code at this run's commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Set up Python without an Actions cache
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+
+      - name: Install reviewed, pinned Python requirements
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir -r requirements.txt
+
+      - name: Test reviewed code before network collection
+        run: |
+          python3 -m unittest discover -s tests
+          python3 -m unittest scripts.test_build
+          node --test web/tests/filters.test.mjs
+
+      - name: Restore only known JSON state from an isolated Git object store
+        id: restore
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, subprocess, tempfile
+
+          allowed = ('state/snapshot.json', 'state/history.json')
+          data = pathlib.Path(tempfile.mkdtemp(prefix='deals-data-', dir=os.environ['RUNNER_TEMP']))
+          env = os.environ.copy()
+          auth = base64.b64encode(('x-access-token:' + env.pop('GH_TOKEN')).encode()).decode()
+          env.update(GIT_CONFIG_COUNT='3', GIT_CONFIG_KEY_0='core.hooksPath',
+                     GIT_CONFIG_VALUE_0='/dev/null', GIT_CONFIG_KEY_1='protocol.file.allow',
+                     GIT_CONFIG_VALUE_1='never', GIT_CONFIG_KEY_2='http.extraHeader',
+                     GIT_CONFIG_VALUE_2='AUTHORIZATION: basic ' + auth, GIT_TERMINAL_PROMPT='0')
+          def git(*args, check=True):
+              return subprocess.run(['git', '-C', str(data), *args], env=env,
+                                    capture_output=True, check=check)
+          git('init', '--quiet')
+          git('remote', 'add', 'origin', os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '.git')
+          probe = git('ls-remote', '--exit-code', '--heads', 'origin', 'refs/heads/deals-data', check=False)
+          if probe.returncode not in (0, 2):
+              raise SystemExit('Data branch lookup failed; refusing to replace prior state.')
+          old = ''
+          if probe.returncode == 0:
+              git('fetch', '--quiet', '--no-tags', '--depth=1', 'origin', 'refs/heads/deals-data')
+              old = git('rev-parse', 'FETCH_HEAD').stdout.decode().strip()
+              entries = {}
+              for entry in git('ls-tree', '-rz', '--full-tree', old).stdout.split(b'\0'):
+                  if not entry:
+                      continue
+                  meta, name = entry.split(b'\t', 1)
+                  mode, kind, oid = meta.decode().split()
+                  name = name.decode('utf-8')
+                  if name not in allowed or mode != '100644' or kind != 'blob':
+                      raise SystemExit('Unexpected data-branch path/type; review the branch manually.')
+                  entries[name] = oid
+              if 'state/snapshot.json' not in entries:
+                  raise SystemExit('Existing data branch has no snapshot; refusing a fresh start.')
+              state = pathlib.Path('state')
+              if state.is_symlink():
+                  raise SystemExit('State directory must not be a symlink.')
+              state.mkdir(exist_ok=True)
+              for name, oid in entries.items():
+                  size = int(git('cat-file', '-s', oid).stdout)
+                  if size > 10 * 1024 * 1024:
+                      raise SystemExit('State file exceeds 10 MiB safety limit.')
+                  payload = git('cat-file', 'blob', oid).stdout
+                  json.loads(payload.decode('utf-8'))
+                  target = pathlib.Path(name)
+                  if target.is_symlink():
+                      raise SystemExit('State file must not be a symlink.')
+                  target.write_bytes(payload)
+              # Do not accidentally reuse a main-branch history absent from saved state.
+              history = pathlib.Path('state/history.json')
+              if 'state/history.json' not in entries and history.exists():
+                  if history.is_symlink() or not history.is_file():
+                      raise SystemExit('History must be a regular file.')
+                  history.unlink()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('old_commit=' + old + '\n')
+          with open(os.environ['GITHUB_ENV'], 'a') as output:
+              output.write('DATA_REPOSITORY=' + str(data) + '\n')
+          print('Restored saved state.' if old else 'No data branch yet; using reviewed initial state.')
+          PY
+
+      - name: Collect bounded public sources
+        run: python3 -m collector.run --output state/snapshot.json
+
+      - name: Validate and build static output before saving state
+        run: |
+          python3 -m unittest discover -s tests
+          python3 scripts/build.py
+          python3 scripts/check_static.py
+          test -s dist/index.html
+          test -s dist/404.html
+          test -s dist/sources/index.html
+          test -s dist/methodology/index.html
+
+      - name: Commit only validated JSON state to deals-data
+        id: persist
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OLD_COMMIT: ${{ steps.restore.outputs.old_commit }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, subprocess
+
+          data = pathlib.Path(os.environ['DATA_REPOSITORY'])
+          old = os.environ['OLD_COMMIT']
+          env = os.environ.copy()
+          auth = base64.b64encode(('x-access-token:' + env.pop('GH_TOKEN')).encode()).decode()
+          env.update(GIT_CONFIG_COUNT='3', GIT_CONFIG_KEY_0='core.hooksPath',
+                     GIT_CONFIG_VALUE_0='/dev/null', GIT_CONFIG_KEY_1='protocol.file.allow',
+                     GIT_CONFIG_VALUE_1='never', GIT_CONFIG_KEY_2='http.extraHeader',
+                     GIT_CONFIG_VALUE_2='AUTHORIZATION: basic ' + auth, GIT_TERMINAL_PROMPT='0',
+                     GIT_AUTHOR_NAME='github-actions[bot]', GIT_COMMITTER_NAME='github-actions[bot]',
+                     GIT_AUTHOR_EMAIL='41898282+github-actions[bot]@users.noreply.github.com',
+                     GIT_COMMITTER_EMAIL='41898282+github-actions[bot]@users.noreply.github.com')
+          def git(*args, payload=None):
+              return subprocess.run(['git', '-C', str(data), *args], input=payload, env=env,
+                                    capture_output=True, check=True).stdout.decode().strip()
+          if pathlib.Path('state').is_symlink():
+              raise SystemExit('State directory must not be a symlink.')
+          git('read-tree', '--empty')
+          for name in ('state/snapshot.json', 'state/history.json'):
+              path = pathlib.Path(name)
+              if path.is_symlink():
+                  raise SystemExit('State file must not be a symlink.')
+              if not path.exists() and name == 'state/history.json':
+                  continue
+              if not path.is_file() or path.stat().st_size > 10 * 1024 * 1024:
+                  raise SystemExit('State must be a regular JSON file no larger than 10 MiB.')
+              payload = path.read_bytes()
+              json.loads(payload.decode('utf-8'))
+              oid = git('hash-object', '-w', '--stdin', payload=payload)
+              git('update-index', '--add', '--cacheinfo', '100644,' + oid + ',' + name)
+          tree = git('write-tree')
+          if old and tree == git('rev-parse', old + '^{tree}'):
+              commit = old
+              print('No state changes; no data commit needed.')
+          else:
+              parents = ['-p', old] if old else []
+              commit = git('commit-tree', tree, *parents, '-m', 'Update validated public deal state')
+              # Root commit has no main/code parent. Later commits always parent old.
+              # Explicit expected-old lease also detects edits outside this workflow.
+              git('push', '--quiet', '--force-with-lease=refs/heads/deals-data:' + old,
+                  'origin', commit + ':refs/heads/deals-data')
+              print('Saved validated state to the data-only branch.')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('state_commit=' + commit + '\n')
+          PY
+
+      - name: Record that publication is disabled
+        if: inputs.publish != true || vars.GO_LIVE_APPROVED != 'true'
+        run: echo 'Collection completed. Publication is disabled unless both manual publish and GO_LIVE_APPROVED are true.'
+
+  publish:
+    needs: collect
+    if: >-
+      github.event_name == 'workflow_dispatch' &&
+      github.ref == 'refs/heads/main' &&
+      inputs.publish == true && vars.GO_LIVE_APPROVED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    environment: production
+    steps:
+      - name: Check out the same reviewed code, not the data branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Set up Python without an Actions cache
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+
+      - name: Read only state blobs from the exact validated commit
+        env:
+          STATE_COMMIT: ${{ needs.collect.outputs.state_commit }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, re, subprocess, tempfile
+
+          commit = os.environ['STATE_COMMIT']
+          if not re.fullmatch(r'[0-9a-f]{40}', commit):
+              raise SystemExit('Missing or invalid collected state commit.')
+          data = pathlib.Path(tempfile.mkdtemp(prefix='deals-publish-', dir=os.environ['RUNNER_TEMP']))
+          env = os.environ.copy()
+          auth = base64.b64encode(('x-access-token:' + env.pop('GH_TOKEN')).encode()).decode()
+          env.update(GIT_CONFIG_COUNT='3', GIT_CONFIG_KEY_0='core.hooksPath',
+                     GIT_CONFIG_VALUE_0='/dev/null', GIT_CONFIG_KEY_1='protocol.file.allow',
+                     GIT_CONFIG_VALUE_1='never', GIT_CONFIG_KEY_2='http.extraHeader',
+                     GIT_CONFIG_VALUE_2='AUTHORIZATION: basic ' + auth, GIT_TERMINAL_PROMPT='0')
+          def git(*args):
+              return subprocess.run(['git', '-C', str(data), *args], env=env,
+                                    capture_output=True, check=True).stdout
+          git('init', '--quiet')
+          git('remote', 'add', 'origin', os.environ['GITHUB_SERVER_URL'] + '/' + os.environ['GITHUB_REPOSITORY'] + '.git')
+          git('fetch', '--quiet', '--no-tags', '--depth=1', 'origin', commit)
+          state = pathlib.Path('state')
+          if state.is_symlink():
+              raise SystemExit('State directory must not be a symlink.')
+          state.mkdir(exist_ok=True)
+          seen = set()
+          for entry in git('ls-tree', '-rz', '--full-tree', commit).split(b'\0'):
+              if not entry:
+                  continue
+              meta, name = entry.split(b'\t', 1)
+              mode, kind, oid = meta.decode().split()
+              name = name.decode('utf-8')
+              if name not in ('state/snapshot.json', 'state/history.json') or mode != '100644' or kind != 'blob':
+                  raise SystemExit('Unexpected data-branch path/type.')
+              if int(git('cat-file', '-s', oid)) > 10 * 1024 * 1024:
+                  raise SystemExit('State file exceeds 10 MiB safety limit.')
+              payload = git('cat-file', 'blob', oid)
+              json.loads(payload.decode('utf-8'))
+              target = pathlib.Path(name)
+              if target.is_symlink():
+                  raise SystemExit('State file must not be a symlink.')
+              target.write_bytes(payload)
+              seen.add(name)
+          if 'state/snapshot.json' not in seen:
+              raise SystemExit('Saved snapshot is missing.')
+          history = pathlib.Path('state/history.json')
+          if 'state/history.json' not in seen and history.exists():
+              if history.is_symlink() or not history.is_file():
+                  raise SystemExit('History must be a regular file.')
+              history.unlink()
+          PY
+
+      - name: Revalidate and rebuild from the exact saved state
+        run: |
+          python3 -m pip install --disable-pip-version-check --no-cache-dir -r requirements.txt
+          python3 -m unittest discover -s tests
+          python3 -m unittest scripts.test_build
+          node --test web/tests/filters.test.mjs
+          python3 scripts/build.py --production
+          python3 scripts/check_static.py
+          test -s dist/index.html
+          test -s dist/404.html
+          test -s dist/sources/index.html
+          test -s dist/methodology/index.html
+
+      - name: Set up Node only for the deployment CLI, without caching
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+          package-manager-cache: false
+
+      - name: Deploy static assets only, with scoped production credentials
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: 'false'
+          CI: 'true'
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing production API token'; exit 1; }
+          test -n "$CLOUDFLARE_ACCOUNT_ID" || { echo 'Missing production account ID'; exit 1; }
+          npm exec --yes --package=wrangler@4.156.2 -- wrangler deploy --config wrangler.jsonc

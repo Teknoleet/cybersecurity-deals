@@ -1,0 +1,1248 @@
+{
+  "edition": 2026,
+  "generated_at": "2026-11-03T10:53:56Z",
+  "candidates": [
+    {
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday/",
+      "offer_url": "https://trainsec.net/courses/windows-kernel-programming-1/",
+      "product": "Windows Kernel Programming course 1 of 2",
+      "reason": "no_course_specific_sale_price"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Kernel Programming course 2 of 2",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Kernel Programming course 2 of 2 By: Pavel Yosifovich | 24 Lessons | 06:30 Hrs Continue from Windows Kernel Programming 1 into file system minifilters, Plug and Play filter drivers and KMDF, plus secured device objects, advanced pool memory and ETW trace logging. $60 Instead of $99 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows System Programming 3 of 3",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows System Programming 3 of 3 By: Pavel Yosifovich | 46 Lessons | 09:18 Hrs Complete your Windows API foundation with DLLs, security and COM. In the final part of the series, Pavel Yosifovich, author of Windows 10 System Programming and co-author of Windows Internals, covers building and loading DLLs, DllMain and the loader lock, DLL injection techniques, access tokens, privileges, UAC and security descriptors, COM as a client, and the Win32 windowing model. $120 Instead of $199 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Internals: Day 1 of 5",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Internals: Day 1 of 5 By: Pavel Yosifovich | 34 Lessons | 07:48 Hrs This course provides the fundamentals of Windows. This will get you up to speed with the Windows core concepts and architecture. $120 Instead of $199 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Internals: Day 2 of 5",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Internals: Day 2 of 5 By: Pavel Yosifovich | 49 Lessons | 10:18 Hrs Following “Day One”, this course continues with Windows Internals details, discussing Processes, Jobs, and Threads. $120 Instead of $199 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Internals: Day 3 of 5",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Internals: Day 3 of 5 By: Pavel Yosifovich | 49 Lessons | 07:30 Hrs Day 3 deals with various kernel mechanisms. $90 Instead of $149 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Internals: Day 4 of 5",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Internals: Day 4 of 5 By: Pavel Yosifovich | 31 Lessons | 05:18 Hrs Continuing the “Windows Internals” series, day 4 deals with Memory Management. $84 Instead of $139 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Windows Internals: Day 5 of 5",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Windows Internals: Day 5 of 5 By: Pavel Yosifovich | 48 Lessons | 08:18 Hrs The last “day” in the Windows Internals series is about the I/O System and Security. $150 Instead of $249 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "GUI Programming with WTL training course",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "GUI Programming with WTL training course By: Pavel Yosifovich | 79 Lessons | 12:07 Hrs Would you like to write applications for Windows with a graphical user interface (GUI) using C++? You may have programmed many command line applications and tools, but how about some GUI? Menus, toolbars, list views, tree views, and graphics? This course shows you how to use WTL and C++ to create GUI applications for Windows. $60 Instead of $99 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "Sysinternals Tools Deep Dive training 1",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "Sysinternals Tools Deep Dive training 1 By: Pavel Yosifovich | 32 Lessons | 04:31 Hrs The Sysinternals tools from Microsoft are useful for any power user on Windows. This course demonstrates some of the tools in detail while adding Windows Internals information. Supporting tools are also used that augment the information provided by the Sysinternals tools. $48 Instead of $79 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "product": "COM Programming course 2 of 2",
+      "reason": "price_campaign_conflict",
+      "evidence_excerpt": "COM Programming course 2 of 2 By: Pavel Yosifovich | 36 Lessons | 06:48 Hrs Finish the COM picture after COM Programming 1: COM automation with IDispatch and dual interfaces, out-of-process EXE servers with proxies, stubs and marshaling, and STA and MTA apartments, built in C++ and ATL. $60 Instead of $99 View Course"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "reason": "fetch_or_extraction_unavailable",
+      "detail": "HTTP 403"
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.eff.org/",
+      "section": "Can I add deals to the page?",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.careerhackingquest.com/",
+      "section": "InfoSec Career Development",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "http://wortell.nl",
+      "section": "Professional Services",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.chaoticgoodinfosec.com",
+      "section": "Professional Services",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.securityenginerd.com",
+      "section": "Professional Services",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://scantitan.com",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://radar.defendflow.xyz",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.redhuntlabs.com/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://calendly.com/redhuntlabs/schedule-consulting-discussion",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://pulsedive.com/purchase/pro",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://scarletshark.com/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.osint.industries/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://grayhatwarfare.com/packages",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.threat.zone/pricing",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://portdroid.net/black-friday-2025/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.exploitpack.com/products/control-pack-blackfriday",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.easeus-software.com/campaign/2025-black-friday.html",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.zoomeye.ai/pricing",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.pagerly.io/pricing",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://beaglesecurity.com/black-friday-sale",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://dispatch.ctichef.com/feeds",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://docs.google.com/forms/d/e/1FAIpQLSfl0NIsOKPkzkHjvpxR6ZGUsByklzWdgN-e7GN287D_qt6OjQ/viewform",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://httptoolkit.com/?ref=0x90n",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://evilginx.com",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://red.breakdev.org/join",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://docs.sysreptor.com/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.vulnsy.com",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://darkwebsonar.io/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.magicsword.io/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://asm-offer.rsecloud.com/",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.tenable.com/buy",
+      "section": "Tools",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.thexero.co.uk/p/2025-black-friday-sale",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.8ksec.io/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.offsec.com/blog/learn-one-promo/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.invictus-ir.com",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.theosintion.com/courses/blue-team-fusion",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://maldevacademy.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.mobilehackinglab.com/black-friday-deals-mobile-security",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.appsecengineer.com/individuals/pricing",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.breakdev.org/evilginx-mastery",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.letsdefend.io/pricing",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://cloudbreach.io/blackfriday/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.whiteknightlabs.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://programs.isa.org/isa-black-friday-week-sale-2025",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.bluraven.io/blackfriday2025",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.alteredsecurity.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.alteredsecurity.com/online-labs",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.mobilehackinglab.com/afe",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.udemy.com/course/hacking-android-applications-for-bug-bounty-and-pentesting/?couponCode=97652C8A4386C813A7DB",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2025/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.securityblue.team/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://certifications.tcm-sec.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.tcm-sec.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.tcm-sec.com/p/the-all-access-pass",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://labs.ksec.co.uk/black-friday-sale",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://apps.apple.com/app/apple-store/id6499339401?pt=127014487&ct=Github&mt=8",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://play.google.com/store/apps/details?id=com.cyberlearn.cyber_pro&hl=en_US",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.hacktricks.xyz",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://learn.hexordia.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://vantagepoint.enciphers.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://academy.wifichallenge.com",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.zeropointsecurity.co.uk/courses",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.pluralsight.com/individuals/pricing",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://checkout.ine.com/black-friday",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://store.7asecurity.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.13cubed.com/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://belkasoft.com/training-bundles",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://pwn.guide/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "http://pracnet.net/tls",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.leveleffect.com/catalog",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://nslookup.io/dns-course/",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://courses.securing.pl/courses/iase",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://devsecopspro.com/bfcm-2025",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://training.invokere.com/pricing",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://aceresponder.com",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.hackinghub.io/bundle/bug-bounty-essentials",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://app.hackinghub.io/bundle/the-hackers-arsenal",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.cybernoweducation.com/upgrade",
+      "section": "Online Courses & Training",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://cloudlabs.invictus-ir.com",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://pentesterlab.com/pro",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://labex.io/pricing",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://opsdisk.gumroad.com/",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.antisyphontraining.com/pay-forward-what-you-can/",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.mosse-institute.com/certifications.html",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://labs.iximiuz.com/premium",
+      "section": "Practical Labs",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://play.secdim.com",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://id.secdim.com/subscription/plan",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://trainsec.net/cybersecurity-courses-black-friday-2025/",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://cyberwarfare.live/black_friday",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://cyberwarfare.live/#platforms",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://cyberwarfare.live/premium-membership",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://tryhackme.com/why-subscribe",
+      "section": "Mini Courses",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://pentestingexams.com/offer/",
+      "section": "Exams:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.pickpals.com.au/buy-lockpicks/bundles/",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://covertinstruments.com/collections/2025-black-friday-sale",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://shop.hak5.org/",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://shop.hak5.org/collections/bfcm",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.yubico.com/au/store/2025/black-friday-sale/",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.yubico.com/press-releases/holidays-hottest-gift-yubico-deals-drop-just-in-time-to-block-every-hackers-wish-list/",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://store.physicalexploit.com/",
+      "section": "Hardware:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://nerdtees.shop/",
+      "section": "Wearables:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://engineer.cloudsecbooks.com/",
+      "section": "Books:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://nostarch.com/",
+      "section": "Books:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://protonvpn.com/black-friday",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://proton.me/drive/black-friday",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://proton.me/pass/black-friday",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://proton.me/mail/black-friday",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://proton.me/support/pass-lifetime",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://tuta.com/black-friday",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://tuta.com/blog/black-weeks-at-tuta",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://nordvpn.com/pricing",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.expressvpn.com/order",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.cyberghostvpn.com/buy/cyberghost-vpn-3",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://www.ipvanish.com/pricing/",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://edr-comparison.com/",
+      "section": "Services:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-0x90n",
+      "discovery_url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "offer_url": "https://neatstickersco.etsy.com/",
+      "section": "Misc:",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    }
+  ]
+}

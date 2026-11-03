@@ -1,0 +1,27 @@
+# Generated static output and local deployment state
+/dist/
+/.wrangler/
+/node_modules/
+
+# Python environments, bytecode, and test caches
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+.DS_Store
+*.log
+
+# State JSON is intentionally NOT ignored: reviewed initial state lives on main;
+# subsequent workflow snapshots and compact history live on deals-data.

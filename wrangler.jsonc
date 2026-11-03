@@ -1,0 +1,10 @@
+{
+  // Configuration only. Stage 1 does not authorize publication or DNS changes.
+  "name": "cybersecurity-deals",
+  "compatibility_date": "2026-11-03",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+  // No main script, bindings, routes, custom domains, or scheduled triggers.
+}
