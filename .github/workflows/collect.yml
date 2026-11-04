@@ -1,11 +1,14 @@
-name: Collect and optionally publish
+name: Collect and publish
 
-# Stage 1: no push, pull_request, schedule, or external automation trigger.
+# Hourly best-effort schedule plus manual dispatch. No push or pull_request trigger.
+# Scheduled runs publish only while GO_LIVE_APPROVED is exactly 'true'.
 on:
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       publish:
-        description: Publish only after separate go-live approval and production review
+        description: Publish this manual run (also requires GO_LIVE_APPROVED)
         required: true
         type: boolean
         default: false
@@ -19,7 +22,7 @@ concurrency:
 
 jobs:
   collect:
-    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    if: (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     permissions:
@@ -182,15 +185,14 @@ jobs:
           PY
 
       - name: Record that publication is disabled
-        if: inputs.publish != true || vars.GO_LIVE_APPROVED != 'true'
-        run: echo 'Collection completed. Publication is disabled unless both manual publish and GO_LIVE_APPROVED are true.'
+        if: vars.GO_LIVE_APPROVED != 'true' || (github.event_name == 'workflow_dispatch' && inputs.publish != true)
+        run: echo 'Collection completed. Publication requires GO_LIVE_APPROVED=true, plus the publish input on manual runs.'
 
   publish:
     needs: collect
     if: >-
-      github.event_name == 'workflow_dispatch' &&
-      github.ref == 'refs/heads/main' &&
-      inputs.publish == true && vars.GO_LIVE_APPROVED == 'true'
+      github.ref == 'refs/heads/main' && vars.GO_LIVE_APPROVED == 'true' &&
+      (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.publish == true))
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

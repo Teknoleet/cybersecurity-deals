@@ -1,6 +1,6 @@
 # Collection and operations
 
-The checked-in workflow is **manual-only**. Stage 1 authorizes local review, not external workflow execution, deployment, repository creation, DNS modification, secrets setup, or scheduled jobs. Do not activate any of those while following this document. A later manual collection run is an external action and still needs owner authorization.
+The checked-in workflow runs hourly on `main` and can also be dispatched manually. Publication is gated by the `GO_LIVE_APPROVED` repository variable and the `production` environment; see the schedule section below.
 
 ## Source registry and Git-managed corrections
 
@@ -25,7 +25,7 @@ python3 scripts/serve.py --port 3000
 
 The default run attempts every enabled source (up to 16). Use `--max-sources N` for a smaller run, or use `--source SOURCE_ID` to diagnose one registered source. Limited runs do not prove unvisited sources are healthy. Do not reset timestamps just to make the page look current. A successful fetch is not an offer confirmation; unchanged responses reconfirm evidence only when tied to the previously validated representation.
 
-Later, an authorized owner can dispatch **Collect and optionally publish** from `main`. Leave `publish` unchecked to collect without publication. Publication requires a checked `publish` input, the exact repository variable value `GO_LIVE_APPROVED=true`, and the configured `production` environment review. The job refuses branch selections other than `main`; it has no PR or push trigger and no privileged `pull_request_target` path.
+An owner can also dispatch **Collect and publish** from `main`. Leave `publish` unchecked to collect without publication. Manual publication requires the checked `publish` input, `GO_LIVE_APPROVED=true`, and the `production` environment. The job refuses branch selections other than `main`; it has no PR or push trigger and no privileged `pull_request_target` path.
 
 ## Independent data branch
 
@@ -45,25 +45,15 @@ A test or build failure means no new state commit and no publication. A branch-w
 
 To recover, diagnose the source/configuration error, fix code through review, run tests and a local build, and request the next authorized manual collection. An authorized Cloudflare owner may redeploy a previously reviewed known-good version when necessary. Do not delete the data branch as a routine retry: losing state also loses historical discovery and confirmation context. A corrupt or unexpected branch tree causes a visible refusal instead of being silently replaced.
 
-## Future hourly schedule: documentation only
+## Hourly schedule
 
-No schedule is enabled now. After explicit authorization for recurring collection, review a workflow change on `main` that adds the following event alongside `workflow_dispatch`:
+The workflow runs at minute 17 of every hour on the default branch and can still be dispatched manually. Every run collects, tests, rebuilds and saves validated state to `deals-data`. A run publishes when the repository variable `GO_LIVE_APPROVED` is exactly `true`; manual runs additionally need the `publish` input checked. Scheduled runs have no input, so the variable alone is the publication switch. Set it to `false` to keep collecting without publishing.
 
-```yaml
-# Example for a future reviewed change only — NOT active configuration.
-on:
-  workflow_dispatch:
-    inputs:
-      publish:
-        type: boolean
-        default: false
-  schedule:
-    - cron: '17 * * * *'
-```
+For unattended hourly publication the `production` environment must not require manual reviewers, otherwise every scheduled publish waits for approval and queues. Keep its deployment-branch restriction to `main`. The scoped Cloudflare token lives only in that environment.
 
-Adding this snippet alone will **not** make the current jobs run on schedule: their guards deliberately require `workflow_dispatch`. That future change must also review both job conditions, define whether scheduled runs may publish, and maintain the `GO_LIVE_APPROVED` check and `production` protections. Scheduled runs do not have a manual publish input. Make the scheduled publication rule explicit rather than treating a missing input as permission. Do not remove all event guards just to get a green run.
+GitHub schedules are best-effort: they can be delayed or dropped, and public-repository schedules are disabled after 60 days without repository activity. Minute 17 avoids the start-of-hour peak but promises no hourly SLA. Keep the manual rerun path and inspect failures. Do not create external monitoring or another scheduler without separate authorization. [1]
 
-GitHub schedules use the default branch and are best-effort: they can be delayed or dropped, and public-repository schedules are disabled after 60 days without repository activity. Minute 17 avoids the start-of-hour peak but promises no hourly SLA. Keep the manual rerun path and inspect failures. Do not create external monitoring or another scheduler without separate authorization. [1]
+An already-open page polls `/data/snapshot.json` every five minutes and on tab focus, and reloads itself when a newer snapshot is published, so visitors see hourly updates without a manual refresh. Stale labels are derived in the browser from each offer's confirmation time, so a stopped schedule becomes visible within three hours.
 
 Standard runners in public repositories are documented as free; larger runners are billed, and artifact/cache storage has separate rules. Keep `ubuntu-latest`, no paid runner labels, no artifact database, and no cache expansion. Provider quotas and policies can change. Failure is preferable to an unapproved upgrade. [2]
 

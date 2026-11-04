@@ -2,7 +2,7 @@
 
 **Domain:** deals.teknoleet.com
 **Edition:** 2026
-**Status:** Approved specification; Stage 1 implementation for local review. Public GitHub creation, Cloudflare deployment, DNS changes, and scheduled collection remain disabled.
+**Status:** Approved specification; implemented with hourly scheduled collection. Cloudflare publication and DNS changes are owner-gated.
 **Prepared:** 3 November 2026
 
 ## 1. What the first release will do
