@@ -4,7 +4,7 @@ An account-free, source-transparent directory of cybersecurity and AI-security o
 
 **Stage 1 is local review only.** This repository preparation does not create a public GitHub repository, publish a Cloudflare Worker, change DNS, request credentials, or enable recurring collection. The intended domain is `deals.teknoleet.com`; it is not evidence of a live deployment. No destination GitHub repository URL has been chosen. The workflow is manual-only, with publishing off by default and separately gated.
 
-**Initial coverage:** 33 TrainSec course offers were individually corroborated through a reviewed first-party public-page extraction. Direct automated TrainSec requests currently return HTTP 403; its unavailable status and original evidence times are preserved. The accessible main GitHub list is still the 2025 edition, so its codes are excluded. Read [actual Stage 1 coverage](docs/current-coverage.md) before assessing go-live readiness.
+**Current coverage:** two vendors publish automatically from their own 2026 campaign pages: TrainSec (33 individual courses) and Practical DevSecOps (10 individual certifications). Nine further registered lists, trackers and vendor pages are fetched for discovery only and never publish; two are blocked by robots rules and stay unfetched. Read [current coverage](docs/current-coverage.md) for the exact state of each source.
 
 ## Run locally
 
@@ -30,7 +30,7 @@ To attempt live public-source collection locally:
 ```sh
 python3 -m collector.run --output state/snapshot.json
 # Small diagnostic run:
-python3 -m collector.run --output state/snapshot.json --max-sources 8
+python3 -m collector.run --output state/snapshot.json
 # One registered source; replace SOURCE_ID with an ID from config/sources.json:
 python3 -m collector.run --output state/snapshot.json --source SOURCE_ID
 python3 scripts/build.py

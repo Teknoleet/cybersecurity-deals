@@ -36,7 +36,7 @@ Each card: vendor / product / category / topic tags / offer or price
            coupon if available / conditions / evidence status
            last successful check / source / View offer
 
-Footer: advertised-price notice · supporting information · GitHub · 2026 edition
+Footer: advertised-price notice · supporting information · 2026 edition
 ```
 
 **Desktop:** A compact editorial masthead showing only the mark and site name, prominent search, a narrow filter rail, and two columns of readable cards. There is no secondary branding line and no header or category tab strip. Product-type category selection is a dropdown in the filter rail. No oversized illustration, advertising carousel, or decorative dashboard counters.

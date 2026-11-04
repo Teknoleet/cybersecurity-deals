@@ -1,13 +1,27 @@
-# Stage 1 source coverage
+# Current source coverage
 
-The review build contains 33 TrainSec course offers individually corroborated against its official 2026 campaign page through a reviewed first-party public-page extraction. These are actual advertised offers, not fictional mockup cards. Their prices and coupon have not been tested at checkout. The source uses a dollar sign without establishing an ISO currency, so the directory does not assume USD.
+Last bounded live run: 2026-11-04T00:36:42Z, 23 HTTP requests, 11 of 14 registered sources fetched successfully. Two official sources publish offers; everything else is discovery only or deliberately unfetched.
 
-The initial evidence receipt is in `state/reviewed-evidence-receipt.json`; each offer also carries its observation method and original confirmation time. Importing reviewed evidence does not create an automated successful-fetch timestamp. The captured complete source pages are not bundled into the repository.
+## Publishing sources
 
-**The automatic TrainSec HTTP request currently returns 403.** This is reported as an unavailable source, not a successful check or an expired sale. Later collection attempts preserve the existing evidence times. After three hours, the browser marks those offers as needing a recheck. An inaccessible source is not bypassed, and manually importing the same evidence cannot legitimately advance its observation time.
+**TrainSec** (33 individual courses). The vendor moved its campaign page to `/cybersecurity-courses-black-friday-2026/`; that URL answers the collector's ordinary user agent, so offers are now confirmed by automated HTTP rather than the earlier reviewed first-party extraction. The older URL still returns 403 and is no longer registered. A dollar sign without an ISO code means currency stays null. Ten catalog cards with prices that contradict the 40% campaign and two without a course-specific price remain quarantined candidates.
 
-The 0x90n GitHub README is accessible to the collector but still identifies its edition as 2025. It is a discovery source, not a source of current 2026 coupon codes. The registry includes other explicit resources from the research, and a separate named vendor watchlist. Entries without maintained/validated adapters are clearly unsupported rather than represented as automatically monitored.
+**Practical DevSecOps** (10 individual certifications). The vendor's own article "Best InfoSec Black Friday Deals 2026" (published 3 November 2026) lists per-certification sale prices at 15% off. The vendor's banner cards state the same prices in USD, so currency is recorded as USD only where the banner matches the article card. The site simultaneously labels the discount a "CSA Month Sale" and shows expiry only as a countdown; both facts appear in each offer's conditions and no end date is invented. Fourteen bundle cards and one "Coming Soon" course are candidates, not offers.
 
-The first release therefore demonstrates the directory and the evidence-preserving pipeline. It does **not** yet establish broad, unattended 2026 deal coverage. Before public go-live, review which sources can be collected reliably from the intended GitHub runner and add supported parsers or leave inaccessible sources explicitly unavailable. There is no promise that simply enabling the prepared schedule will unblock a vendor or turn historical offers into current ones.
+## Discovery-only sources (fetched, never publish)
 
-No scheduled collection, Cloudflare publication, domain changes, public GitHub repository, deployment credentials, or paid services have been enabled. Preview runs from a static build with a local Python development server only.
+- **GitHub lists:** 0x90n (2025 edition, historical), hysnsec (2025 heading, historical), twf-nikhila (2026 edition, general developer deals with a small Security & Privacy section). Links become candidates; coupon lines are never copied.
+- **Ciphers Security tracker:** 2026 article published 27 October 2026. Every entry read "Not announced yet (checked 27 Oct 2026)" at the last run, so it yields no candidate links yet.
+- **BleepingComputer offers:** dated StackCommerce storefront posts. Marketplace software is excluded by policy without seller authorization; training bundles would need per-article seller evidence before any adapter could publish them.
+- **AppSecEngineer pricing, SANS specials, StackSocial:** official or marketplace pages with no 2026 campaign evidence. Checked and recorded as discovery so their status is visible; nothing publishes.
+- **Practical DevSecOps 2025 article:** explicit 2025 heading, historical.
+- **DFIR Diva:** the registered page says discounts moved to a community listings site; the collector currently receives HTTP 403 from the page and the listings site returns a server error. Reported as unavailable.
+
+## Deliberately unfetched
+
+- **Modern Security:** its robots.txt returns 403, so the fetcher fails closed. Its page also has no 2026 campaign text and exceeds the 2 MiB response limit.
+- **r/cybersecurity megathread:** robots.txt disallows the path. Historical 2025 content anyway.
+
+## What this does not establish
+
+The vendor watchlist (TryHackMe, Hack The Box, OffSec, and about sixty others) has no registered URLs and no adapters. Roundup links to those vendors become candidates only; each needs its own official 2026 campaign page and a maintained parser before it can publish. The collector does not change its user agent, bypass robots rules or retry blocked hosts to widen coverage.

@@ -13,14 +13,15 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from collector.adapters import ADAPTER_VERSION
-from collector.adapters import trainsec, github_markdown
+from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops
 from collector.http import SafeFetcher, FetchError, representation_url
 from collector.policy import (acceptable, apply_overrides, deduplicate, digest,
                               identity, instant, observe, utcnow)
 from collector.state import atomic_json, load_json, validate_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
-ADAPTERS = {'trainsec': trainsec.parse, 'github_markdown': github_markdown.parse}
+ADAPTERS = {'trainsec': trainsec.parse, 'github_markdown': github_markdown.parse,
+            'html_discovery': html_discovery.parse, 'practical_devsecops': practical_devsecops.parse}
 
 
 def source_record(source, previous=None):
@@ -247,7 +248,7 @@ def main(argv=None):
     parser.add_argument('--config', type=Path, default=ROOT / 'config/sources.json')
     parser.add_argument('--overrides', type=Path, default=ROOT / 'config/overrides.json')
     parser.add_argument('--source', action='append', help='source ID; repeat or comma-separate')
-    parser.add_argument('--max-sources', type=int, default=8)
+    parser.add_argument('--max-sources', type=int, default=16)
     parser.add_argument('--max-links', type=int, default=4)
     args = parser.parse_args(argv)
     if not 1 <= args.max_sources <= 16 or not 0 <= args.max_links <= 4:

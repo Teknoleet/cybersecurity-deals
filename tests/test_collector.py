@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
-from collector.adapters import trainsec, github_markdown
+from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops
 from collector.http import FetchError, Response, SafeFetcher, public_addresses, validate_url, PublicHTTPSConnection
 from collector.import_evidence import corroborated, import_reviewed
 from collector.policy import (acceptable, apply_overrides, deduplicate, eligibility,
@@ -195,6 +195,46 @@ class DiscoveryTests(unittest.TestCase):
         snap, _, _ = collect(registry(github, SOURCE), None, {}, f, now=NOW, selected=[github['id']])
         self.assertEqual(f.fetch.call_count, 1)
         self.assertEqual(snap['deals'], [])
+
+
+class PracticalDevSecOpsTests(unittest.TestCase):
+    FIXTURE = (ROOT / 'tests/fixtures/practical-devsecops-2026.html').read_bytes()
+    SOURCE = next(x for x in REGISTRY['sources'] if x['id'] == 'practical-devsecops-2026')
+
+    def test_singles_publish_bundles_and_coming_soon_do_not(self):
+        deals, candidates, status = practical_devsecops.parse(self.FIXTURE, self.SOURCE)
+        self.assertEqual(status, 'confirmed')
+        by_name = {x['product']: x for x in deals}
+        self.assertEqual(set(by_name), {'Certified DevSecOps Professional (CDP)', 'Certified AI Security Professional (CAISP)'})
+        self.assertEqual({x['reason'] for x in candidates}, {'bundle_or_unlabelled_pricing_needs_review', 'course_not_yet_available'})
+        cdp = by_name['Certified DevSecOps Professional (CDP)']
+        self.assertEqual((cdp['sale_price'], cdp['regular_price'], cdp['discount_percent']), (764.15, 899.0, 15.0))
+        self.assertEqual(cdp['offer_url'], 'https://www.practical-devsecops.com/pre-signup/?course=cdp')
+        self.assertEqual(cdp['eligibility_basis'], 'explicit_2026')
+        self.assertTrue(all(acceptable(x, NOW)[0] for x in deals))
+
+    def test_usd_only_from_matching_vendor_banner_card(self):
+        by_name = {x['product']: x for x in practical_devsecops.parse(self.FIXTURE, self.SOURCE)[0]}
+        self.assertEqual(by_name['Certified AI Security Professional (CAISP)']['currency'], 'USD')
+        self.assertIsNone(by_name['Certified DevSecOps Professional (CDP)']['currency'])
+
+    def test_site_banner_and_footer_year_are_not_campaign_evidence(self):
+        body = self.FIXTURE.replace(b'Best InfoSec Black Friday Deals 2026', b'Best InfoSec Deals')
+        deals, candidates, status = practical_devsecops.parse(body, self.SOURCE)
+        self.assertEqual((deals, status), ([], 'discovery'))
+        self.assertEqual(candidates[0]['reason'], 'practical_devsecops_campaign_missing_or_changed')
+
+
+class HtmlDiscoveryTests(unittest.TestCase):
+    def test_historical_roundup_yields_external_candidates_only(self):
+        source = {'id': 'roundup', 'url': 'https://roundup.example/deals/'}
+        deals, candidates, status = html_discovery.parse((ROOT / 'tests/fixtures/roundup-2025.html').read_bytes(), source)
+        self.assertEqual((deals, status), ([], 'historical'))
+        self.assertEqual([x['offer_url'] for x in candidates], ['https://vendor.example/sale'])
+        self.assertEqual(candidates[0]['published_at'], '2025-11-20T09:00:00+00:00')
+        self.assertEqual(candidates[0]['section'], 'Training')
+        self.assertFalse(candidates[0]['automatic_publication'])
+        self.assertNotIn('BF2025', str(candidates))
 
 
 class LifecycleTests(unittest.TestCase):

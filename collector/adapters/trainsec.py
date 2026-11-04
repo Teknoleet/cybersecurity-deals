@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from collector.policy import clean, eligibility, identity
 
 PRICE = re.compile(r'\$\s*([\d,]+(?:\.\d{1,2})?)\s+Instead\s+of\s+\$\s*([\d,]+(?:\.\d{1,2})?)', re.I)
-URL = 'https://trainsec.net/cybersecurity-courses-black-friday/'
+URL = 'https://trainsec.net/cybersecurity-courses-black-friday-2026/'
 
 
 def parse(body, source):

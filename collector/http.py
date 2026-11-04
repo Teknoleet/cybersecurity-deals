@@ -124,7 +124,7 @@ class Response:
 
 
 class SafeFetcher:
-    def __init__(self, *, deadline_seconds=95, max_requests=24, per_domain=12, max_bytes=MAX_BYTES):
+    def __init__(self, *, deadline_seconds=180, max_requests=48, per_domain=12, max_bytes=MAX_BYTES):
         self.deadline = time.monotonic() + deadline_seconds
         self.max_requests = max_requests
         self.per_domain = per_domain

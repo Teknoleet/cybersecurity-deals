@@ -18,12 +18,12 @@ Local commands, from the repository root with Python dependencies installed:
 
 ```sh
 python3 -m unittest discover -s tests
-python3 -m collector.run --output state/snapshot.json --max-sources 8
+python3 -m collector.run --output state/snapshot.json
 python3 scripts/build.py
 python3 scripts/serve.py --port 3000
 ```
 
-Omit `--max-sources 8` for the normal bounded run, or use `--source SOURCE_ID` to diagnose one registered source. Limited runs do not prove unvisited sources are healthy. Do not reset timestamps just to make the page look current. A successful fetch is not an offer confirmation; unchanged responses reconfirm evidence only when tied to the previously validated representation.
+The default run attempts every enabled source (up to 16). Use `--max-sources N` for a smaller run, or use `--source SOURCE_ID` to diagnose one registered source. Limited runs do not prove unvisited sources are healthy. Do not reset timestamps just to make the page look current. A successful fetch is not an offer confirmation; unchanged responses reconfirm evidence only when tied to the previously validated representation.
 
 Later, an authorized owner can dispatch **Collect and optionally publish** from `main`. Leave `publish` unchecked to collect without publication. Publication requires a checked `publish` input, the exact repository variable value `GO_LIVE_APPROVED=true`, and the configured `production` environment review. The job refuses branch selections other than `main`; it has no PR or push trigger and no privileged `pull_request_target` path.
 

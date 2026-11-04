@@ -14,7 +14,7 @@
 
 ## Current evidence and deployment boundary
 
-The static Preview is healthy on port 3000. Collector tests, builder checks, frontend logic tests, and generated HTML/asset/route checks pass. There are 33 source-supported TrainSec offers, attributed to a reviewed current first-party extraction; automated raw HTTP returns 403 and is visibly unavailable. The accessible GitHub source remains a historical 2025 list. Broad unattended coverage is not established; see docs/current-coverage.md. No public repository, Cloudflare deployment, DNS changes, credentials, paid services, or recurring collection have been enabled.
+The static Preview is healthy on port 3000. Collector tests, builder checks, frontend logic tests, and generated HTML/asset/route checks pass. Two official sources publish automatically: TrainSec (33 courses, fetched directly from its 2026 campaign URL) and Practical DevSecOps (10 certifications from its 2026 Black Friday article). Nine more registered sources are fetched for discovery only; see docs/current-coverage.md. No public repository, Cloudflare deployment, DNS changes, credentials, paid services, or recurring collection have been enabled.
 
 ## Independent review closure
 
