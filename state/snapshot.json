@@ -1,0 +1,2777 @@
+{
+  "schema_version": 1,
+  "edition": 2026,
+  "generated_at": "2026-11-04T07:28:50Z",
+  "collection": {
+    "last_completed_at": "2026-11-04T07:28:50Z",
+    "source_count": 14,
+    "successful_sources": 10,
+    "failed_sources": 2
+  },
+  "sources": [
+    {
+      "id": "trainsec-black-friday",
+      "name": "TrainSec Black Friday",
+      "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "type": "official",
+      "adapter": "trainsec",
+      "status": "confirmed",
+      "last_attempt_at": "2026-11-04T07:28:37Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:38Z",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "offers_count": 33,
+      "note": "Scoped individual-course cards and explicit November 2026 BF2026 campaign. Checkout not tested. Dollar symbol alone does not establish USD. The 2026 campaign URL is fetched directly; the older URL returns 403. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "github-0x90n",
+      "name": "0x90n / InfoSec Black Friday",
+      "url": "https://github.com/0x90n/Infosec-Black-Friday",
+      "type": "github",
+      "adapter": "github_markdown",
+      "status": "historical",
+      "last_attempt_at": "2026-11-04T07:28:38Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:38Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Matched previously validated representation (304)."
+    },
+    {
+      "id": "github-twf-nikhila",
+      "name": "twf-nikhila / Awesome Black Friday Cyber Monday deals",
+      "url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "type": "github",
+      "adapter": "github_markdown",
+      "status": "discovery",
+      "last_attempt_at": "2026-11-04T07:28:38Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:39Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Matched previously validated representation (304)."
+    },
+    {
+      "id": "github-hysnsec",
+      "name": "hysnsec / InfoSec Black Friday Cyber Monday Deals",
+      "url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "type": "github",
+      "adapter": "github_markdown",
+      "status": "historical",
+      "last_attempt_at": "2026-11-04T07:28:39Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:39Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Matched previously validated representation (304)."
+    },
+    {
+      "id": "appsecengineer-pricing",
+      "name": "AppSecEngineer individual pricing",
+      "url": "https://www.appsecengineer.com/individuals/pricing",
+      "type": "official",
+      "adapter": "html_discovery",
+      "status": "discovery",
+      "last_attempt_at": "2026-11-04T07:28:39Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:44Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Pricing page checked for discovery only; no 2026 campaign evidence, so nothing publishes from it. Matched previously validated representation (304)."
+    },
+    {
+      "id": "modern-security-ai",
+      "name": "Modern Security AI security certification",
+      "url": "https://www.modernsecurity.io/courses/ai-security-certification",
+      "type": "official",
+      "adapter": null,
+      "status": "unsupported",
+      "last_attempt_at": null,
+      "last_successful_fetch_at": null,
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Relevant general promotion lead; 2026 offer/campaign or original October 2026 date not substantiated. Course title alone is insufficient."
+    },
+    {
+      "id": "practical-devsecops-2025",
+      "name": "Practical DevSecOps Black Friday 2025",
+      "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
+      "type": "official",
+      "adapter": "html_discovery",
+      "status": "historical",
+      "last_attempt_at": "2026-11-04T07:28:44Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:45Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "practical-devsecops-2026",
+      "name": "Practical DevSecOps Black Friday 2026",
+      "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "type": "official",
+      "adapter": "practical_devsecops",
+      "status": "confirmed",
+      "last_attempt_at": "2026-11-04T07:28:45Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:45Z",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "offers_count": 10,
+      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "dfir-diva-discounts",
+      "name": "DFIR Diva current discounts",
+      "url": "https://training.dfirdiva.com/current-discounts",
+      "type": "roundup",
+      "adapter": "html_discovery",
+      "status": "unavailable",
+      "last_attempt_at": "2026-11-04T07:28:45Z",
+      "last_successful_fetch_at": null,
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Fetch/extraction unavailable: HTTP 403. Prior offer confirmation times are unchanged."
+    },
+    {
+      "id": "bleepingcomputer-offers",
+      "name": "BleepingComputer offers",
+      "url": "https://www.bleepingcomputer.com/offer/",
+      "type": "roundup",
+      "adapter": "html_discovery",
+      "status": "discovery",
+      "last_attempt_at": "2026-11-04T07:28:46Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:48Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Discovery only; bundle prices and reference prices need current eligible seller corroboration. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "ciphers-security-tracker",
+      "name": "Ciphers Security Black Friday tracker",
+      "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "type": "roundup",
+      "adapter": "html_discovery",
+      "status": "unavailable",
+      "last_attempt_at": "2026-11-04T07:28:48Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:15Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Fetch/extraction unavailable: HTTP 403. Prior offer confirmation times are unchanged."
+    },
+    {
+      "id": "sans-specials-na",
+      "name": "SANS North America specials",
+      "url": "https://www.sans.org/specials/north-america",
+      "type": "official",
+      "adapter": "html_discovery",
+      "status": "discovery",
+      "last_attempt_at": "2026-11-04T07:28:48Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:49Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Regional specials page; the vendor geo-redirects to a regional edition. Early-bird pricing is not a 2026 campaign; discovery only. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "stacksocial",
+      "name": "StackSocial",
+      "url": "https://www.stacksocial.com",
+      "type": "marketplace",
+      "adapter": "html_discovery",
+      "status": "discovery",
+      "last_attempt_at": "2026-11-04T07:28:49Z",
+      "last_successful_fetch_at": "2026-11-04T07:28:50Z",
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Marketplace lead only. Software excluded absent seller authorization. A 2026 product name is not campaign evidence; training/books require scoped current seller evidence. Current representation parsed; checkout not tested."
+    },
+    {
+      "id": "reddit-cybersecurity-2025",
+      "name": "r/cybersecurity historical 2025 megathread",
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1ovlue3/",
+      "type": "community",
+      "adapter": null,
+      "status": "historical",
+      "last_attempt_at": null,
+      "last_successful_fetch_at": null,
+      "last_offer_confirmed_at": null,
+      "offers_count": 0,
+      "note": "Historical thread from attachment. No login, private communities or access restrictions bypassed."
+    }
+  ],
+  "deals": [
+    {
+      "id": "f1a8bc780063d4df85febcfb",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified Container Security Expert (CCSE)",
+      "description": "This certification teaches students to build secure container images and analyze their vulnerabilities.",
+      "category": "certifications",
+      "topics": [
+        "cloud-devsecops"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ccse",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 509.15,
+      "regular_price": 599.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 509.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified Container Security Expert (CCSE): $509.15 instead of $599 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "e73ab26b123d457056a27a42",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified Cloud Native Security Expert (CCNSE)",
+      "description": "Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc.",
+      "category": "certifications",
+      "topics": [
+        "cloud-devsecops"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ccnse",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 849.15,
+      "regular_price": 999.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 849.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified Cloud Native Security Expert (CCNSE): $849.15 instead of $999 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "bd03a1d75b69dfe6b1880c9f",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified AI Security Professional (CAISP)",
+      "description": "Hands-on AI/LLM Security Course covering OWASP Top 10 vulnerabilities, model attacks, supply chain risks, AI Threat Modeling and MITRE ATLAS defenses.",
+      "category": "certifications",
+      "topics": [
+        "ai-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=caisp",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 934.15,
+      "regular_price": 1099.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 934.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified AI Security Professional (CAISP): $934.15 instead of $1099 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "bab7e3523ec9c90052d19c52",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified MCP Security Expert (CMCPSE)",
+      "description": "Attack, assess, & harden MCP servers: tool poisoning, prompt injection, supply chain security, & agentic AI defenses.",
+      "category": "certifications",
+      "topics": [
+        "ai-security",
+        "mcp-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cmcpse",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 594.15,
+      "regular_price": 699.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 594.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified MCP Security Expert (CMCPSE): $594.15 instead of $699 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "90955115f05621ecad561906",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified Threat Modeling Professional (CTMP)",
+      "description": "The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods.",
+      "category": "certifications",
+      "topics": [
+        "appsec"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ctmp",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 764.15,
+      "regular_price": 899.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 764.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified Threat Modeling Professional (CTMP): $764.15 instead of $899 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "7a5bbc9c16cc19c701536973",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified API Security Professional (CASP)",
+      "description": "This API Security certification teaches how to secure and audit APIs against vulnerabilities.",
+      "category": "certifications",
+      "topics": [
+        "appsec"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=casp",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 764.15,
+      "regular_price": 899.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 764.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified API Security Professional (CASP): $764.15 instead of $899 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "6b38f0a5d143f328b0c3cbc7",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified Security Champion (CSC)",
+      "description": "Identify and fix code vulnerabilities with CI/CD tools to enhance pipeline security.",
+      "category": "certifications",
+      "topics": [
+        "appsec"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=csc",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 509.15,
+      "regular_price": 599.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 509.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified Security Champion (CSC): $509.15 instead of $599 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "463d6399ba7c51a176e8e665",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified Software Supply Chain Security Expert (CSSE)",
+      "description": "Learn how organizations protect against attacks and plan to assess/reduce software supply chain risks.",
+      "category": "certifications",
+      "topics": [
+        "appsec"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=csse",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 679.15,
+      "regular_price": 799.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 679.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified Software Supply Chain Security Expert (CSSE): $679.15 instead of $799 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "2c99f3d7f84b8b6d90c1dd4c",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified DevSecOps Expert (CDE)",
+      "description": "Covers OS hardening, infrastructure/code compliance, vulnerability management, and automation.",
+      "category": "certifications",
+      "topics": [
+        "cloud-devsecops"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cde",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 1019.15,
+      "regular_price": 1199.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 1019.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified DevSecOps Expert (CDE): $1019.15 instead of $1199 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "22a670c1f241218608ab4875",
+      "vendor": "Practical DevSecOps",
+      "product": "Certified DevSecOps Professional (CDP)",
+      "description": "Covers DevSecOps basics, emphasizing secure SDLC and CI/CD with SCA, SAST, DAST, and Security as Code.",
+      "category": "certifications",
+      "topics": [
+        "cloud-devsecops"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Best InfoSec Black Friday Deals 2026 Attackers don’t wait for a sale. Black Friday and Cyber Monday 2026 will spike credential-stuffing bots and fake checkout pages during the exact week your team is busiest. For InfoSec engineers , that timing cuts two ways: you’re defending the traffic spike and deciding where next year’s training budget goes before it resets. A weak spot in your pipeline costs more than a missed discount. One untested API endpoint or an unpatched container image can turn a record sales week into an incident report. Practical DevSecOps has cut prices across its full lineup of 11 certifications for Black Friday 2026, which is worth knowing if a gap on your team’s skill list has been sitting in the backlog. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH SALE · DevSecOps Expert Certified DevSecOps Expert CSA Month Sale · Agentic AI Security Certified Agentic",
+        "official_corroboration": true,
+        "scope": "Individual certification cards with their own advertised sale prices in the vendor 2026 article",
+        "checkout_tested": false
+      },
+      "source_id": "practical-devsecops-2026",
+      "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp",
+      "coupon": null,
+      "currency": "USD",
+      "currency_symbol": "$",
+      "sale_price": 764.15,
+      "regular_price": 899.0,
+      "discount_percent": 15.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual certification; bundles are priced separately and not listed here.",
+        "Vendor-published pre-signup link; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+        "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+      ],
+      "scope": [
+        "Individual certification; non-bundle; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": null,
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:45Z",
+      "first_seen_at": "2026-11-04T00:36:35Z",
+      "price_history": [
+        {
+          "at": "2026-11-04T00:36:35Z",
+          "price": 764.15,
+          "currency": "USD"
+        }
+      ],
+      "evidence_excerpt": "Certified DevSecOps Professional (CDP): $764.15 instead of $899 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "provenance": [
+        "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/"
+      ]
+    },
+    {
+      "id": "feca62847c3873a239ca55ca",
+      "vendor": "TrainSec",
+      "product": "Advanced SPI Techniques",
+      "description": "This class offers an in-depth look at SPI protocols, including definitions, physical attributes, signal identification, and advanced modes. Students will learn recommended tools and set up an SPI sniffer.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-09-advanced-spi-techniques/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Advanced SPI Techniques: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "fde2307454001b1d0d3c3fbb",
+      "vendor": "TrainSec",
+      "product": "Mastering WinDbg",
+      "description": "WinDbg is a powerful Microsoft debugger, able to debug user mode and kernel mode code. This course shows the major aspects of working with WinDbg, in user and kernel mode, with and without source code.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/mastering-windbg/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 105.0,
+      "regular_price": 175.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 105.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Mastering WinDbg: $105 Instead of $175. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "fcb2e0731cb18e66fc5de0aa",
+      "vendor": "TrainSec",
+      "product": "Introduction to Embedded Systems and Reverse Engineering",
+      "description": "This class provides a comprehensive overview of embedded systems, starting with what they are and why they are important. It introduces high-level components and defines potential attack surfaces.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-01-introduction-to-embedded-systems-amp-reverse-engineering/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Introduction to Embedded Systems and Reverse Engineering: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "eb1490b6cc96197ae9483afb",
+      "vendor": "TrainSec",
+      "product": "Advanced UART Protocols (RS232/422/485): Techniques for Hardware Hackers",
+      "description": "Students will learn about UART-driven protocols such as RS232, RS422, and RS485, understanding why they exist, their importance, and hacking tips.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-08-advanced-uart-protocols-rs232-422-485-techniques-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Advanced UART Protocols (RS232/422/485): Techniques for Hardware Hackers: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "e9823e18e913e0f591735564",
+      "vendor": "TrainSec",
+      "product": "x64 Architecture and Programming course (Part 1 of 2)",
+      "description": "Learn to read and write x64 assembly and understand the CPU your code really runs on. Pavel Yosifovich, co-author of Windows Internals, takes you from registers, flags and integer representation to MASM programs, the Windows x64 calling convention, stack frames and mixing C with assembly, with labs and solution walkthroughs along the way.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/x64-architecture-and-programming-part-1/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 294.0,
+      "regular_price": 490.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 294.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "x64 Architecture and Programming course (Part 1 of 2): $294 Instead of $490. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "d66e5a187d6924f1e862a5cc",
+      "vendor": "TrainSec",
+      "product": "Communication Protocols: Mastering USB for Hardware Hackers",
+      "description": "Students will learn about USB protocols, including definitions, topologies, physical attributes, protocol basics, device structures, classes, enumeration, and live demonstrations of USB sniffing and analysis.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-12-communication-protocols-mastering-usb-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 90.0,
+      "regular_price": 150.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 90.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Communication Protocols: Mastering USB for Hardware Hackers: $90 Instead of $150. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "d365aa340471a6b0b621b731",
+      "vendor": "TrainSec",
+      "product": "Bluetooth & BLE: Deep Dive into Protocols and Security",
+      "description": "Students will explore Bluetooth and BLE technologies, including their architecture, protocols, pairing processes, security measures, and tools for analysis. The class includes a live demo of BLE sniffing with Wireshark.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-16-bluetooth-ble-deep-dive-into-protocols-and-security/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 120.0,
+      "regular_price": 200.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 120.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Bluetooth & BLE: Deep Dive into Protocols and Security: $120 Instead of $200. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "c86cbc4e850d310774783b0b",
+      "vendor": "TrainSec",
+      "product": "Malware Analyst Professional – Level 2",
+      "description": "In this malware analysis and reverse engineering course, you will delve even deeper into the inner core of dissecting different malware types and variants, understand the adversarial mindset behind them and the used TTPs.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering",
+        "offensive-security",
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/malware-analyst-professional-level-2/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 300.0,
+      "regular_price": 500.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 300.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Malware Analyst Professional – Level 2: $300 Instead of $500. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "c51f92e78b5819a881da3ec7",
+      "vendor": "TrainSec",
+      "product": "Cybersecurity Foundations: Systems, Networking & Active Directory",
+      "description": "The course provides a hands-on introduction to cybersecurity fundamentals. Students learn computer hardware basics, networking protocols, Linux essentials, packet sniffing, virtualization setup, Windows server deployment, and Active Directory management, developing the technical skills required for effective cybersecurity operations and incident response.",
+      "category": "training",
+      "topics": [
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/foundations-systems-networking-active-directory/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 210.0,
+      "regular_price": 350.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 210.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Cybersecurity Foundations: Systems, Networking & Active Directory: $210 Instead of $350. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "c11fbb22b6e1a9abf784ed1c",
+      "vendor": "TrainSec",
+      "product": "Rust Programming Masterclass",
+      "description": "Learn Rust properly, from the toolchain and ownership to traits, concurrency, async and unsafe code. Pavel Yosifovich, co-author of Windows Internals and a systems developer with more than 25 years in C and C++, explains why Rust works the way it does, with labs and full solution walkthroughs after most modules.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/rust-programming-masterclass/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 414.0,
+      "regular_price": 690.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 414.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Rust Programming Masterclass: $414 Instead of $690. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "bf5a912f1173694612b8b6b9",
+      "vendor": "TrainSec",
+      "product": "Modern C++ Programming Training",
+      "description": "Learn to write fast, safe and maintainable C++ the modern way, from C++11 through C++20 and C++23. Pavel Yosifovich, co-author of Windows Internals, takes you from the build model and language basics to move semantics, templates, smart pointers, concurrency, concepts, ranges and coroutines, with hands-on labs after every module.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/modern-c-programming-course/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 414.0,
+      "regular_price": 690.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 414.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Modern C++ Programming Training: $414 Instead of $690. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "bda6ae6a9f55818c58449cc8",
+      "vendor": "TrainSec",
+      "product": "Advanced Windows Kernel Programming training",
+      "description": "Go beyond your first Windows drivers: file system minifilters, Windows Filtering Platform callout drivers, filter drivers and KMDF, plus the kernel techniques, synchronization and tracing production drivers need, in long hands-on labs with full solutions.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/advanced-windows-kernel-programming/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 162.0,
+      "regular_price": 270.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 162.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Advanced Windows Kernel Programming training: $162 Instead of $270. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "b93ee0bed37d1ee04f942936",
+      "vendor": "TrainSec",
+      "product": "Introduction to Wired Communication Protocols for Hardware Hackers",
+      "description": "Students will learn about the significance of communication in embedded systems, types of wired communication (serial and parallel), common protocols (UART, I2C, SPI, JTAG, RS232, CAN bus, USB, Ethernet), and their topologies.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-06-introduction-to-wired-communication-protocols-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Introduction to Wired Communication Protocols for Hardware Hackers: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "ad8b96c951ab958f69aacdd8",
+      "vendor": "TrainSec",
+      "product": "Wired Communication Protocols: UART Deep Dive for Hardware Hackers",
+      "description": "This class covers UART communication protocols, including physical attributes, signal identification, framing, flow control, and recommended tools. Demonstrations will show how to set up a UART link and sniffer.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-07-wired-communication-protocols-uart-deep-dive-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Wired Communication Protocols: UART Deep Dive for Hardware Hackers: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "ab2649686111c81fe7ba6963",
+      "vendor": "TrainSec",
+      "product": "Windows System Programming 1 of 3",
+      "description": "Learn to program Windows the way the operating system really works. Pavel Yosifovich, author of Windows 10 System Programming and co-author of Windows Internals, teaches the Windows API in C and C++: error handling and strings, kernel objects and handles, sharing objects between processes, sessions, and creating and enumerating processes, with labs that build real tools.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/windows-system-programming-1/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 204.0,
+      "regular_price": 340.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 204.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Windows System Programming 1 of 3: $204 Instead of $340. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "98f04dee68cd1050ebed4489",
+      "vendor": "TrainSec",
+      "product": "JTAG Communication Protocol Mastery",
+      "description": "This class explores JTAG protocols, covering definitions, physical attributes, operational mechanics, uses, recommended tools, and practical demonstrations for firmware extraction and boundary scanning.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-11-jtag-communication-protocol-mastery/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "JTAG Communication Protocol Mastery: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "9750f7a35a5d38220f1e50c3",
+      "vendor": "TrainSec",
+      "product": "x64 Architecture and Programming course (Part 2 of 2)",
+      "description": "Go below user mode and see the x64 processor at the system level: privilege rings, CPUID, MSRs and control registers, segmentation and descriptor tables, four- and five-level page translation, system calls, interrupts and exceptions, each checked live in the kernel debugger.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/x64-architecture-and-programming-part-2/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 177.0,
+      "regular_price": 295.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 177.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "x64 Architecture and Programming course (Part 2 of 2): $177 Instead of $295. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "8ed55742ee4540f898b4cae2",
+      "vendor": "TrainSec",
+      "product": "RFID and NFC Security: Analysis, Exploitation, and Defense",
+      "description": "This class focuses on RFID and NFC technologies, covering definitions, physical attributes, vulnerabilities, common protocols, and attack vectors. Students will learn about tools and techniques for hacking RFID and NFC systems.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-15-rfid-and-nfc-security-analysis-exploitation-and-defense/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 120.0,
+      "regular_price": 200.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 120.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "RFID and NFC Security: Analysis, Exploitation, and Defense: $120 Instead of $200. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "8e7e839c42ee1f29ac8591da",
+      "vendor": "TrainSec",
+      "product": "EDR Internals – Research & Development",
+      "description": "EDR Internals hands-on workshop is designed to give cybersecurity professionals, malware researchers, and detection engineers a rare opportunity to explore how modern Endpoint Detection and Response (EDR) solutions truly work, and how to both research and build them from the ground up.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering",
+        "offensive-security",
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/edr-internals-research-development/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 1260.0,
+      "regular_price": 2100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 1260.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "EDR Internals – Research & Development: $1,260 Instead of $2,100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "67c2b7b1b01440739b856223",
+      "vendor": "TrainSec",
+      "product": "Hardware Hacker’s Toolkit: Essential Tools and Setup",
+      "description": "This class introduces the essential tools for hardware analysis, including power supplies, voltmeters, oscilloscopes, protocol analyzers, and RF sniffers. It also covers basic soldering techniques and provides further reading for in-depth understanding.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-05-hardware-hackers-toolkit-essential-tools-and-setup/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Hardware Hacker’s Toolkit: Essential Tools and Setup: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "60a30b32b163cb4b63c75d88",
+      "vendor": "TrainSec",
+      "product": "Hardware Hacking Expert – Level 2: Module 01 – UART Hacking",
+      "description": "From pin identification and log capture, through OT protocols (RS232/422/485) analysis and firmware extraction, to hands on tool buildup labs (true MITM tool development) and practical techniques for bypassing secure boot and developing UART exploits.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/uart-hacking-level2/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 150.0,
+      "regular_price": 250.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 150.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Hardware Hacking Expert – Level 2: Module 01 – UART Hacking: $150 Instead of $250. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "52b3e1f84143ac1a98e64966",
+      "vendor": "TrainSec",
+      "product": "Detection Engineering Professional: Attack Simulation & Defense",
+      "description": "A hands-on detection engineering course for practitioners who already work in security. You’ll simulate real attacker techniques in a live Windows Active Directory lab, trace them through the telemetry they leave in Windows Event Logs, Sysmon, and EDR, and close every cycle by writing, tuning, and validating a detection rule yourself. This isn’t about learning to recognize an attack. It’s about building the muscle to own the detection that catches it, the same loop a working detection engineer runs in production.",
+      "category": "training",
+      "topics": [
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/detection-engineering-attack-simulation-defense/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 420.0,
+      "regular_price": 700.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 420.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Detection Engineering Professional: Attack Simulation & Defense: $420 Instead of $700. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "517ef27b1ac61775b16da41c",
+      "vendor": "TrainSec",
+      "product": "Windows System Programming 2 of 3",
+      "description": "Master the Windows APIs behind fast, reliable native software. Continuing from part 1, Pavel Yosifovich, author of Windows 10 System Programming and co-author of Windows Internals, teaches job objects, threads and thread pools, every synchronization primitive, synchronous and asynchronous I/O, and memory management with the Virtual API, heaps and memory mapped files, with labs and solution walkthroughs.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/windows-system-programming-2/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 177.0,
+      "regular_price": 295.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 177.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Windows System Programming 2 of 3: $177 Instead of $295. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "503da8b6f45431eb9bc3da1e",
+      "vendor": "TrainSec",
+      "product": "Hacker Mindset & Attack Strategies for Hardware Experts",
+      "description": "This class explores different kinds of hacking scenarios, detailing the strategies and methodologies specific to hardware hacking. Students will learn the systematic approach to identify vulnerabilities and exploit embedded systems effectively.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-02-hacker-mindset-attack-strategies-for-hardware-experts/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Hacker Mindset & Attack Strategies for Hardware Experts: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "490054c2e55f350628b8cb4c",
+      "vendor": "TrainSec",
+      "product": "I2C Protocol Mastery: Analysis and Exploitation Techniques",
+      "description": "Focusing on I2C protocols, this class covers definitions, physical attributes, session signal definitions, master-slave sequences, and interesting aspects of I2C. Students will set up an I2C sniffer.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-10-i2c-protocol-mastery-analysis-and-exploitation-techniques/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "I2C Protocol Mastery: Analysis and Exploitation Techniques: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "44509a87775da7ce6c22cb22",
+      "vendor": "TrainSec",
+      "product": "Windows Native API Programming Course",
+      "description": "Learn the Windows native API: the Nt and Rtl functions in NTDLL.dll that every Win32 call ends up in. Go below Win32 to system calls, the PEB and TEB, handles and objects, memory, I/O, the registry and security, with labs and solution walkthroughs.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/windows-native-api-programming/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 228.0,
+      "regular_price": 380.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 228.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Windows Native API Programming Course: $228 Instead of $380. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "3f156cb2c7f99940cdae15cb",
+      "vendor": "TrainSec",
+      "product": "Wireless Communication Protocols: Security, Exploitation, and Defense",
+      "description": "Gain a comprehensive understanding of wireless communication protocols, including principles of wireless data transfer, security vulnerabilities, and attack methodologies. Develop hands-on skills in analyzing, exploiting, and securing various wireless protocols. Through real-world scenarios, students learn to anticipate, detect, and defend against threats in diverse wireless communication environments.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-14-wireless-communication-protocols-security-exploitation-and-defense/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Wireless Communication Protocols: Security, Exploitation, and Defense: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "3a992752b78c2cca027b2235",
+      "vendor": "TrainSec",
+      "product": "Datasheet Hunting: Mastering Component Analysis for Hardware Hackers",
+      "description": "Focused on the importance of datasheets, this class covers how to find and read them, and how to identify and record points of interest. It emphasizes the role of datasheets in understanding and hacking hardware.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-04-datasheet-hunting-mastering-component-analysis-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Datasheet Hunting: Mastering Component Analysis for Hardware Hackers: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "31b39ac7023ddb9e95830b77",
+      "vendor": "TrainSec",
+      "product": "COM programming course 1 of 2",
+      "description": "Learn how Windows COM really works by building it yourself in C++. Pavel Yosifovich, co-author of Windows Internals, takes you from plain C++ classes to interfaces, IUnknown, class factories, activation and registration, then to IDL, type libraries and ATL, with hands-on labs including a client for the Windows BITS service.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/com-programming-1/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 234.0,
+      "regular_price": 390.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 234.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "COM programming course 1 of 2: $234 Instead of $390. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "2e67b66cd761d98c8488ec6e",
+      "vendor": "TrainSec",
+      "product": "Malware Analysis and Development course",
+      "description": "Learn advanced malware analysis and malware development techniques from real-world malware and harness this knowledge to craft your own malware, understanding attacker strategies. Empower yourself with both defensive and offensive cybersecurity skills in this immersive course.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering",
+        "offensive-security",
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/malware-analysis-and-development/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 534.0,
+      "regular_price": 890.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 534.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Malware Analysis and Development course: $534 Instead of $890. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "177f2a0181fd5b549ded79d4",
+      "vendor": "TrainSec",
+      "product": "Malware Analyst Professional – Level 1",
+      "description": "In this malware analysis and reverse engineering course, you will delve into the inner core of dissecting different malware types and variants, understand the adversarial mindset behind them and the used TTPs. At the end of the course, you will gain the power and knowledge to win any malware coming your way.",
+      "category": "training",
+      "topics": [
+        "reverse-engineering",
+        "offensive-security",
+        "blue-team-dfir"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/malware-analyst-professional-level-1/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 300.0,
+      "regular_price": 500.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 300.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Malware Analyst Professional – Level 1: $300 Instead of $500. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "15d7a5cc1c363312ba849339",
+      "vendor": "TrainSec",
+      "product": "Mastering CAN Bus: Advanced Techniques for Hardware Hackers",
+      "description": "This class covers CAN Bus protocols, including definitions, physical attributes, signal identification, packet formats, network arbitration, recommended tools, and attack vectors such as sniffing, DoS, and MITM and car hacking.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-13-mastering-can-bus-advanced-techniques-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 60.0,
+      "regular_price": 100.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 60.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Mastering CAN Bus: Advanced Techniques for Hardware Hackers: $60 Instead of $100. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    },
+    {
+      "id": "14ec43432fdf4e4980c4ff89",
+      "vendor": "TrainSec",
+      "product": "Analyzing PCBs and Smart Components: Essentials for Hardware Hackers",
+      "description": "This class teaches students how to identify and define various components of embedded systems. Topics include safely disassembling devices, understanding PCBs, identifying entities of interest, and recognizing smart chips, communication methods, storage, and user interfaces.",
+      "category": "training",
+      "topics": [
+        "hardware-physical",
+        "reverse-engineering",
+        "offensive-security"
+      ],
+      "campaign_type": "black_friday",
+      "campaign_year": 2026,
+      "eligibility_basis": "explicit_2026",
+      "eligibility_evidence": {
+        "campaign_text": "Black Friday The biggest 2026 Cybersecurity sale of the year is here: November SALE!! 2026 Black Friday For November 2026 only, most individual TrainSec courses are available at a special Black Friday and Cyber Monday rate. Whether you want to break into cybersecurity, specialize in Windows systems, or level up your research and hardware exploitation skills, this is the time to commit. Take advantage of expert-led training trusted by professionals worldwide and build skills that compound for life. 40% Discount All individual courses and plans almost half price Pick any single course in the TrainSec cybersecurity course catalog and apply code BF2026 at checkout. How? Simple checkout process, use code Code: BF2026 * Live events, learning paths, bundles and subscriptions are not included in this sale",
+        "official_corroboration": true,
+        "scope": "Individual course cards with their own advertised sale prices",
+        "checkout_tested": false
+      },
+      "source_id": "trainsec-black-friday",
+      "source_url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
+      "discovery_urls": [],
+      "offer_url": "https://trainsec.net/courses/hardware-hacking-expert-level-i-class-03-analyzing-pcbs-and-smart-components-essentials-for-hardware-hackers/",
+      "coupon": "BF2026",
+      "currency": null,
+      "currency_symbol": "$",
+      "sale_price": 30.0,
+      "regular_price": 50.0,
+      "discount_percent": 40.0,
+      "billing_period": null,
+      "conditions": [
+        "Individual courses only; live events, learning paths, bundles and subscriptions excluded.",
+        "Apply BF2026 at checkout. Vendor-published; checkout not tested.",
+        "Reference prices are vendor-advertised, not independently verified historical baselines.",
+        "Tax/VAT inclusion, access terms and regional eligibility not established by this campaign page."
+      ],
+      "scope": [
+        "Individual course; non-subscription; regional eligibility unspecified"
+      ],
+      "starts_at": null,
+      "ends_at": null,
+      "expiry_label": "November 2026 only",
+      "verification_status": "vendor_published",
+      "last_offer_confirmed_at": "2026-11-04T07:28:38Z",
+      "first_seen_at": "2026-11-03T10:43:50Z",
+      "price_history": [
+        {
+          "at": "2026-11-03T10:43:50Z",
+          "price": 30.0,
+          "currency": null
+        }
+      ],
+      "evidence_excerpt": "Analyzing PCBs and Smart Components: Essentials for Hardware Hackers: $30 Instead of $50. For November 2026 only; 40% Discount; code BF2026.",
+      "marketplace": false,
+      "reference_price_basis": "vendor_advertised",
+      "offer_timing": "month_window_unknown_timezone",
+      "provenance": [
+        "https://trainsec.net/cybersecurity-courses-black-friday-2026/"
+      ]
+    }
+  ]
+}
