@@ -6,7 +6,7 @@ This is a deployment handoff, **not authorization to deploy**. Stage 1 ends with
 
 `wrangler.jsonc` names the application `cybersecurity-deals`, sets compatibility date `2026-11-03`, and serves `./dist` with `not_found_handling: "404-page"`. There is no `main` script, Worker binding, database, route, custom domain, or scheduled trigger. The build must supply `dist/404.html`. Assets-only deployments do not need an application server. The files are also portable to another conventional static host. [1] [2]
 
-Keep the intended canonical origin `https://deals.teknoleet.com` consistent with the reviewed build output. It is an intended origin, not a configured route. A later temporary `workers.dev` URL should not accidentally replace intended canonical links in production metadata. Test `/`, `/sources/`, `/methodology/`, the manifest, static JSON, cache headers, and a nonexistent path before approving public use.
+Keep the intended canonical origin `https://deals.teknoleet.com` consistent with the reviewed build output. It is an intended origin, not a configured route. A later temporary `workers.dev` URL should not accidentally replace intended canonical links in production metadata. Test `/`, `/sources/`, `/methodology/`, static JSON, cache headers, and a nonexistent path before approving public use.
 
 ## Required owner decisions after local approval
 

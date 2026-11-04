@@ -198,7 +198,7 @@ def structured_data(route, title, description, context):
     elif context.get('page_type') == 'methodology':
         graph.append({'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': question, 'acceptedAnswer': {'@type': 'Answer', 'text': answer}} for question, answer in METHODOLOGY_FAQ]})
     elif context.get('page_type') == 'sources':
-        graph.append({'@type': 'Dataset', 'name': 'Cybersecurity Deals 2026 snapshot', 'description': 'Machine-readable list of current evidence-backed cybersecurity offers, sources and check times.', 'url': f'{ORIGIN}/sources/', 'license': 'https://creativecommons.org/licenses/by/4.0/', 'distribution': [{'@type': 'DataDownload', 'encodingFormat': 'application/json', 'contentUrl': f'{ORIGIN}/data/snapshot.json'}]})
+        graph.append({'@type': 'Dataset', 'name': 'Cybersecurity Deals 2026 snapshot', 'description': 'Machine-readable list of current evidence-backed cybersecurity offers, sources and check times.', 'url': f'{ORIGIN}/sources/', 'distribution': [{'@type': 'DataDownload', 'encodingFormat': 'application/json', 'contentUrl': f'{ORIGIN}/data/snapshot.json'}]})
     return {'@context': 'https://schema.org', '@graph': graph}
 
 
@@ -292,8 +292,6 @@ def build(output=ROOT / 'dist', snapshot_path=ROOT / 'state/snapshot.json', revi
         (temp / 'data').mkdir()
         public_snapshot = dict(snapshot, sources=sources, deals=[{k: v for k, v in deal.items() if k not in {'search_text', 'vendor_initials', 'confirmed_display', 'price_display', 'regular_display', 'is_stale', 'is_upcoming', 'eligibility_evidence_display'}} for deal in deals])
         (temp / 'data/snapshot.json').write_text(json.dumps(public_snapshot, ensure_ascii=False, indent=2, allow_nan=False) + '\n')
-        routes = {'routes': [{'path': '/', 'title': 'Cybersecurity Deals'}, {'path': '/sources/', 'title': 'Source coverage'}, {'path': '/methodology/', 'title': 'How we check'}]}
-        (temp / 'manus-routes.json').write_text(json.dumps(routes, indent=2) + '\n')
         (temp / 'llms.txt').write_text(llms_text(deals, common['category_labels'], collection), encoding='utf-8')
         (temp / 'robots.txt').write_text('User-agent: *\nDisallow: /\n' if review else f'User-agent: *\nAllow: /\nSitemap: {ORIGIN}/sitemap.xml\n')
         urls = ''.join(f'<url><loc>{ORIGIN}{route}</loc></url>' for route in ['/', '/sources/', '/methodology/'])

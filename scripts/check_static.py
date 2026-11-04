@@ -76,8 +76,7 @@ def check():
             for offer in state['deals']:
                 assert offer['campaign_year'] == 2026
                 assert offer['last_offer_confirmed_at'], 'Offer confirmation must be explicit'
-    manifest = json.loads((DIST / 'manus-routes.json').read_text())
-    assert {entry['path'] for entry in manifest['routes']} == {'/', '/sources/', '/methodology/'}
+    assert all((DIST / route / 'index.html').is_file() for route in ('', 'sources', 'methodology'))
     assert 'noindex' in (DIST / '404.html').read_text()
     styles = next((DIST / 'assets').glob('styles.*.css')).read_text()
     for url in re.findall(r'url\([\'\"]?(/[^)\'\"]+)', styles):

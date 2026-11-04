@@ -78,3 +78,7 @@ Do not authorize paid upgrades, paid caches or artifacts, paid APIs, trial-only 
 
 [1]: https://docs.github.com/en/billing/concepts/product-billing/github-actions "GitHub Actions billing"
 [2]: https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/ "Cloudflare Static Assets billing and limitations"
+
+## License
+
+Code is released under the [MIT License](LICENSE). Bundled fonts carry their own SIL Open Font License files in `web/public/fonts/`. Offer text and prices are vendor claims quoted as evidence and remain the property of their publishers.
