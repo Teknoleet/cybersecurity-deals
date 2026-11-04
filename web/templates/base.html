@@ -18,7 +18,9 @@
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:image" content="{{ origin }}/social-card.png">
-  {% if noindex %}<meta name="robots" content="noindex">{% endif %}
+  <meta name="robots" content="{{ 'noindex' if noindex else 'index, follow, max-snippet:-1, max-image-preview:large' }}">
+  <link rel="alternate" type="application/json" href="/data/snapshot.json" title="Current offers (JSON)">
+  <script type="application/ld+json">{{ jsonld|safe }}</script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{{ css_path }}">
   {% block head %}{% endblock %}

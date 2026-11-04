@@ -2,7 +2,7 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 from jinja2 import Environment, FileSystemLoader
-from scripts.build import DEFAULT_TAXONOMY, ROOT, money, prepare_deals, safe_url
+from scripts.build import DEFAULT_TAXONOMY, ROOT, json_for_html, llms_text, money, prepare_deals, safe_url, structured_data
 
 
 class StaticBuildTests(unittest.TestCase):
@@ -57,6 +57,19 @@ class StaticBuildTests(unittest.TestCase):
         html = str(render_card(deal, {'training': 'Training & Labs'}, {'appsec': 'AppSec'}))
         visible = html.split('<details', 1)[0]
         self.assertIn('Upcoming · Recheck pending', visible)
+
+    def test_structured_data_never_invents_currency_and_is_script_safe(self):
+        deals = prepare_deals({'deals': [self.offer(), self.offer(id='eur', currency='EUR', product='</script><b>x', offer_url='https://example.com/eur')]}, DEFAULT_TAXONOMY)
+        context = {'deals': deals, 'collection': {'last_completed_at': None}, 'category_labels': {'training': 'Training & Labs'}}
+        offers = {item['item']['url']: item['item'] for item in structured_data('/', 'T', 'D', context)['@graph'][2]['itemListElement']}
+        self.assertNotIn('price', offers['https://example.com/offer'])
+        self.assertEqual((offers['https://example.com/eur']['price'], offers['https://example.com/eur']['priceCurrency']), (60, 'EUR'))
+        self.assertNotIn('</script>', json_for_html(offers))
+        self.assertEqual(structured_data('/methodology/', 'T', 'D', dict(context, page_type='methodology'))['@graph'][2]['@type'], 'FAQPage')
+
+    def test_llms_text_lists_offer_with_evidence(self):
+        text = llms_text(prepare_deals({'deals': [self.offer(coupon='BF2026')]}, DEFAULT_TAXONOMY), {'training': 'Training & Labs'}, {'last_completed_at': None})
+        self.assertIn('- [Vendor: Security course](https://example.com/offer): $60 (was $100) Training & Labs, code BF2026. Evidence: https://example.com/evidence', text)
 
 
 if __name__ == '__main__':
