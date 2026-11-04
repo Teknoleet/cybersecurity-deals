@@ -97,7 +97,7 @@ def parse(body, source):
             continue
         plain = clean(re.sub(r'\([A-Z]+\)', '', title)).casefold()
         currency = 'USD' if usd_cards.get(plain) == sale else None
-        description = clean(PRICE.sub('', re.sub(r'You.re saving.*$', '', text)).replace('→', ''))
+        description = clean(PRICE.sub('', re.sub(r'You.re saving.*$', '', text)).replace('\u2192', '').replace('->', ''))
         conditions = [
             'Individual certification; bundles are priced separately and not listed here.',
             'Vendor-published pre-signup link; checkout not tested.',

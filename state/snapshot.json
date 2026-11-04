@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "edition": 2026,
-  "generated_at": "2026-11-04T00:38:36Z",
+  "generated_at": "2026-11-04T00:39:18Z",
   "collection": {
-    "last_completed_at": "2026-11-04T00:38:36Z",
+    "last_completed_at": "2026-11-04T00:39:18Z",
     "source_count": 14,
     "successful_sources": 11,
     "failed_sources": 1
@@ -16,11 +16,11 @@
       "type": "official",
       "adapter": "trainsec",
       "status": "confirmed",
-      "last_attempt_at": "2026-11-04T00:38:23Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:23Z",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_attempt_at": "2026-11-04T00:39:05Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:05Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "offers_count": 33,
-      "note": "Scoped individual-course cards and explicit November 2026 BF2026 campaign. Checkout not tested. Dollar symbol alone does not establish USD. The 2026 campaign URL is fetched directly; the older URL returns 403. Matched previously validated representation (304)."
+      "note": "Scoped individual-course cards and explicit November 2026 BF2026 campaign. Checkout not tested. Dollar symbol alone does not establish USD. The 2026 campaign URL is fetched directly; the older URL returns 403. Current representation parsed; checkout not tested."
     },
     {
       "id": "github-0x90n",
@@ -29,11 +29,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-04T00:38:23Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:24Z",
+      "last_attempt_at": "2026-11-04T00:39:05Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:05Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Matched previously validated representation (304)."
+      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Current representation parsed; checkout not tested."
     },
     {
       "id": "github-twf-nikhila",
@@ -42,11 +42,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:24Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:24Z",
+      "last_attempt_at": "2026-11-04T00:39:05Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:06Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Matched previously validated representation (304)."
+      "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Current representation parsed; checkout not tested."
     },
     {
       "id": "github-hysnsec",
@@ -55,11 +55,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-04T00:38:24Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:24Z",
+      "last_attempt_at": "2026-11-04T00:39:06Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:06Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Matched previously validated representation (304)."
+      "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Current representation parsed; checkout not tested."
     },
     {
       "id": "appsecengineer-pricing",
@@ -68,11 +68,11 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:24Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:29Z",
+      "last_attempt_at": "2026-11-04T00:39:06Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:11Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Pricing page checked for discovery only; no 2026 campaign evidence, so nothing publishes from it. Matched previously validated representation (304)."
+      "note": "Pricing page checked for discovery only; no 2026 campaign evidence, so nothing publishes from it. Current representation parsed; checkout not tested."
     },
     {
       "id": "modern-security-ai",
@@ -94,11 +94,11 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "historical",
-      "last_attempt_at": "2026-11-04T00:38:29Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:30Z",
+      "last_attempt_at": "2026-11-04T00:39:11Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:11Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Matched previously validated representation (304)."
+      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Current representation parsed; checkout not tested."
     },
     {
       "id": "practical-devsecops-2026",
@@ -107,11 +107,11 @@
       "type": "official",
       "adapter": "practical_devsecops",
       "status": "confirmed",
-      "last_attempt_at": "2026-11-04T00:38:30Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:30Z",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_attempt_at": "2026-11-04T00:39:11Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:12Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "offers_count": 10,
-      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Matched previously validated representation (304)."
+      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Current representation parsed; checkout not tested."
     },
     {
       "id": "dfir-diva-discounts",
@@ -120,7 +120,7 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "unavailable",
-      "last_attempt_at": "2026-11-04T00:38:30Z",
+      "last_attempt_at": "2026-11-04T00:39:12Z",
       "last_successful_fetch_at": null,
       "last_offer_confirmed_at": null,
       "offers_count": 0,
@@ -133,8 +133,8 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:31Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:33Z",
+      "last_attempt_at": "2026-11-04T00:39:12Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:14Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Discovery only; bundle prices and reference prices need current eligible seller corroboration. Current representation parsed; checkout not tested."
@@ -146,8 +146,8 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:33Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:33Z",
+      "last_attempt_at": "2026-11-04T00:39:14Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:15Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "2026 tracker includes not-announced entries. No inherited verification; official evidence required. Current representation parsed; checkout not tested."
@@ -159,8 +159,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:33Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:35Z",
+      "last_attempt_at": "2026-11-04T00:39:15Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:17Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Regional specials page; the vendor geo-redirects to a regional edition. Early-bird pricing is not a 2026 campaign; discovery only. Current representation parsed; checkout not tested."
@@ -172,8 +172,8 @@
       "type": "marketplace",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-04T00:38:35Z",
-      "last_successful_fetch_at": "2026-11-04T00:38:36Z",
+      "last_attempt_at": "2026-11-04T00:39:17Z",
+      "last_successful_fetch_at": "2026-11-04T00:39:18Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Marketplace lead only. Software excluded absent seller authorization. A 2026 product name is not campaign evidence; training/books require scoped current seller evidence. Current representation parsed; checkout not tested."
@@ -197,7 +197,7 @@
       "id": "f1a8bc780063d4df85febcfb",
       "vendor": "Practical DevSecOps",
       "product": "Certified Container Security Expert (CCSE)",
-      "description": "This certification teaches students to build secure container images and analyze their vulnerabilities. →",
+      "description": "This certification teaches students to build secure container images and analyze their vulnerabilities.",
       "category": "certifications",
       "topics": [
         "cloud-devsecops"
@@ -236,7 +236,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -256,7 +256,7 @@
       "id": "e73ab26b123d457056a27a42",
       "vendor": "Practical DevSecOps",
       "product": "Certified Cloud Native Security Expert (CCNSE)",
-      "description": "Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc. →",
+      "description": "Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc.",
       "category": "certifications",
       "topics": [
         "cloud-devsecops"
@@ -295,7 +295,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -315,7 +315,7 @@
       "id": "bd03a1d75b69dfe6b1880c9f",
       "vendor": "Practical DevSecOps",
       "product": "Certified AI Security Professional (CAISP)",
-      "description": "Hands-on AI/LLM Security Course covering OWASP Top 10 vulnerabilities, model attacks, supply chain risks, AI Threat Modeling and MITRE ATLAS defenses. →",
+      "description": "Hands-on AI/LLM Security Course covering OWASP Top 10 vulnerabilities, model attacks, supply chain risks, AI Threat Modeling and MITRE ATLAS defenses.",
       "category": "certifications",
       "topics": [
         "ai-security"
@@ -354,7 +354,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -374,7 +374,7 @@
       "id": "bab7e3523ec9c90052d19c52",
       "vendor": "Practical DevSecOps",
       "product": "Certified MCP Security Expert (CMCPSE)",
-      "description": "Attack, assess, & harden MCP servers: tool poisoning, prompt injection, supply chain security, & agentic AI defenses. →",
+      "description": "Attack, assess, & harden MCP servers: tool poisoning, prompt injection, supply chain security, & agentic AI defenses.",
       "category": "certifications",
       "topics": [
         "ai-security",
@@ -414,7 +414,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -434,7 +434,7 @@
       "id": "90955115f05621ecad561906",
       "vendor": "Practical DevSecOps",
       "product": "Certified Threat Modeling Professional (CTMP)",
-      "description": "The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods. →",
+      "description": "The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods.",
       "category": "certifications",
       "topics": [
         "appsec"
@@ -473,7 +473,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -493,7 +493,7 @@
       "id": "7a5bbc9c16cc19c701536973",
       "vendor": "Practical DevSecOps",
       "product": "Certified API Security Professional (CASP)",
-      "description": "This API Security certification teaches how to secure and audit APIs against vulnerabilities. →",
+      "description": "This API Security certification teaches how to secure and audit APIs against vulnerabilities.",
       "category": "certifications",
       "topics": [
         "appsec"
@@ -532,7 +532,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -552,7 +552,7 @@
       "id": "6b38f0a5d143f328b0c3cbc7",
       "vendor": "Practical DevSecOps",
       "product": "Certified Security Champion (CSC)",
-      "description": "Identify and fix code vulnerabilities with CI/CD tools to enhance pipeline security. →",
+      "description": "Identify and fix code vulnerabilities with CI/CD tools to enhance pipeline security.",
       "category": "certifications",
       "topics": [
         "appsec"
@@ -591,7 +591,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -611,7 +611,7 @@
       "id": "463d6399ba7c51a176e8e665",
       "vendor": "Practical DevSecOps",
       "product": "Certified Software Supply Chain Security Expert (CSSE)",
-      "description": "Learn how organizations protect against attacks and plan to assess/reduce software supply chain risks. →",
+      "description": "Learn how organizations protect against attacks and plan to assess/reduce software supply chain risks.",
       "category": "certifications",
       "topics": [
         "appsec"
@@ -650,7 +650,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -670,7 +670,7 @@
       "id": "2c99f3d7f84b8b6d90c1dd4c",
       "vendor": "Practical DevSecOps",
       "product": "Certified DevSecOps Expert (CDE)",
-      "description": "Covers OS hardening, infrastructure/code compliance, vulnerability management, and automation. →",
+      "description": "Covers OS hardening, infrastructure/code compliance, vulnerability management, and automation.",
       "category": "certifications",
       "topics": [
         "cloud-devsecops"
@@ -709,7 +709,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -729,7 +729,7 @@
       "id": "22a670c1f241218608ab4875",
       "vendor": "Practical DevSecOps",
       "product": "Certified DevSecOps Professional (CDP)",
-      "description": "Covers DevSecOps basics, emphasizing secure SDLC and CI/CD with SCA, SAST, DAST, and Security as Code. →",
+      "description": "Covers DevSecOps basics, emphasizing secure SDLC and CI/CD with SCA, SAST, DAST, and Security as Code.",
       "category": "certifications",
       "topics": [
         "cloud-devsecops"
@@ -768,7 +768,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:30Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:12Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -828,7 +828,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -887,7 +887,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -948,7 +948,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1009,7 +1009,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1068,7 +1068,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1129,7 +1129,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1190,7 +1190,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1251,7 +1251,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1310,7 +1310,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1369,7 +1369,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1428,7 +1428,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1487,7 +1487,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1548,7 +1548,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1609,7 +1609,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1668,7 +1668,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1729,7 +1729,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1788,7 +1788,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1849,7 +1849,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1910,7 +1910,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -1971,7 +1971,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2032,7 +2032,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2091,7 +2091,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2150,7 +2150,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2211,7 +2211,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2272,7 +2272,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2331,7 +2331,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2392,7 +2392,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2453,7 +2453,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2512,7 +2512,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2573,7 +2573,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2634,7 +2634,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2695,7 +2695,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {
@@ -2756,7 +2756,7 @@
       "ends_at": null,
       "expiry_label": "November 2026 only",
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-04T00:38:23Z",
+      "last_offer_confirmed_at": "2026-11-04T00:39:05Z",
       "first_seen_at": "2026-11-03T10:43:50Z",
       "price_history": [
         {

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T00:38:36Z",
+  "updated_at": "2026-11-04T00:39:18Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 3,
+      "adapter_version": 4,
       "body_sha256": "d61653990022e1240f7b4004129136801d3ed856f77d435d9a7e04c8f2c337c1",
       "etag": "W/\"0dc501722dd2e2f0a9e2d08a39c38aaf1264c4f70e95e27009e2eab3d86e4723\"",
       "last_modified": null,
@@ -1183,12 +1183,12 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "bc5ed4cfed6af36da42716eb86613b43b53b4d325731b5813cb665f5de37bbb5"
+      "validated_digest": "70db146d1ec0b5dcf3cabdbe74ff06a6c900a697f6f84f3e35e555649086dab2"
     },
     "trainsec-black-friday": {
       "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
       "adapter": "trainsec",
-      "adapter_version": 3,
+      "adapter_version": 4,
       "body_sha256": "2aa445ae38623aa685eb56ac783ca985a0ed83aae8f9e9a1e3dd2dbfe7411478",
       "etag": null,
       "last_modified": "Tue, 03 Nov 2026 18:51:05 GMT",
@@ -2956,12 +2956,12 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "89ba636585a9b535e727db09735b1de995ad4d4f11bedde011aa9d9e0bb61e9c"
+      "validated_digest": "6a07302351f5e6c074f9ed630fd705d742bbf69726cb7ba48b90e6365d6a53c1"
     },
     "github-twf-nikhila": {
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 3,
+      "adapter_version": 4,
       "body_sha256": "4a6cd7d49a8175235fc722d2de8f8a68b3dd724cba3072905bc2a2fdfd1a84e1",
       "etag": "W/\"fa9df9f300238dc15995a081fcb1bb36c9d1a75149c73094a5dee1d4548fdcf0\"",
       "last_modified": null,
@@ -3719,12 +3719,12 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "9c3b081ecadd7688ecf1f14a21771fe275ecfb8b56dc8fee0dd5b3bd252d6907"
+      "validated_digest": "53efd2643195ac986cec763153ab5be1efad8d3778b049ac10af17e28dbdb8bd"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 3,
+      "adapter_version": 4,
       "body_sha256": "10fb8f6c440f5b1651fe775cadf8691b3b7d716f2c8eed26614247bbe804790a",
       "etag": "W/\"4b3b8b4060fdff44968ebd8d0fd44f209d22a5aecf8083d05995cec476ed3220\"",
       "last_modified": null,
@@ -3822,13 +3822,13 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "fa7762dc3e9adaf37ef5d3a5ea9e5123bd58b71414af47661401a6a88189d9ff"
+      "validated_digest": "7b5a8680dfd5766915980fdc3cb1e20615e288668e34f5a20fb5b07f282964ba"
     },
     "appsecengineer-pricing": {
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
-      "adapter_version": 3,
-      "body_sha256": "f11ccacfe7eaad5d563a1a092c4a7b5f692292f524c600561bf6737a5cbfb6d7",
+      "adapter_version": 4,
+      "body_sha256": "d55d76195be8a66a0e085d8f9b3f5e2b19cb97849f76150f0e501d50abbc51e0",
       "etag": null,
       "last_modified": "Tue, 03 Nov 2026 11:58:51 GMT",
       "deals": [],
@@ -3978,13 +3978,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "5503df400b228c6410a359bed6aa388b19595e1fc1ec82313a34a4f7f26dcdf0"
+      "validated_digest": "52487a94b58b290468728f405336a46280cb54ef705a924a4e1f964b7465c02a"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
-      "adapter_version": 3,
-      "body_sha256": "bec5f749df4a39b1e39ceef0393101fa440daa0e07efe9bb34dfd54c1efb6ab5",
+      "adapter_version": 4,
+      "body_sha256": "846bdb73f5d822f0e2ad426d0cdd50efdb9cfa74c313b7f9edbfa900567c5b95",
       "etag": null,
       "last_modified": "Tue, 03 Nov 2026 16:56:31 GMT",
       "deals": [],
@@ -4057,13 +4057,13 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "4c5785b6bfed253ecb1188cd045d543b81e2d26dbbdc097f20f478c6ca48f939"
+      "validated_digest": "00879db34dc0fd777b4e3834b4b11374ef7315da9f7bbdc00b6ee8054621f0d9"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
-      "adapter_version": 3,
-      "body_sha256": "77ee0a15c04a24566c0bdceedfba14d2ce1acc9c1d66960a7050322af0c2732c",
+      "adapter_version": 4,
+      "body_sha256": "646bc115bef9ee0c0cfb92ac5f4064c62f54dcdb79ead2fa65dfd9c188a4c0d3",
       "etag": null,
       "last_modified": "Tue, 03 Nov 2026 18:41:14 GMT",
       "deals": [
@@ -4071,7 +4071,7 @@
           "id": "22a670c1f241218608ab4875",
           "vendor": "Practical DevSecOps",
           "product": "Certified DevSecOps Professional (CDP)",
-          "description": "Covers DevSecOps basics, emphasizing secure SDLC and CI/CD with SCA, SAST, DAST, and Security as Code. →",
+          "description": "Covers DevSecOps basics, emphasizing secure SDLC and CI/CD with SCA, SAST, DAST, and Security as Code.",
           "category": "certifications",
           "topics": [
             "cloud-devsecops"
@@ -4121,7 +4121,7 @@
           "id": "2c99f3d7f84b8b6d90c1dd4c",
           "vendor": "Practical DevSecOps",
           "product": "Certified DevSecOps Expert (CDE)",
-          "description": "Covers OS hardening, infrastructure/code compliance, vulnerability management, and automation. →",
+          "description": "Covers OS hardening, infrastructure/code compliance, vulnerability management, and automation.",
           "category": "certifications",
           "topics": [
             "cloud-devsecops"
@@ -4171,7 +4171,7 @@
           "id": "f1a8bc780063d4df85febcfb",
           "vendor": "Practical DevSecOps",
           "product": "Certified Container Security Expert (CCSE)",
-          "description": "This certification teaches students to build secure container images and analyze their vulnerabilities. →",
+          "description": "This certification teaches students to build secure container images and analyze their vulnerabilities.",
           "category": "certifications",
           "topics": [
             "cloud-devsecops"
@@ -4221,7 +4221,7 @@
           "id": "e73ab26b123d457056a27a42",
           "vendor": "Practical DevSecOps",
           "product": "Certified Cloud Native Security Expert (CCNSE)",
-          "description": "Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc. →",
+          "description": "Learn cloud-native security concepts and measures: hacking and defending Kubernetes clusters, authentication and etc.",
           "category": "certifications",
           "topics": [
             "cloud-devsecops"
@@ -4271,7 +4271,7 @@
           "id": "bd03a1d75b69dfe6b1880c9f",
           "vendor": "Practical DevSecOps",
           "product": "Certified AI Security Professional (CAISP)",
-          "description": "Hands-on AI/LLM Security Course covering OWASP Top 10 vulnerabilities, model attacks, supply chain risks, AI Threat Modeling and MITRE ATLAS defenses. →",
+          "description": "Hands-on AI/LLM Security Course covering OWASP Top 10 vulnerabilities, model attacks, supply chain risks, AI Threat Modeling and MITRE ATLAS defenses.",
           "category": "certifications",
           "topics": [
             "ai-security"
@@ -4321,7 +4321,7 @@
           "id": "bab7e3523ec9c90052d19c52",
           "vendor": "Practical DevSecOps",
           "product": "Certified MCP Security Expert (CMCPSE)",
-          "description": "Attack, assess, & harden MCP servers: tool poisoning, prompt injection, supply chain security, & agentic AI defenses. →",
+          "description": "Attack, assess, & harden MCP servers: tool poisoning, prompt injection, supply chain security, & agentic AI defenses.",
           "category": "certifications",
           "topics": [
             "ai-security",
@@ -4372,7 +4372,7 @@
           "id": "90955115f05621ecad561906",
           "vendor": "Practical DevSecOps",
           "product": "Certified Threat Modeling Professional (CTMP)",
-          "description": "The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods. →",
+          "description": "The Threat Modeling course covers STRIDE, PASTA, DREAD, MITRE, Agile, and Privacy methods.",
           "category": "certifications",
           "topics": [
             "appsec"
@@ -4422,7 +4422,7 @@
           "id": "7a5bbc9c16cc19c701536973",
           "vendor": "Practical DevSecOps",
           "product": "Certified API Security Professional (CASP)",
-          "description": "This API Security certification teaches how to secure and audit APIs against vulnerabilities. →",
+          "description": "This API Security certification teaches how to secure and audit APIs against vulnerabilities.",
           "category": "certifications",
           "topics": [
             "appsec"
@@ -4472,7 +4472,7 @@
           "id": "463d6399ba7c51a176e8e665",
           "vendor": "Practical DevSecOps",
           "product": "Certified Software Supply Chain Security Expert (CSSE)",
-          "description": "Learn how organizations protect against attacks and plan to assess/reduce software supply chain risks. →",
+          "description": "Learn how organizations protect against attacks and plan to assess/reduce software supply chain risks.",
           "category": "certifications",
           "topics": [
             "appsec"
@@ -4522,7 +4522,7 @@
           "id": "6b38f0a5d143f328b0c3cbc7",
           "vendor": "Practical DevSecOps",
           "product": "Certified Security Champion (CSC)",
-          "description": "Identify and fix code vulnerabilities with CI/CD tools to enhance pipeline security. →",
+          "description": "Identify and fix code vulnerabilities with CI/CD tools to enhance pipeline security.",
           "category": "certifications",
           "topics": [
             "appsec"
@@ -4661,12 +4661,12 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "54b7609d2054d80314b1fb54ea92a31d649e002be55f4132fd04b02347071f11"
+      "validated_digest": "2b046a7584f4a5aa07e445e983bd55a4ce8b05868082a58d193f871c2613d49d"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
-      "adapter_version": 3,
+      "adapter_version": 4,
       "body_sha256": "2b9502abb170c589ec6cc6a9291a81b36df19c0f78d828b7985eadeba0ade381",
       "etag": null,
       "last_modified": null,
@@ -4762,25 +4762,25 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "6386eee366f262111a48dc6f5d639f3ef7ea72c3be95efcbe06c96c80b688843"
+      "validated_digest": "cebb908a29fd387a3d1357387446237357aaf2d9c3a9e5502677e045b12e0575"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
       "adapter": "html_discovery",
-      "adapter_version": 3,
-      "body_sha256": "bd9ac3054caf156e3936df49c73d4d0fbc1a098be9a186c62dd542ee69a0fae9",
+      "adapter_version": 4,
+      "body_sha256": "e4ecb21b478bc103a0f10de5c6d0d45d75ea391e6bfd63dc597669ec66f0bdfa",
       "etag": null,
       "last_modified": null,
       "deals": [],
       "candidates": [],
       "status": "discovery",
-      "validated_digest": "28e7cfff5f7e293260f2b4f8eeef13157f775188472659c8b015bd9d4d47ff83"
+      "validated_digest": "13269ef67daa53cec3b47473f5692c87497482366c4af3d76c958344c6b86bd6"
     },
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/europe-middle-east-africa",
       "adapter": "html_discovery",
-      "adapter_version": 3,
-      "body_sha256": "5438529fffabf8a9bb3ac3a6f3413d608b714129f809c110fe72b05bc054adb3",
+      "adapter_version": 4,
+      "body_sha256": "3697d4d324a8c978d45564f6d12dc97fb3ec3da1289297a0909b7669b87cc3c8",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4820,14 +4820,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "ea223cf46f119c32b1f474761711c193fe4eff59032937a700f536ff7e02c71f"
+      "validated_digest": "ca75c38c09d4db98d7cd26a36979afdde0a0dda7bdc9a3d601696b7172bdb8f4"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
-      "adapter_version": 3,
-      "body_sha256": "07afa8382ee2a9c8b98c21ee6080b0959fedc48ede43f8ccfa0d64f8b560f9eb",
-      "etag": "W/\"07afa8382ee2a9c8b98c21ee6080b095\"",
+      "adapter_version": 4,
+      "body_sha256": "cd3926548eb9a8bae9849637fcd1f50c43f720ffb224380024fede2dd47d80a9",
+      "etag": "W/\"cd3926548eb9a8bae9849637fcd1f50c\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -4921,7 +4921,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "1067a8ea142f0062b9f350768222e9a670c97107e8d532073ed37feef8d9367b"
+      "validated_digest": "e33110106fae88586842e0a1551fef6574e86b49da09b6608bc257e1994832ce"
     }
   },
   "candidates": [
