@@ -14,7 +14,7 @@
 
 ## Current evidence and deployment boundary
 
-The static Preview is healthy on port 3000. Collector tests, builder checks, frontend logic tests, and generated HTML/asset/route checks pass. Two official sources publish automatically: TrainSec (33 courses, fetched directly from its 2026 campaign URL) and Practical DevSecOps (10 certifications from its 2026 Black Friday article). Nine more registered sources are fetched for discovery only; see docs/current-coverage.md. Half-hourly collection is configured in the workflow; Cloudflare publication, DNS and credentials are owner-controlled steps that remain to be enabled.
+The static Preview is healthy on port 3000. Collector tests, builder checks, frontend logic tests, and generated HTML/asset/route checks pass. Two official sources publish automatically: TrainSec (33 courses, fetched directly from its 2026 campaign URL) and Practical DevSecOps (10 certifications from its 2026 Black Friday article). Nine more registered sources are fetched for discovery only; see docs/current-coverage.md. Half-hourly collection and Cloudflare publication are live at deals.teknoleet.com; DNS and credentials are owner-controlled.
 
 ## Independent review closure
 
