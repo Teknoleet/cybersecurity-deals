@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T21:55:06Z",
+  "updated_at": "2026-11-05T02:24:01Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -4797,7 +4797,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "d9495d687ed41665a7ecfae33c8ff3a46b6c78211f009e174641190b1f905c13",
+      "body_sha256": "3f0bf0b1a196468ef2f7cf29e9a7a8643d84536adb2bfecf82e175a7c873bb1c",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4871,7 +4871,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
+          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -4892,7 +4892,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "1d0bc8eb25d7ac85364b47d34d84ad833999bf20f8170b1196584e2358fbe19f"
+      "validated_digest": "1d1ddd4fdf4c794a69261dfad17c9d5889db5a914a451d9fe2c8feba4cf879f4"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -4910,7 +4910,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "bca7cf78be2b67168833b9b8dc7d7094bc50e0d1f25b0d175eeea6d3278df781",
+      "body_sha256": "ada49e6ef17e126babdfb99b3c9dd0531bf73345a97fd5e073373b18c988ccc4",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4950,14 +4950,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "8c6a1bd0f389ee673e490f839a489113546f5c7127374dca6a593f49357c3520"
+      "validated_digest": "5b79c9f0021401e1e7637b691d06b93ff9ba6d9cd5c2cd1d12d1d1f8b3dad378"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "81fd7f6bee55c6262f0750218aa68043295ebfccbc7b91dc14bbecb1bafc7562",
-      "etag": "W/\"81fd7f6bee55c6262f0750218aa68043\"",
+      "body_sha256": "0e2b18110890c2af1323fc7c5718245d5ea5ed958a8caf434ef999fb1ab7eaab",
+      "etag": "W/\"0e2b18110890c2af1323fc7c5718245d\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5051,7 +5051,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "fd7430889ca948ebce2efa871575c6818ccb2b33db23220e88a46ea18218e7fd"
+      "validated_digest": "b57477a5723a6a8be18278c753c50eea189a6bca10ae8afef1caf8782dcd9935"
     }
   },
   "candidates": [
