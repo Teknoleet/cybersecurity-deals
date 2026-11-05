@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T18:10:05Z",
+  "updated_at": "2026-11-05T18:51:28Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -4897,7 +4897,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "6e6903bfb348192d9cb23d6b7ef08a6c868d1a6feaefdb813a94e84dce4b248b",
+      "body_sha256": "5f9f4eb4d58fca3bd2d6d643e26b55ad7eeafcc5d2a1a4a63a2e0f9eefc2616f",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4992,7 +4992,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "4ff49775e0acc5e7f48224dd0528bae116d05d2a3686c6b8bc46e3848e63620e"
+      "validated_digest": "c6f57bbf0ad342467c5ad69c7416609a771237fbf62e130e6870e025dbb872d2"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5010,7 +5010,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "3b6bc8228de52c3f9d0f0db3c68b784934c8c29ce415c15da8b13cb1d6cf86d0",
+      "body_sha256": "577a9a4f9fb79c00d1cb565f78031db87d7b72e48bf6f9e07fa9699f7c475aeb",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5050,14 +5050,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "b531cc425a6312e0827095a00cc319b52af54e20383d179f01a6af8d9e5ab5ac"
+      "validated_digest": "b4b0f7ac1be33e4696c17318ea1531e2d6333db8323f8f3ff73c00f86d826dbb"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "6bf596dd627549ef22f70a607b5438242d3c6ccb8c8b288779d39e050fb07717",
-      "etag": "W/\"6bf596dd627549ef22f70a607b543824\"",
+      "body_sha256": "16682c00e87a6f8f6d6f0aa741f169e57c9506d25e3a9908f60fb1061b53f73d",
+      "etag": "W/\"16682c00e87a6f8f6d6f0aa741f169e5\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5151,7 +5151,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "4b168e123d417ceea74d76551117dacc42b73ab1cccd375f201c86bb7409ffeb"
+      "validated_digest": "b518491207950df388d173cda739604e0babed63dff0e5f03a5c214414636507"
     }
   },
   "candidates": [
