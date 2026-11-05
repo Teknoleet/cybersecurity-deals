@@ -1,10 +1,8 @@
 # Current source coverage
 
-Last bounded live run: 2026-11-04T00:36:42Z, 23 HTTP requests, 11 of 14 registered sources fetched successfully. Two official sources publish offers; everything else is discovery only or deliberately unfetched.
+Last bounded live run: 2026-11-04T00:36:42Z, 23 HTTP requests, 11 of 14 registered sources fetched successfully. One official source publishes offers; everything else is discovery only or deliberately unfetched. TrainSec was removed from the registry on 5 November 2026 by owner decision; its adapter and fixture remain only as test coverage for official-adapter policy paths.
 
-## Publishing sources
-
-**TrainSec** (33 individual courses). The vendor moved its campaign page to `/cybersecurity-courses-black-friday-2026/`; that URL answers the collector's ordinary user agent, so offers are now confirmed by automated HTTP rather than the earlier reviewed first-party extraction. The older URL still returns 403 and is no longer registered. A dollar sign without an ISO code means currency stays null. Ten catalog cards with prices that contradict the 40% campaign and two without a course-specific price remain quarantined candidates.
+## Publishing source
 
 **Practical DevSecOps** (10 individual certifications). The vendor's own article "Best InfoSec Black Friday Deals 2026" (published 3 November 2026) lists per-certification sale prices at 15% off. The vendor's banner cards state the same prices in USD, so currency is recorded as USD only where the banner matches the article card. The site simultaneously labels the discount a "CSA Month Sale" and shows expiry only as a countdown; both facts appear in each offer's conditions and no end date is invented. Fourteen bundle cards and one "Coming Soon" course are candidates, not offers.
 

@@ -9,8 +9,11 @@ from collector.state import load_json
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = load_json(ROOT / 'config/sources.json')
-SOURCE = REGISTRY['sources'][0]
-REGISTRY = {**REGISTRY, 'sources': [SOURCE]}
+TRAINSEC = {'id': 'trainsec-black-friday', 'name': 'TrainSec Black Friday', 'url': 'https://trainsec.net/cybersecurity-courses-black-friday-2026/',
+            'type': 'official', 'adapter': 'trainsec', 'capability': 'supported', 'enabled': True, 'topics': ['offensive-security'],
+            'note': 'Test-only registration of the removed TrainSec source; exercises official-adapter policy paths.'}
+SOURCE = TRAINSEC
+REGISTRY = {**REGISTRY, 'policy': {**REGISTRY['policy'], 'supported_official_domains': ['trainsec.net']}, 'sources': [SOURCE]}
 BODY = (ROOT / 'tests/fixtures/trainsec.html').read_bytes()
 NOW = '2026-11-03T10:00:00Z'
 LATER = '2026-11-03T11:00:00Z'

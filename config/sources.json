@@ -9,20 +9,9 @@
     "deadline_seconds": 180,
     "robots": "Obey cached robots per run. Fail closed on network/403/5xx/redirect/HTML. 404/410 explicitly absent policy permits fetching.",
     "publication": "Maintained official adapter plus scoped eligible current evidence only. Discovery lists never publish directly.",
-    "supported_official_domains": ["trainsec.net", "www.practical-devsecops.com"]
+    "supported_official_domains": ["www.practical-devsecops.com"]
   },
   "sources": [
-    {
-      "id": "trainsec-black-friday",
-      "name": "TrainSec Black Friday",
-      "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
-      "type": "official",
-      "adapter": "trainsec",
-      "capability": "supported",
-      "enabled": true,
-      "topics": ["offensive-security", "blue-team-dfir", "reverse-engineering", "hardware-physical"],
-      "note": "Scoped individual-course cards and explicit November 2026 BF2026 campaign. Checkout not tested. Dollar symbol alone does not establish USD. The 2026 campaign URL is fetched directly; the older URL returns 403."
-    },
     {
       "id": "github-0x90n",
       "name": "0x90n / InfoSec Black Friday",

@@ -17,7 +17,12 @@ from collector.state import atomic_json, load_json, validate_snapshot
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURE = (ROOT / 'tests/fixtures/trainsec.html').read_bytes()
 REGISTRY = load_json(ROOT / 'config/sources.json')
-SOURCE = REGISTRY['sources'][0]
+TRAINSEC = {'id': 'trainsec-black-friday', 'name': 'TrainSec Black Friday', 'url': 'https://trainsec.net/cybersecurity-courses-black-friday-2026/',
+            'type': 'official', 'adapter': 'trainsec', 'capability': 'supported', 'enabled': True, 'topics': ['offensive-security'],
+            'note': 'Test-only registration of the removed TrainSec source; exercises official-adapter policy paths.'}
+REGISTRY = {**REGISTRY, 'policy': {**REGISTRY['policy'], 'supported_official_domains': ['trainsec.net', *REGISTRY['policy']['supported_official_domains']]}, 'sources': [TRAINSEC, *REGISTRY['sources']]}
+SOURCE = TRAINSEC
+GITHUB = next(x for x in REGISTRY['sources'] if x['id'] == 'github-0x90n')
 NOW = '2026-11-03T10:00:00Z'
 LATER = '2026-11-03T11:00:00Z'
 
@@ -165,7 +170,7 @@ class EligibilityTests(unittest.TestCase):
 class DiscoveryTests(unittest.TestCase):
     def test_historical_readme_does_not_publish_codes_or_deals(self):
         markdown = (ROOT / 'tests/fixtures/infosec-readme.md').read_bytes()
-        deals, candidates, status = github_markdown.parse(markdown, REGISTRY['sources'][1])
+        deals, candidates, status = github_markdown.parse(markdown, GITHUB)
         self.assertEqual(status, 'historical')
         self.assertEqual(deals, [])
         self.assertTrue(candidates)
@@ -175,12 +180,12 @@ class DiscoveryTests(unittest.TestCase):
         self.assertTrue(any(x['entry_status'] == 'unconfirmed' for x in candidates))
 
     def test_2026_list_is_still_discovery_only(self):
-        deals, _, status = github_markdown.parse('# Black Friday 2026\nhttps://trainsec.net/cybersecurity-courses-black-friday/\n', REGISTRY['sources'][1])
+        deals, _, status = github_markdown.parse('# Black Friday 2026\nhttps://trainsec.net/cybersecurity-courses-black-friday/\n', GITHUB)
         self.assertEqual(deals, [])
         self.assertEqual(status, 'discovery')
 
     def test_safe_bounded_follow_known_canonical_only(self):
-        github = REGISTRY['sources'][1]
+        github = GITHUB
         f = Mock()
         f.fetch.side_effect = [Response(200, github['fetch_url'], b'# 2026 deals\nhttps://trainsec.net/cybersecurity-courses-black-friday/\nhttps://unknown.example/\nhttps://trainsec.net/courses/arbitrary/\n', {'content-type': 'text/plain'}), result()]
         snap, _, _ = collect(registry(github, SOURCE), None, {}, f, now=NOW, max_sources=2)
@@ -189,7 +194,7 @@ class DiscoveryTests(unittest.TestCase):
         self.assertTrue(snap['deals'])
 
     def test_source_selection_never_follows_other_source(self):
-        github = REGISTRY['sources'][1]
+        github = GITHUB
         f = Mock()
         f.fetch.return_value = Response(200, github['fetch_url'], b'# 2026\nhttps://trainsec.net/cybersecurity-courses-black-friday/\n', {})
         snap, _, _ = collect(registry(github, SOURCE), None, {}, f, now=NOW, selected=[github['id']])
@@ -304,7 +309,7 @@ class LifecycleTests(unittest.TestCase):
         self.assertEqual(snap['sources'][0]['status'], 'unavailable')
 
     def test_fetch_count_bounded(self):
-        github = REGISTRY['sources'][1]
+        github = GITHUB
         snap, _, _, f = collect_once(reg=registry(SOURCE, github), max_sources=1)
         self.assertEqual(f.fetch.call_count, 1)
         self.assertEqual(snap['collection']['successful_sources'], 1)

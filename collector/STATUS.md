@@ -25,3 +25,7 @@ A focused independent implementation review found two medium edge cases, both co
 ## Coverage expansion, 4 November 2026
 
 A second official adapter, `practical_devsecops`, publishes individual certification cards from the vendor's 2026 Black Friday article; bundles and "Coming Soon" courses are candidates. A generic `html_discovery` adapter records headings, declared publication dates and outbound links from roundups, trackers and vendor pages without an offer parser; it never publishes. Two more GitHub lists use the existing Markdown adapter. TrainSec's registered URL moved to the vendor's 2026 campaign path, which answers the unchanged collector user agent, so its 33 offers are now confirmed by automated HTTP. Default budgets rose to 16 sources, 48 requests and 180 seconds to cover the whole registry in one run. The live run at 2026-11-04T00:36:42Z used 23 requests: 11 sources succeeded, DFIR Diva returned 403, and 43 offers from two vendors were published. Collector tests now total 64.
+
+## TrainSec removed, 5 November 2026
+
+The owner removed TrainSec from the source registry. Its 33 offers left the public snapshot on the next run with reason `source_removed_from_registry`. The adapter, fixture and reviewed-evidence receipt stay in the repository as test coverage and provenance only.
