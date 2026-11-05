@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T12:42:15Z",
+  "updated_at": "2026-11-05T17:56:39Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -1189,9 +1189,9 @@
       "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
       "adapter": "trainsec",
       "adapter_version": 4,
-      "body_sha256": "d4276f5a964298b8b3c666369d8898bef5b74c45dc965c07a82bf3b7fe35bdf4",
+      "body_sha256": "3409d2a7d87e477a1759a38073b9a573b954f8ac658ab32f12909cff13ece55f",
       "etag": null,
-      "last_modified": "Thu, 05 Nov 2026 11:59:21 GMT",
+      "last_modified": "Thu, 05 Nov 2026 17:48:42 GMT",
       "deals": [
         {
           "id": "8e7e839c42ee1f29ac8591da",
@@ -2956,7 +2956,7 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "a223dfdfe12c5bb2623d2886552ae3b48d79207c134815d48a3beed2afb133f0"
+      "validated_digest": "e1d866c696471665cc54c20b26833e4ba1df95368edec9cc0e15cc8871523523"
     },
     "github-twf-nikhila": {
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
@@ -4897,7 +4897,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "a82accadfeeb1eba5dbe92e8d02ac3ea1ac16c687f05d1c3c5d24fee925bf3ef",
+      "body_sha256": "799884b9a700350af077837be75b0551058db788f88f95af18068403cd8540be",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4992,7 +4992,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "af58bd66f650d260978451fd07e117ec6c354d2885dd93fdf155aaf8b527ffce"
+      "validated_digest": "c739c9295797bfa0f7e813c3b51016973208bda0453bd27c680588a9147150e0"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5010,7 +5010,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "35c3fd04587265642cd99322e2829f09f8b781e3c9511d978d651a2e1ae24661",
+      "body_sha256": "4a6d851a8ec2a84eb4939acc6116bb4ce2330b7d2910032f50dea58b22c55cdf",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5050,14 +5050,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "1c35ba4d799eb065791b24d0dd7a4f1822270171f7726b86af804c09938b8abf"
+      "validated_digest": "a6ef46e60bf5a8615961eae7b1cd13a446b238ba0408371a228524225f9bc721"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "4f887c916dff6cd2c1fadfe84f3aec82e18cab7af2b543522694a124a2453401",
-      "etag": "W/\"4f887c916dff6cd2c1fadfe84f3aec82\"",
+      "body_sha256": "bf4eb562a343b38570b5634a86426eb8c33cc77c5a31c7484f942465f666f075",
+      "etag": "W/\"bf4eb562a343b38570b5634a86426eb8\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5151,7 +5151,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "871f6bfd0f3a51ab881d5a0a3bef13f515093539828197ea87aa80aa75757e0d"
+      "validated_digest": "d06e91c1a1bd9e6e54edc9f99fb684ab0930255532e40a94a9bccaf5c8f8b115"
     }
   },
   "candidates": [
