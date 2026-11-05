@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T17:56:39Z",
+  "updated_at": "2026-11-05T18:10:05Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -4058,9 +4058,9 @@
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "faef7438612b58872223b48a098c09b9746520829b35099005ce21d6ea6dfa65",
+      "body_sha256": "4ac6ae79637f61b79578cfe053abdeb4ed614a9d73ee30969a3926160ce9d16d",
       "etag": null,
-      "last_modified": "Thu, 05 Nov 2026 12:42:09 GMT",
+      "last_modified": "Thu, 05 Nov 2026 18:09:59 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4208,7 +4208,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "368ee2fe781dcbca228e9d4a2e447a18566c9b35bbfe8c5e1d86eb18651f39fb"
+      "validated_digest": "5998f7fac412349978c24bc363a50c83641683d31888c90b5bb29fb447a67d78"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
@@ -4897,7 +4897,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "799884b9a700350af077837be75b0551058db788f88f95af18068403cd8540be",
+      "body_sha256": "6e6903bfb348192d9cb23d6b7ef08a6c868d1a6feaefdb813a94e84dce4b248b",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -4971,7 +4971,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
+          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -4992,7 +4992,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "c739c9295797bfa0f7e813c3b51016973208bda0453bd27c680588a9147150e0"
+      "validated_digest": "4ff49775e0acc5e7f48224dd0528bae116d05d2a3686c6b8bc46e3848e63620e"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5010,7 +5010,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "4a6d851a8ec2a84eb4939acc6116bb4ce2330b7d2910032f50dea58b22c55cdf",
+      "body_sha256": "3b6bc8228de52c3f9d0f0db3c68b784934c8c29ce415c15da8b13cb1d6cf86d0",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5050,14 +5050,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "a6ef46e60bf5a8615961eae7b1cd13a446b238ba0408371a228524225f9bc721"
+      "validated_digest": "b531cc425a6312e0827095a00cc319b52af54e20383d179f01a6af8d9e5ab5ac"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "bf4eb562a343b38570b5634a86426eb8c33cc77c5a31c7484f942465f666f075",
-      "etag": "W/\"bf4eb562a343b38570b5634a86426eb8\"",
+      "body_sha256": "6bf596dd627549ef22f70a607b5438242d3c6ccb8c8b288779d39e050fb07717",
+      "etag": "W/\"6bf596dd627549ef22f70a607b543824\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5151,7 +5151,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "d06e91c1a1bd9e6e54edc9f99fb684ab0930255532e40a94a9bccaf5c8f8b115"
+      "validated_digest": "4b168e123d417ceea74d76551117dacc42b73ab1cccd375f201c86bb7409ffeb"
     }
   },
   "candidates": [
@@ -8050,6 +8050,171 @@
       "source_id": "stacksocial",
       "reason": "fetch_or_extraction_unavailable",
       "detail": "robots unavailable (403); fail closed"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "feca62847c3873a239ca55ca",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "fde2307454001b1d0d3c3fbb",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "fcb2e0731cb18e66fc5de0aa",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "eb1490b6cc96197ae9483afb",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "e9823e18e913e0f591735564",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "d66e5a187d6924f1e862a5cc",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "d365aa340471a6b0b621b731",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "c86cbc4e850d310774783b0b",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "c51f92e78b5819a881da3ec7",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "c11fbb22b6e1a9abf784ed1c",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "bf5a912f1173694612b8b6b9",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "bda6ae6a9f55818c58449cc8",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "b93ee0bed37d1ee04f942936",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "ad8b96c951ab958f69aacdd8",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "ab2649686111c81fe7ba6963",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "98f04dee68cd1050ebed4489",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "9750f7a35a5d38220f1e50c3",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "8ed55742ee4540f898b4cae2",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "8e7e839c42ee1f29ac8591da",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "67c2b7b1b01440739b856223",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "60a30b32b163cb4b63c75d88",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "52b3e1f84143ac1a98e64966",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "517ef27b1ac61775b16da41c",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "503da8b6f45431eb9bc3da1e",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "490054c2e55f350628b8cb4c",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "44509a87775da7ce6c22cb22",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "3f156cb2c7f99940cdae15cb",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "3a992752b78c2cca027b2235",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "31b39ac7023ddb9e95830b77",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "2e67b66cd761d98c8488ec6e",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "177f2a0181fd5b549ded79d4",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "15d7a5cc1c363312ba849339",
+      "reason": "source_removed_from_registry"
+    },
+    {
+      "source_id": "trainsec-black-friday",
+      "deal_id": "14ec43432fdf4e4980c4ff89",
+      "reason": "source_removed_from_registry"
     }
   ],
   "reviewed_evidence": [
