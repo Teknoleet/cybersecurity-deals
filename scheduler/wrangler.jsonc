@@ -1,0 +1,12 @@
+{
+  // Separate tiny Worker: its only job is to dispatch the GitHub collection
+  // workflow on a reliable clock. The site Worker stays assets-only.
+  "name": "cybersecurity-deals-scheduler",
+  "main": "index.js",
+  "compatibility_date": "2026-11-03",
+  "workers_dev": false,
+  "triggers": { "crons": ["17,47 * * * *"] },
+  "vars": { "GITHUB_REPO": "Teknoleet/cybersecurity-deals", "WORKFLOW_FILE": "collect.yml" }
+  // Secret GITHUB_TOKEN: fine-grained PAT scoped to this repo, Actions: read and write.
+  // Set with: npx wrangler@4.156.2 secret put GITHUB_TOKEN
+}

@@ -65,7 +65,7 @@ Cloudflare Workers Static Assets serves the generated directory directly, withou
 - `collector/`, `config/`, `schemas/`, and `tests/` contain collection, policy, source capabilities, and tests.
 - `web/` and `scripts/` contain templates, browser assets, the Python build, and the local preview server.
 - `state/snapshot.json` is normalized current state and source health, with compact observations where implemented.
-- `.github/workflows/collect.yml`, `wrangler.jsonc`, and `docs/` prepare future manual collection and static publication.
+- `.github/workflows/collect.yml`, `wrangler.jsonc`, and `docs/` drive scheduled collection and static publication; `scheduler/` is an optional Cloudflare cron Worker that dispatches the workflow on a reliable clock.
 - `plan.md` and `TODO.md` record the agreed behavior and Stage 1 review outcomes.
 
 ## Service-cost boundary

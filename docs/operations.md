@@ -51,6 +51,16 @@ The workflow runs at minutes 17 and 47 of every hour on the default branch and c
 
 For unattended publication the `production` environment must not require manual reviewers, otherwise every scheduled publish waits for approval and queues. Keep its deployment-branch restriction to `main`. The scoped Cloudflare token lives only in that environment.
 
+**Reliable clock (optional).** GitHub's own cron can go hours without firing. `scheduler/` holds a separate, tiny Cloudflare Worker whose cron trigger calls the GitHub workflow-dispatch API at the same minutes. It never serves site traffic (`workers_dev` is off and its fetch handler returns 404). Deploy it once from a machine logged in to Wrangler, with a fine-grained GitHub token scoped to this repository and the single permission Actions: read and write:
+
+```sh
+cd scheduler
+npx wrangler@4.156.2 secret put GITHUB_TOKEN
+npx wrangler@4.156.2 deploy
+```
+
+When both clocks fire, the workflow concurrency group runs them one after the other; the duplicate costs about 30 seconds of runner time. Rotate the token before it expires or the Worker's dispatches fail silently in its logs. Remove the Worker with `npx wrangler@4.156.2 delete`.
+
 GitHub schedules are best-effort: they can be delayed or dropped, and public-repository schedules are disabled after 60 days without repository activity. Minutes 17 and 47 avoid the start-of-hour peak but promise no SLA. Keep the manual rerun path and inspect failures. Do not create external monitoring or another scheduler without separate authorization. [1]
 
 An already-open page polls `/data/snapshot.json` every five minutes and on tab focus, and reloads itself when a newer snapshot is published, so visitors see updates without a manual refresh. Stale labels are derived in the browser from each offer's confirmation time, so a stopped schedule becomes visible within three hours.
