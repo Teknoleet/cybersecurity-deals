@@ -1,6 +1,6 @@
 # Generated static output and local deployment state
 /dist/
-/.wrangler/
+.wrangler/
 /node_modules/
 
 # Python environments, bytecode, and test caches
