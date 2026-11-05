@@ -107,13 +107,13 @@
     {
       "id": "dfir-diva-discounts",
       "name": "DFIR Diva current discounts",
-      "url": "https://training.dfirdiva.com/current-discounts",
+      "url": "https://community-listings.dfirdiva.com/discounts/",
       "type": "roundup",
       "adapter": "html_discovery",
       "capability": "discovery_only",
       "enabled": true,
       "topics": ["blue-team-dfir", "osint"],
-      "note": "Page states discounts moved to Community Listings, which currently returns a server error. Discovery only; affiliate relationships disclosed by source."
+      "note": "Community Listings discounts page. The site returns 403 to the collector user agent while allowing generic clients; the collector does not disguise itself, so this stays unavailable until allowlisted. Discovery only; affiliate relationships disclosed by source."
     },
     {
       "id": "bleepingcomputer-offers",

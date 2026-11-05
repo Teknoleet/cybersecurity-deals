@@ -1,10 +1,10 @@
 name: Collect and publish
 
-# Hourly best-effort schedule plus manual dispatch. No push or pull_request trigger.
+# Half-hourly best-effort schedule plus manual dispatch. No push or pull_request trigger.
 # Scheduled runs publish only while GO_LIVE_APPROVED is exactly 'true'.
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
     inputs:
       publish:

@@ -2,7 +2,7 @@
 
 **Domain:** deals.teknoleet.com
 **Edition:** 2026
-**Status:** Approved specification; implemented with hourly scheduled collection. Cloudflare publication and DNS changes are owner-gated.
+**Status:** Approved specification; implemented with scheduled collection every 30 minutes. Cloudflare publication and DNS changes are owner-gated.
 **Prepared:** 3 November 2026
 
 ## 1. What the first release will do
@@ -11,7 +11,7 @@ A public, account-free directory of cybersecurity and AI-security offers, includ
 
 Changes are managed in a public GitHub repository. There is no admin interface, visitor submission form, subscription system, payment flow, or visitor account database. The site is designed around free services only, with no paid APIs and no Node.js backend.
 
-Collection continues hourly on a best-effort basis, but the landing page does not advertise the cadence. Its status card is titled **Last Check**. This is not a guarantee that every source is accessible or that a new promotion appears immediately.
+Collection continues every 30 minutes on a best-effort basis, but the landing page does not advertise the cadence. Its status card is titled **Last Check**. This is not a guarantee that every source is accessible or that a new promotion appears immediately.
 
 ## 2. Proposed page shape
 
@@ -112,7 +112,7 @@ Observations are comparable only for the same product, plan, currency, billing p
 Public GitHub repository
   sources + parsers + policy + manual overrides
                      |
-     GitHub Actions — scheduled hourly, e.g. minute 17
+     GitHub Actions — scheduled every 30 minutes, minutes 17 and 47
                      |
        Python: fetch → extract → date/evidence checks
                      |
