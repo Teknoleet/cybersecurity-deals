@@ -10,6 +10,25 @@ Review `config/taxonomy.json` when assigning one product-type category and indep
 
 When adding a parser, confirm the source permits the proposed access method and that it works without login, CAPTCHA bypass, paid APIs, proxy services, or a browser farm. Prefer supported feeds, structured public pages, and conditional requests. Register the parser's actual capability; record unsupported sources honestly. Add fixtures clearly marked as test-only and test representative good, absent, expired, and malformed evidence. Never copy fixture offers into live state.
 
+### Adding a vendor with structured data (no new parser)
+
+Many vendor campaign pages describe their products with schema.org `Offer` data in `<script type="application/ld+json">`. The `structured_offers` adapter publishes those offers from configuration alone. To add a vendor:
+
+1. Confirm the vendor's own page is a 2026 campaign page: its `<h1>` must name Black Friday, Cyber Monday or BFCM together with 2026. Check that robots rules and terms permit fetching it.
+2. View the page source and confirm its JSON-LD offers include an ISO `priceCurrency`, a `price`, and a `priceSpecification` whose `priceType` is `ListPrice` or `StrikethroughPrice` above that price. Offers without a vendor reference price stay candidates, because a price on its own does not show a discount.
+3. Register it in `config/sources.json` with `"type": "official"`, `"adapter": "structured_offers"`, `"capability": "supported"` and a `structured` block, then add its exact hostname to `policy.supported_official_domains`:
+
+   ```json
+   "structured": {"vendor": "Vendor name", "category": "training", "topics": ["offensive-security"]}
+   ```
+
+   `category` and `topics` must come from `config/taxonomy.json`. Optional `item_types` narrows the schema.org types read (default: Product, Course, SoftwareApplication, WebApplication, MobileApplication, Service, Book, EducationalOccupationalProgram, ProductGroup). Unknown keys and values fail closed.
+4. Run `python3 -m collector.run --source SOURCE_ID` and review `state/candidates.json` before merging.
+
+The adapter never reads coupons from structured data. It publishes only offers that link to the vendor's own domain or its subdomains. Aggregate price ranges, sold-out items, missing currencies, equal or inverted price pairs and malformed JSON-LD are kept as candidates. A timezone-aware `validThrough` becomes `ends_at`. A date-only `validThrough` or `priceValidUntil` is shown as the vendor's date and enforced through `expiry_cutoff_at`, the first instant at which that date has passed in every time zone; no exact deadline is invented.
+
+Independently of the adapter, the collector refuses to publish offers from any source that is not `type: official` on a hostname listed in `supported_official_domains`. Registering a new publishing vendor therefore always needs that reviewed two-line change.
+
 Treat network content as hostile data. Keep HTTP(S)-only public-address checks, redirect checks, bounded response sizes, timeouts, retry budgets, per-domain limits, and escaped text rendering. Block local/private/metadata destinations. Honor robots/access restrictions, rate limits, and applicable terms. Do not execute remote scripts, evaluate page markup, or bypass source restrictions. Store only compact evidence excerpts, not full-page archives.
 
 ## Manual collection and state

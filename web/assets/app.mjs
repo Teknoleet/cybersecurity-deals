@@ -52,6 +52,8 @@ export function relativeTime(value, now = Date.now()) {
 
 export function offerAvailability(deal, now = Date.now()) {
   if (deal.ends_at && Number.isFinite(Date.parse(deal.ends_at)) && Date.parse(deal.ends_at) <= now) return 'expired';
+  // A vendor date without a time zone, once it has passed in every time zone.
+  if (deal.expiry_cutoff_at && Number.isFinite(Date.parse(deal.expiry_cutoff_at)) && Date.parse(deal.expiry_cutoff_at) <= now) return 'expired';
   // Beyond November in every civil time zone; not a fabricated seller deadline.
   if (deal.expiry_label === 'November 2026 only' && now >= Date.parse('2026-12-02T00:00:00Z')) return 'expired';
   if (deal.starts_at && Number.isFinite(Date.parse(deal.starts_at)) && Date.parse(deal.starts_at) > now) return 'upcoming';

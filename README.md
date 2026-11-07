@@ -4,7 +4,7 @@ An account-free, source-transparent directory of cybersecurity and AI-security o
 
 **Deployment status.** The intended domain is `deals.teknoleet.com`. Collection runs every 30 minutes from GitHub Actions; publication to Cloudflare is gated by the `GO_LIVE_APPROVED` repository variable and the `production` environment, and DNS is an owner-controlled step. See [operations](docs/operations.md) and the [Cloudflare setup guide](docs/cloudflare.md).
 
-**Current coverage:** Practical DevSecOps publishes automatically from its own 2026 campaign page (10 individual certifications). Nine further registered lists, trackers and vendor pages are fetched for discovery only and never publish; two are blocked by robots rules and stay unfetched. TrainSec was removed from the registry by owner decision. Read [current coverage](docs/current-coverage.md) for the exact state of each source.
+**Current coverage:** Practical DevSecOps publishes automatically from its own 2026 campaign page (10 individual certifications). Nine further registered lists, trackers and vendor pages are fetched for discovery only and never publish; two are blocked by robots rules and stay unfetched. TrainSec was removed from the registry by owner decision. Read [current coverage](docs/current-coverage.md) for the exact state of each source. Vendors whose 2026 campaign pages publish schema.org offer data can be added by configuration alone through the `structured_offers` adapter; see [operations](docs/operations.md#adding-a-vendor-with-structured-data-no-new-parser).
 
 ## Run locally
 

@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from collector.adapters import ADAPTER_VERSION
-from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops
+from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops, structured_offers
 from collector.http import SafeFetcher, FetchError, representation_url
 from collector.policy import (acceptable, apply_overrides, deduplicate, digest,
                               identity, instant, observe, utcnow)
@@ -21,7 +21,8 @@ from collector.state import atomic_json, load_json, validate_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
 ADAPTERS = {'trainsec': trainsec.parse, 'github_markdown': github_markdown.parse,
-            'html_discovery': html_discovery.parse, 'practical_devsecops': practical_devsecops.parse}
+            'html_discovery': html_discovery.parse, 'practical_devsecops': practical_devsecops.parse,
+            'structured_offers': structured_offers.parse}
 
 
 def source_record(source, previous=None):
@@ -141,6 +142,11 @@ def collect(registry, previous, cache, fetcher, *, now=None, selected=None,
             record['last_successful_fetch_at'] = now
             record['status'] = status
             record['note'] = source.get('note', '') + (' Matched previously validated representation (304).' if response.status == 304 else ' Current representation parsed; checkout not tested.')
+            # Publication is a reviewed registry decision: only official sources on an
+            # explicitly supported domain may contribute offers, whatever the adapter.
+            if parsed and (source['type'] != 'official' or urlsplit(target).hostname
+                           not in registry['policy']['supported_official_domains']):
+                raise ValueError('source is not an official supported domain; offers cannot publish')
             accepted = []
             for item in parsed:
                 ok, reason = acceptable(item, now)

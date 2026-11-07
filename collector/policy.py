@@ -114,6 +114,10 @@ def acceptable(deal, now):
             instant(deal['starts_at'])
         if deal.get('ends_at') and instant(deal['ends_at']) <= instant(now):
             return False, 'expired'
+        # A vendor's date without a time zone is enforced only from the first
+        # instant it has passed everywhere; it is never shown as an exact deadline.
+        if deal.get('expiry_cutoff_at') and instant(deal['expiry_cutoff_at']) <= instant(now):
+            return False, 'expired'
         # Natural-language month restriction is real expiry evidence, not an
         # invented exact deadline. Never populate ends_at from a guessed zone.
         if deal.get('expiry_label') == 'November 2026 only':

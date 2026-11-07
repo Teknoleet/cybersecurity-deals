@@ -29,6 +29,14 @@ class StaticBuildTests(unittest.TestCase):
         yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
         self.assertEqual(prepare_deals({'deals': [self.offer(ends_at=yesterday)]}, DEFAULT_TAXONOMY), [])
 
+    def test_public_output_withholds_passed_expiry_cutoff(self):
+        past = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
+        future = (datetime.now(timezone.utc) + timedelta(days=1)).isoformat()
+        self.assertEqual(prepare_deals({'deals': [self.offer(expiry_cutoff_at=past)]}, DEFAULT_TAXONOMY), [])
+        self.assertEqual(len(prepare_deals({'deals': [self.offer(expiry_cutoff_at=future)]}, DEFAULT_TAXONOMY)), 1)
+        with self.assertRaises(ValueError):
+            prepare_deals({'deals': [self.offer(expiry_cutoff_at='2026-12-01')]}, DEFAULT_TAXONOMY)
+
     def test_confirmation_is_not_replaced_by_build_time(self):
         yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
         result = prepare_deals({'deals': [self.offer(last_offer_confirmed_at=yesterday)]}, DEFAULT_TAXONOMY)[0]

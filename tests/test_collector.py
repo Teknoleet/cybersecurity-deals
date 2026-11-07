@@ -1,12 +1,13 @@
 """Offline tests: real compact markup, deterministic clocks and no external I/O."""
 from copy import deepcopy
+import json
 from pathlib import Path
 import socket
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
-from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops
+from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops, structured_offers
 from collector.http import FetchError, Response, SafeFetcher, public_addresses, validate_url, PublicHTTPSConnection
 from collector.import_evidence import corroborated, import_reviewed
 from collector.policy import (acceptable, apply_overrides, deduplicate, eligibility,
@@ -228,6 +229,144 @@ class PracticalDevSecOpsTests(unittest.TestCase):
         deals, candidates, status = practical_devsecops.parse(body, self.SOURCE)
         self.assertEqual((deals, status), ([], 'discovery'))
         self.assertEqual(candidates[0]['reason'], 'practical_devsecops_campaign_missing_or_changed')
+
+
+class StructuredOffersTests(unittest.TestCase):
+    FIXTURE = (ROOT / 'tests/fixtures/structured-offers-2026.html').read_bytes()
+    SOURCE = {'id': 'vendor-structured', 'name': 'Vendor Example Black Friday 2026',
+              'url': 'https://www.vendor.example/black-friday-2026/', 'type': 'official',
+              'adapter': 'structured_offers', 'capability': 'supported', 'enabled': True,
+              'topics': ['offensive-security'], 'note': 'Test-only structured-data source.',
+              'structured': {'vendor': 'Vendor Example', 'category': 'training', 'topics': ['offensive-security']}}
+
+    def parse(self, body=None, **changes):
+        return structured_offers.parse(body or self.FIXTURE, {**self.SOURCE, **changes})
+
+    def reg(self, *domains):
+        return {**REGISTRY, 'policy': {**REGISTRY['policy'], 'supported_official_domains': list(domains)},
+                'sources': [self.SOURCE]}
+
+    def test_only_priced_vendor_offers_publish(self):
+        deals, candidates, status = self.parse()
+        self.assertEqual(status, 'confirmed')
+        by_name = {x['product']: x for x in deals}
+        self.assertEqual(set(by_name), {'Red Team Operator', 'Lab Subscription — Annual'})
+        rto = by_name['Red Team Operator']
+        self.assertEqual((rto['sale_price'], rto['regular_price'], rto['discount_percent'], rto['currency']), (150.0, 300.0, 50.0, 'USD'))
+        self.assertEqual(rto['offer_url'], 'https://www.vendor.example/courses/rto')
+        self.assertEqual(rto['description'], 'Hands-on adversary emulation labs.')
+        self.assertEqual((rto['category'], rto['topics'], rto['vendor']), ('training', ['offensive-security'], 'Vendor Example'))
+        labs = by_name['Lab Subscription — Annual']
+        self.assertEqual(labs['offer_url'], 'https://checkout.vendor.example/labs/annual')
+        self.assertEqual(labs['starts_at'], '2026-11-20T00:00:00Z')
+        self.assertEqual({x['product']: x['reason'] for x in candidates if 'product' in x}, {
+            'Lab Subscription': 'structured_offer_missing_reference_price',
+            'Range Bundle': 'aggregate_offer_needs_review',
+            'Partner Course': 'offer_link_left_vendor_domain',
+            'Badge Kit': 'structured_offer_not_available',
+            'Exam Voucher': 'invalid_price_pair',
+            'Mystery Box': 'structured_offer_missing_currency'})
+        self.assertIn('malformed_structured_data', {x['reason'] for x in candidates})
+        self.assertTrue(all(x['coupon'] is None for x in deals))
+        self.assertNotIn('SAVE2026', str(deals))
+        self.assertTrue(all(acceptable(x, NOW)[0] for x in deals))
+
+    def test_structured_data_alone_is_not_campaign_evidence(self):
+        body = self.FIXTURE.replace(b'<h1>Black Friday 2026 Sale</h1>', b'<h1>Pricing</h1>')
+        deals, candidates, status = self.parse(body)
+        self.assertEqual((deals, status), ([], 'discovery'))
+        self.assertEqual(candidates[0]['reason'], 'structured_campaign_missing_or_changed')
+        body = self.FIXTURE.replace(b'Black Friday 2026 Sale', b'Black Friday 2025 Sale')
+        self.assertEqual(self.parse(body)[0], [])
+
+    def test_campaign_without_publishable_offers_is_discovery(self):
+        body = self.FIXTURE.replace(b'ListPrice', b'SalePrice').replace(b'StrikethroughPrice', b'SalePrice')
+        deals, candidates, status = self.parse(body)
+        self.assertEqual((deals, status), ([], 'discovery'))
+        self.assertIn('structured_campaign_without_publishable_offers', {x['reason'] for x in candidates})
+
+    def test_registry_configuration_fails_closed(self):
+        config = self.SOURCE['structured']
+        for bad in ({'type': 'roundup'}, {'structured': None},
+                    {'structured': {**config, 'category': 'gadgets'}},
+                    {'structured': {**config, 'topics': ['video']}},
+                    {'structured': {**config, 'topics': []}},
+                    {'structured': {**config, 'vendor': ' '}},
+                    {'structured': {**config, 'item_types': ['Event']}},
+                    {'structured': {**config, 'sale_price': 1}}):
+            with self.assertRaises(ValueError):
+                self.parse(**bad)
+
+    def test_date_only_expiry_is_enforced_once_passed_everywhere(self):
+        rto = next(x for x in self.parse()[0] if x['product'] == 'Red Team Operator')
+        self.assertIsNone(rto['ends_at'])
+        self.assertEqual(rto['expiry_label'], 'Until 2026-12-01 (vendor date; time zone not stated)')
+        self.assertEqual(rto['expiry_cutoff_at'], '2026-12-02T12:00:00Z')
+        self.assertTrue(acceptable(rto, '2026-12-02T11:59:59Z')[0])
+        self.assertEqual(acceptable(rto, '2026-12-02T12:00:00Z'), (False, 'expired'))
+
+    def offer_page(self, offer):
+        ld = {'@type': 'Product', 'name': 'Probe', 'offers': offer}
+        return f'<h1>Black Friday 2026</h1><script type="application/ld+json">{json.dumps(ld)}</script>'.encode()
+
+    def probe(self, **changes):
+        offer = {'@type': 'Offer', 'price': 5, 'priceCurrency': 'USD',
+                 'priceSpecification': {'priceType': 'https://schema.org/ListPrice', 'price': 10, 'priceCurrency': 'USD'}}
+        offer.update(changes)
+        deals, candidates, _ = self.parse(self.offer_page(offer))
+        return deals, [x['reason'] for x in candidates if 'product' in x]
+
+    def test_offer_links_must_stay_on_vendor_domain(self):
+        for url in ('https://evilvendor.example/x', 'https://vendor.example.attacker.example/x',
+                    'javascript:alert(1)', 'https://user:pw@www.vendor.example/x', 'ftp://www.vendor.example/x'):
+            deals, reasons = self.probe(url=url)
+            self.assertEqual(deals, [], url)
+        self.assertEqual(self.probe(url='https://shop.vendor.example/x')[0][0]['offer_url'], 'https://shop.vendor.example/x')
+        self.assertEqual(self.probe(url='https://vendor.example/x')[0][0]['offer_url'], 'https://vendor.example/x')
+
+    def test_end_dates_are_exact_date_only_or_rejected(self):
+        deal = self.probe(validThrough='2026-12-01T23:59:00-05:00')[0][0]
+        self.assertEqual((deal['ends_at'], deal.get('expiry_cutoff_at')), ('2026-12-02T04:59:00Z', None))
+        deal = self.probe(priceValidUntil='2026-12-01')[0][0]
+        self.assertEqual((deal['ends_at'], deal['expiry_cutoff_at']), (None, '2026-12-02T12:00:00Z'))
+        self.assertEqual(self.probe(validThrough='2026-11-30T00:00:00Z', priceValidUntil='2027-01-01')[0][0]['ends_at'], '2026-11-30T00:00:00Z')
+        for bad in ({'validThrough': '2026-13-45'}, {'validThrough': '2026-12-01T10:00:00'},
+                    {'priceValidUntil': 'end of month'}, {'validFrom': 'soon'}):
+            self.assertEqual(self.probe(**bad), ([], ['invalid_structured_date']), bad)
+
+    def test_hostile_or_ambiguous_prices_do_not_publish(self):
+        list_price = lambda price, currency='USD': {'priceType': 'https://schema.org/ListPrice', 'price': price, 'priceCurrency': currency}
+        self.assertEqual(self.probe(priceSpecification=[list_price(10), list_price(12)]), ([], ['ambiguous_reference_price']))
+        self.assertEqual(self.probe(priceSpecification=list_price(10, 'EUR')), ([], ['structured_offer_missing_reference_price']))
+        for price in (-5, 'NaN', 'Infinity', True, None, 'free', ''):
+            self.assertEqual(self.probe(price=price), ([], ['structured_offer_missing_price']), price)
+        self.assertEqual(self.probe(priceCurrency='US Dollars'), ([], ['structured_offer_missing_currency']))
+        self.assertEqual(self.probe(price='1,250.50', priceSpecification=list_price('2,501'))[0][0]['sale_price'], 1250.5)
+
+    def test_offer_examination_is_bounded(self):
+        offer = {'@type': 'Offer', 'price': 1, 'priceCurrency': 'USD',
+                 'priceSpecification': {'priceType': 'https://schema.org/ListPrice', 'price': 2}}
+        graph = {'@graph': [{'@type': 'Product', 'name': f'P{i}', 'offers': offer} for i in range(500)]}
+        body = f'<h1>Black Friday 2026</h1><script type="application/ld+json">{json.dumps(graph)}</script>'.encode()
+        deals, candidates, _ = self.parse(body)
+        self.assertEqual(len(deals), structured_offers.MAX_OFFERS)
+        self.assertIn('structured_offer_limit_reached', {x['reason'] for x in candidates})
+        nested = b'<h1>Black Friday 2026</h1><script type="application/ld+json">' + b'[' * 100000 + b']' * 100000 + b'</script>'
+        self.assertEqual(self.parse(nested)[2], 'discovery')
+
+    def test_publication_requires_supported_official_domain(self):
+        response = result(self.FIXTURE, url=self.SOURCE['url'])
+        snap, candidates, _, _ = collect_once(response, reg=self.reg('www.practical-devsecops.com'))
+        self.assertEqual(snap['deals'], [])
+        self.assertEqual(snap['sources'][0]['status'], 'unavailable')
+        snap, _, _, _ = collect_once(response, reg=self.reg('www.vendor.example'))
+        self.assertEqual(len(snap['deals']), 2)
+        self.assertEqual(snap['sources'][0]['status'], 'confirmed')
+        self.assertTrue(validate_snapshot(snap))
+        upcoming = next(x for x in snap['deals'] if x['product'] == 'Lab Subscription — Annual')
+        self.assertEqual(upcoming['offer_timing'], 'upcoming')
+        later, _, _, _ = collect_once(FetchError('blocked'), snap, at='2026-12-02T12:00:00Z', reg=self.reg('www.vendor.example'))
+        self.assertEqual([x['product'] for x in later['deals']], ['Lab Subscription — Annual'])
 
 
 class HtmlDiscoveryTests(unittest.TestCase):
