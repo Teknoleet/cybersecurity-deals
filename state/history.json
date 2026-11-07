@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T21:29:16Z",
+  "updated_at": "2026-11-07T01:14:01Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -4314,9 +4314,9 @@
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "cb15acbb4f35e04a3ab4abe89f5d588077f3b837e711c95a237e6fffa19beaa6",
+      "body_sha256": "5a4707e89f066c392865dde9d7ea9600e073733c5b16632a312bd2172ec413cc",
       "etag": null,
-      "last_modified": "Fri, 06 Nov 2026 12:53:06 GMT",
+      "last_modified": "Fri, 06 Nov 2026 23:52:46 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4387,7 +4387,7 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "923e6ad005a6c3a51a6c1eb20e92a14e49ad11ed8cf2ab4c16e1358b28746543"
+      "validated_digest": "255d37644075a7a8b43074f3bce5e9c0342c26e467273a21e6b0119455a91081"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
@@ -4997,7 +4997,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "0a0da58e2e0ea88c5f4e705aca44896c205d5684e8ad59fb4b5eabfd1e9ef560",
+      "body_sha256": "43208b452fc66aaac390ed2cdc12ca7f493194ba85dd5f04a8bc0bacd710d9f7",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5071,7 +5071,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-security-starter-pack?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Security-Starter-Kit&sfcid=701Vh00000cn7aRIAQ&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Security-Bundle",
+          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -5092,7 +5092,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "5ca163e170a9b5eb5065e390b70265c4cd268ba039206480a329a61dc6905ee2"
+      "validated_digest": "fc5cc5ef9681aaa92b75333a46557040ae3750f0a5b4d74a21c9113af062b01d"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5110,7 +5110,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "d7d87dcb7f3e55061889d1310b74cf93ec20a6fb893ce1e62c258568d0a615dc",
+      "body_sha256": "6cec1bd400332829f2d7df05d435e986f0b9fade726480d8facafa4b49fb81d7",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5150,14 +5150,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "d75e02b6da224e435444e5abc85c4cebf87df1c018ecb8e6765ef7d4a563e7e6"
+      "validated_digest": "f11802c300fee7b10107356005739f0f5484b9643f3412543113ed2ac51a813a"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 4,
-      "body_sha256": "6c78eef7f814822d6548d689cabab5de6e62d002df25918db8025d431bb30bc1",
-      "etag": "W/\"6c78eef7f814822d6548d689cabab5de\"",
+      "body_sha256": "c97cf99bffcb4399a28513ac41197f972e2d4edd058d54e0cacab093f021fe27",
+      "etag": "W/\"c97cf99bffcb4399a28513ac41197f97\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5251,7 +5251,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "c4288e3b571f930864018c543ec0fbf5c0f25cb60976476bc02e8a965cd359a5"
+      "validated_digest": "0d7d56f46ae951e65944033271d7b6acd31f89abae6089fe22ccd5805e864625"
     }
   },
   "candidates": [
