@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "edition": 2026,
-  "generated_at": "2026-11-07T01:14:01Z",
+  "generated_at": "2026-11-07T07:10:54Z",
   "collection": {
-    "last_completed_at": "2026-11-07T01:14:01Z",
+    "last_completed_at": "2026-11-07T07:10:54Z",
     "source_count": 13,
-    "successful_sources": 9,
-    "failed_sources": 2
+    "successful_sources": 8,
+    "failed_sources": 3
   },
   "sources": [
     {
@@ -16,8 +16,8 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-07T01:13:48Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:49Z",
+      "last_attempt_at": "2026-11-07T07:10:44Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:44Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Matched previously validated representation (304)."
@@ -29,8 +29,8 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "discovery",
-      "last_attempt_at": "2026-11-07T01:13:49Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:49Z",
+      "last_attempt_at": "2026-11-07T07:10:44Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:44Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Matched previously validated representation (304)."
@@ -42,8 +42,8 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-07T01:13:49Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:49Z",
+      "last_attempt_at": "2026-11-07T07:10:44Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:45Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Matched previously validated representation (304)."
@@ -55,8 +55,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-07T01:13:49Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:55Z",
+      "last_attempt_at": "2026-11-07T07:10:45Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:50Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Pricing page checked for discovery only; no 2026 campaign evidence, so nothing publishes from it. Matched previously validated representation (304)."
@@ -81,11 +81,11 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "historical",
-      "last_attempt_at": "2026-11-07T01:13:55Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:56Z",
+      "last_attempt_at": "2026-11-07T07:10:50Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:51Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Current representation parsed; checkout not tested."
+      "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Matched previously validated representation (304)."
     },
     {
       "id": "practical-devsecops-2026",
@@ -94,11 +94,11 @@
       "type": "official",
       "adapter": "practical_devsecops",
       "status": "confirmed",
-      "last_attempt_at": "2026-11-07T01:13:56Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:56Z",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_attempt_at": "2026-11-07T07:10:51Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:51Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "offers_count": 10,
-      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Matched previously validated representation (304)."
+      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Current representation parsed; checkout not tested."
     },
     {
       "id": "dfir-diva-discounts",
@@ -107,7 +107,7 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "unavailable",
-      "last_attempt_at": "2026-11-07T01:13:56Z",
+      "last_attempt_at": "2026-11-07T07:10:51Z",
       "last_successful_fetch_at": null,
       "last_offer_confirmed_at": null,
       "offers_count": 0,
@@ -120,8 +120,8 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-07T01:13:57Z",
-      "last_successful_fetch_at": "2026-11-07T01:13:58Z",
+      "last_attempt_at": "2026-11-07T07:10:52Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:53Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Discovery only; bundle prices and reference prices need current eligible seller corroboration. Current representation parsed; checkout not tested."
@@ -133,7 +133,7 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "unavailable",
-      "last_attempt_at": "2026-11-07T01:13:58Z",
+      "last_attempt_at": "2026-11-07T07:10:53Z",
       "last_successful_fetch_at": "2026-11-04T00:39:15Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
@@ -146,8 +146,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-07T01:13:59Z",
-      "last_successful_fetch_at": "2026-11-07T01:14:00Z",
+      "last_attempt_at": "2026-11-07T07:10:53Z",
+      "last_successful_fetch_at": "2026-11-07T07:10:54Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Regional specials page; the vendor geo-redirects to a regional edition. Early-bird pricing is not a 2026 campaign; discovery only. Current representation parsed; checkout not tested."
@@ -158,12 +158,12 @@
       "url": "https://www.stacksocial.com",
       "type": "marketplace",
       "adapter": "html_discovery",
-      "status": "discovery",
-      "last_attempt_at": "2026-11-07T01:14:00Z",
+      "status": "unavailable",
+      "last_attempt_at": "2026-11-07T07:10:54Z",
       "last_successful_fetch_at": "2026-11-07T01:14:01Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Marketplace lead only. Software excluded absent seller authorization. A 2026 product name is not campaign evidence; training/books require scoped current seller evidence. Current representation parsed; checkout not tested."
+      "note": "Fetch/extraction unavailable: robots unavailable (403); fail closed. Prior offer confirmation times are unchanged."
     },
     {
       "id": "reddit-cybersecurity-2025",
@@ -223,7 +223,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -282,7 +282,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -341,7 +341,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -401,7 +401,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -460,7 +460,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -519,7 +519,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -578,7 +578,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -637,7 +637,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -696,7 +696,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -755,7 +755,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-07T01:13:56Z",
+      "last_offer_confirmed_at": "2026-11-07T07:10:51Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
