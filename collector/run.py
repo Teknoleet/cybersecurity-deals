@@ -2,7 +2,7 @@
 
 The previous snapshot defaults to the same output. No schedule, publishing,
 credentials, browser or paid API is used. Optional explicit source selection:
---source trainsec-black-friday --source github-0x90n --max-sources 2
+--source practical-devsecops-2026 --source github-0x90n --max-sources 2
 """
 from __future__ import annotations
 import argparse

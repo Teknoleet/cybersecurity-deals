@@ -309,6 +309,8 @@ def build(output=ROOT / 'dist', snapshot_path=ROOT / 'state/snapshot.json', revi
   Cache-Control: public, max-age=0, must-revalidate
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
 /data/*
   Cache-Control: public, max-age=0, must-revalidate
 ''')

@@ -29,8 +29,8 @@ To attempt live public-source collection locally:
 
 ```sh
 python3 -m collector.run --output state/snapshot.json
-# Small diagnostic run:
-python3 -m collector.run --output state/snapshot.json
+# Small diagnostic run (first three enabled sources, no followed links):
+python3 -m collector.run --output state/snapshot.json --max-sources 3 --max-links 0
 # One registered source; replace SOURCE_ID with an ID from config/sources.json:
 python3 -m collector.run --output state/snapshot.json --source SOURCE_ID
 python3 scripts/build.py
