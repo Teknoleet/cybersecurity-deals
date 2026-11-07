@@ -1,5 +1,6 @@
 """Offline tests: real compact markup, deterministic clocks and no external I/O."""
 from copy import deepcopy
+import json
 from pathlib import Path
 import socket
 import tempfile
@@ -303,6 +304,55 @@ class StructuredOffersTests(unittest.TestCase):
         self.assertEqual(rto['expiry_cutoff_at'], '2026-12-02T12:00:00Z')
         self.assertTrue(acceptable(rto, '2026-12-02T11:59:59Z')[0])
         self.assertEqual(acceptable(rto, '2026-12-02T12:00:00Z'), (False, 'expired'))
+
+    def offer_page(self, offer):
+        ld = {'@type': 'Product', 'name': 'Probe', 'offers': offer}
+        return f'<h1>Black Friday 2026</h1><script type="application/ld+json">{json.dumps(ld)}</script>'.encode()
+
+    def probe(self, **changes):
+        offer = {'@type': 'Offer', 'price': 5, 'priceCurrency': 'USD',
+                 'priceSpecification': {'priceType': 'https://schema.org/ListPrice', 'price': 10, 'priceCurrency': 'USD'}}
+        offer.update(changes)
+        deals, candidates, _ = self.parse(self.offer_page(offer))
+        return deals, [x['reason'] for x in candidates if 'product' in x]
+
+    def test_offer_links_must_stay_on_vendor_domain(self):
+        for url in ('https://evilvendor.example/x', 'https://vendor.example.attacker.example/x',
+                    'javascript:alert(1)', 'https://user:pw@www.vendor.example/x', 'ftp://www.vendor.example/x'):
+            deals, reasons = self.probe(url=url)
+            self.assertEqual(deals, [], url)
+        self.assertEqual(self.probe(url='https://shop.vendor.example/x')[0][0]['offer_url'], 'https://shop.vendor.example/x')
+        self.assertEqual(self.probe(url='https://vendor.example/x')[0][0]['offer_url'], 'https://vendor.example/x')
+
+    def test_end_dates_are_exact_date_only_or_rejected(self):
+        deal = self.probe(validThrough='2026-12-01T23:59:00-05:00')[0][0]
+        self.assertEqual((deal['ends_at'], deal.get('expiry_cutoff_at')), ('2026-12-02T04:59:00Z', None))
+        deal = self.probe(priceValidUntil='2026-12-01')[0][0]
+        self.assertEqual((deal['ends_at'], deal['expiry_cutoff_at']), (None, '2026-12-02T12:00:00Z'))
+        self.assertEqual(self.probe(validThrough='2026-11-30T00:00:00Z', priceValidUntil='2027-01-01')[0][0]['ends_at'], '2026-11-30T00:00:00Z')
+        for bad in ({'validThrough': '2026-13-45'}, {'validThrough': '2026-12-01T10:00:00'},
+                    {'priceValidUntil': 'end of month'}, {'validFrom': 'soon'}):
+            self.assertEqual(self.probe(**bad), ([], ['invalid_structured_date']), bad)
+
+    def test_hostile_or_ambiguous_prices_do_not_publish(self):
+        list_price = lambda price, currency='USD': {'priceType': 'https://schema.org/ListPrice', 'price': price, 'priceCurrency': currency}
+        self.assertEqual(self.probe(priceSpecification=[list_price(10), list_price(12)]), ([], ['ambiguous_reference_price']))
+        self.assertEqual(self.probe(priceSpecification=list_price(10, 'EUR')), ([], ['structured_offer_missing_reference_price']))
+        for price in (-5, 'NaN', 'Infinity', True, None, 'free', ''):
+            self.assertEqual(self.probe(price=price), ([], ['structured_offer_missing_price']), price)
+        self.assertEqual(self.probe(priceCurrency='US Dollars'), ([], ['structured_offer_missing_currency']))
+        self.assertEqual(self.probe(price='1,250.50', priceSpecification=list_price('2,501'))[0][0]['sale_price'], 1250.5)
+
+    def test_offer_examination_is_bounded(self):
+        offer = {'@type': 'Offer', 'price': 1, 'priceCurrency': 'USD',
+                 'priceSpecification': {'priceType': 'https://schema.org/ListPrice', 'price': 2}}
+        graph = {'@graph': [{'@type': 'Product', 'name': f'P{i}', 'offers': offer} for i in range(500)]}
+        body = f'<h1>Black Friday 2026</h1><script type="application/ld+json">{json.dumps(graph)}</script>'.encode()
+        deals, candidates, _ = self.parse(body)
+        self.assertEqual(len(deals), structured_offers.MAX_OFFERS)
+        self.assertIn('structured_offer_limit_reached', {x['reason'] for x in candidates})
+        nested = b'<h1>Black Friday 2026</h1><script type="application/ld+json">' + b'[' * 100000 + b']' * 100000 + b'</script>'
+        self.assertEqual(self.parse(nested)[2], 'discovery')
 
     def test_publication_requires_supported_official_domain(self):
         response = result(self.FIXTURE, url=self.SOURCE['url'])

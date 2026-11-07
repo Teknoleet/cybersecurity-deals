@@ -106,9 +106,15 @@ def as_list(value):
     return value if isinstance(value, list) else [value] if value is not None else []
 
 
+class Ambiguous(ValueError):
+    """Structured price fields disagree; the offer needs human review."""
+
+
 def prices(offer):
     """Return (sale, reference, currency) only from unambiguous structured fields."""
     currency = currency_of(offer)
+    if currency is None and offer.get('priceCurrency') not in (None, ''):
+        return None, None, None  # A stated but invalid currency is not inferred from elsewhere.
     sale = amount(offer.get('price'))
     reference = None
     for spec in as_list(offer.get('priceSpecification')):
@@ -122,7 +128,7 @@ def prices(offer):
         currency = currency or spec_currency
         if any(x in price_type for x in REFERENCE_TYPES):
             if reference is not None and reference != value:
-                return None, None, currency  # Two reference prices: ambiguous.
+                raise Ambiguous('two different reference prices')
             reference = value
         elif sale is None and not price_type:
             sale = value
@@ -191,7 +197,7 @@ def parse(body, source):
         except (json.JSONDecodeError, RecursionError, ValueError):
             candidates.append({'source_id': source['id'], 'source_url': source['url'],
                                'reason': 'malformed_structured_data'})
-    deals, examined = [], 0
+    deals, examined, truncated = [], 0, False
     for node in nodes:
         if not types_of(node) & allowed_types:
             continue
@@ -200,6 +206,7 @@ def parse(body, source):
             continue
         for offer in as_list(node.get('offers')):
             if examined >= MAX_OFFERS:
+                truncated = True
                 break
             examined += 1
             if not isinstance(offer, dict):
@@ -217,7 +224,11 @@ def parse(body, source):
             if any(x in str(offer.get('availability') or '') for x in UNAVAILABLE):
                 reject('structured_offer_not_available')
                 continue
-            sale, reference, currency = prices(offer)
+            try:
+                sale, reference, currency = prices(offer)
+            except Ambiguous:
+                reject('ambiguous_reference_price')
+                continue
             if currency is None:
                 reject('structured_offer_missing_currency')
                 continue
@@ -233,12 +244,16 @@ def parse(body, source):
                 reject('invalid_price_pair')
                 continue
             url = urljoin(source['url'], str(offer.get('url') or node.get('url') or source['url']))
-            if urlsplit(url).scheme not in {'http', 'https'} or not vendor_host(url, base):
+            parts = urlsplit(url)
+            if (parts.scheme not in {'http', 'https'} or parts.username or parts.password
+                    or not vendor_host(url, base)):
                 reject('offer_link_left_vendor_domain')
                 continue
             starts_at, start_day = timestamp(offer.get('validFrom'))
             ends_at, end_day = timestamp(offer.get('validThrough') or offer.get('priceValidUntil'))
-            if offer.get('validFrom') and not (starts_at or start_day):
+            raw_end = offer.get('validThrough') or offer.get('priceValidUntil')
+            if (offer.get('validFrom') and not (starts_at or start_day)) or (raw_end and not (ends_at or end_day)):
+                # An unreadable end date must not turn into an open-ended offer.
                 reject('invalid_structured_date')
                 continue
             discount = ((1 - sale / reference) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
@@ -276,6 +291,9 @@ def parse(body, source):
                 deal['expiry_cutoff_at'] = expiry_cutoff
             deal['id'] = identity(deal)
             deals.append(deal)
+    if truncated:
+        candidates.append({'source_id': source['id'], 'source_url': source['url'],
+                           'reason': 'structured_offer_limit_reached', 'detail': f'Only the first {MAX_OFFERS} offers were examined.'})
     if not deals:
         candidates.append({'source_id': source['id'], 'source_url': source['url'],
                            'reason': 'structured_campaign_without_publishable_offers',
