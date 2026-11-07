@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- TEST-ONLY FIXTURE. Fictional vendor on a reserved .example domain; never live state. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vendor Example sale</title>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [
+  {"@type": "Organization", "name": "Vendor Example", "url": "https://www.vendor.example/"},
+  {"@type": "Course", "name": "Red Team Operator", "description": "<p>Hands-on <b>adversary emulation</b> labs.</p>",
+   "url": "https://www.vendor.example/courses/rto",
+   "offers": {"@type": "Offer", "price": "150.00", "priceCurrency": "usd",
+              "availability": "https://schema.org/InStock", "validThrough": "2026-12-01",
+              "priceSpecification": [{"@type": "UnitPriceSpecification", "priceType": "https://schema.org/ListPrice", "price": 300, "priceCurrency": "USD"}]}},
+  {"@type": "Product", "name": "Lab Subscription", "url": "/labs",
+   "offers": [
+     {"@type": "Offer", "name": "Annual", "price": 200, "priceCurrency": "EUR", "validFrom": "2026-11-20T00:00:00Z",
+      "url": "https://checkout.vendor.example/labs/annual",
+      "priceSpecification": {"@type": "UnitPriceSpecification", "priceType": "https://schema.org/StrikethroughPrice", "price": "400", "priceCurrency": "EUR"}},
+     {"@type": "Offer", "name": "Monthly", "price": 25, "priceCurrency": "EUR"}
+   ]},
+  {"@type": "Product", "name": "Range Bundle", "offers": {"@type": "AggregateOffer", "lowPrice": 99, "highPrice": 499, "priceCurrency": "USD"}},
+  {"@type": "Product", "name": "Partner Course", "offers": {"@type": "Offer", "price": 50, "priceCurrency": "USD", "url": "https://affiliate.other.example/p",
+   "priceSpecification": {"priceType": "https://schema.org/ListPrice", "price": 100}}},
+  {"@type": "Product", "name": "Badge Kit", "offers": {"@type": "Offer", "price": 40, "priceCurrency": "USD", "availability": "https://schema.org/SoldOut",
+   "priceSpecification": {"priceType": "https://schema.org/ListPrice", "price": 80}}},
+  {"@type": "Product", "name": "Exam Voucher", "offers": {"@type": "Offer", "price": 500, "priceCurrency": "USD",
+   "priceSpecification": {"priceType": "https://schema.org/ListPrice", "price": 500}}},
+  {"@type": "Product", "name": "Mystery Box", "offers": {"@type": "Offer", "price": 10,
+   "priceSpecification": {"priceType": "https://schema.org/ListPrice", "price": 20}}}
+]}
+</script>
+<script type="application/ld+json">{"@type": "Product", "name": "Broken", </script>
+</head>
+<body>
+<nav>Black Friday 2026 deals everywhere</nav>
+<h1>Black Friday 2026 Sale</h1>
+<p>Our Black Friday 2026 discount covers selected courses and labs.</p>
+<h2>Courses</h2>
+<p>Use code SAVE2026 at checkout.</p>
+<footer>© 2026 Vendor Example</footer>
+</body>
+</html>

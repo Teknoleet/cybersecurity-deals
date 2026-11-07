@@ -120,6 +120,11 @@ def prepare_deals(snapshot, taxonomy):
             raise ValueError('Start timestamps must include a time zone')
         if ends and ends <= now:
             continue
+        cutoff = parse_date(deal.get('expiry_cutoff_at'))
+        if deal.get('expiry_cutoff_at') and not cutoff:
+            raise ValueError('Expiry cutoffs must include a time zone')
+        if cutoff and cutoff <= now:
+            continue
         if deal.get('expiry_label') == 'November 2026 only' and now >= datetime(2026, 12, 2, tzinfo=timezone.utc):
             continue
         deal['is_stale'] = not confirmed or (now - confirmed).total_seconds() > 10800 or (confirmed - now).total_seconds() > 300

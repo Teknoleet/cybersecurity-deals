@@ -34,6 +34,8 @@ test('expiry and upcoming offers are distinct from fetch failure', () => {
  assert.equal(offerAvailability({ ends_at: '2026-11-03T11:00:00Z' }, now), 'expired');
  assert.equal(offerAvailability({ starts_at: '2026-11-04T00:00:00Z' }, now), 'upcoming');
  assert.equal(offerAvailability({ ends_at: null, starts_at: null }, now), 'current');
+ assert.equal(offerAvailability({ expiry_cutoff_at: '2026-12-02T12:00:00Z' }, Date.parse('2026-12-02T11:59:59Z')), 'current');
+ assert.equal(offerAvailability({ expiry_cutoff_at: '2026-12-02T12:00:00Z' }, Date.parse('2026-12-02T12:00:00Z')), 'expired');
 });
 test('fresh cards precede stale cards, not merely newest collection', () => {
  const now = Date.parse('2026-11-03T12:00:00Z');
