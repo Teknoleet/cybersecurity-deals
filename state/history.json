@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T08:58:28Z",
+  "updated_at": "2026-11-08T15:57:33Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 5,
+      "adapter_version": 7,
       "body_sha256": "d61653990022e1240f7b4004129136801d3ed856f77d435d9a7e04c8f2c337c1",
       "etag": "W/\"0dc501722dd2e2f0a9e2d08a39c38aaf1264c4f70e95e27009e2eab3d86e4723\"",
       "last_modified": null,
@@ -1183,7 +1183,7 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "848a87ab0e787633d4bd724740a45f2293ce0719ead9130a4d4dbfa7b3c0abaf"
+      "validated_digest": "8557ac465ed47a8229dde91f494dbce2bee4d433ee1798e355f8560e12761ef4"
     },
     "trainsec-black-friday": {
       "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
@@ -2961,9 +2961,9 @@
     "github-twf-nikhila": {
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 5,
-      "body_sha256": "85f11d50a6779c3e1806e74029e0ad77388548d4187638e07a943195171bd878",
-      "etag": "W/\"31f6e6f2547177d5dda12db2ad95f984f16a8e1fd85d3b1346f7a5478f06f11d\"",
+      "adapter_version": 7,
+      "body_sha256": "e65d2745c0417c9625f31ae98a4bf30d2d162b134ade5f43b4e45586f1a3ae7a",
+      "etag": "W/\"75fc0b0d93dcd2569dc641564c4e684c2e8b60198b59f5c68ad30f712b4abe9f\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -3190,6 +3190,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://screensage.pro/bf2026?ref=twf-nikhila-bf2026",
+          "section": "🎬 Video, Audio & Podcasting",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://newyougo.com/pricing?promo=bf2026",
           "section": "📸 Photo, Image & Screenshot",
           "reason": "needs_official_2026_evidence",
@@ -3280,6 +3290,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://getpaplo.com/news/black-friday-2026?utm_source=press-twf-bf&utm_medium=listing&utm_campaign=press-twf-bf",
+          "section": "📸 Photo, Image & Screenshot",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://www.typingmind.com/?utm_source=twf-nikhila",
           "section": "📝 AI Assistants & Writing",
           "reason": "needs_official_2026_evidence",
@@ -3351,6 +3371,16 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://outpublished.com/black-friday",
+          "section": "🔍 SEO & AI Search Visibility",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://getlinkbunny.com/pricing#black-friday-2026",
           "section": "🔍 SEO & AI Search Visibility",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -3940,6 +3970,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://pricing.cleanclip.cc/src?ref=twf-nikhila-bf2026",
+          "section": "💻 Mac & Desktop Utilities",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://www.chronoid.app/pricing",
           "section": "✅ Productivity, Notes & Focus",
           "reason": "needs_official_2026_evidence",
@@ -4030,6 +4070,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://prettyprogress.app/download",
+          "section": "✅ Productivity, Notes & Focus",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://anon.li/pricing",
           "section": "🔐 Security & Privacy",
           "reason": "needs_official_2026_evidence",
@@ -4061,6 +4111,16 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://www.videowalllive.com/blackfriday",
+          "section": "📱 Lifestyle, Health & Travel",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://pepflow.app/download",
           "section": "📱 Lifestyle, Health & Travel",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -4119,12 +4179,12 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "926e1965d6658d55c98a63810d594b505a2903ca448021f885b9c68dc03171df"
+      "validated_digest": "f95b51ff6a189689909efa0a525ad91890dd98689950b736a313c4a7a905de1d"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 5,
+      "adapter_version": 7,
       "body_sha256": "10fb8f6c440f5b1651fe775cadf8691b3b7d716f2c8eed26614247bbe804790a",
       "etag": "W/\"4b3b8b4060fdff44968ebd8d0fd44f209d22a5aecf8083d05995cec476ed3220\"",
       "last_modified": null,
@@ -4222,15 +4282,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "a27ada8e94ce85e5c57329f5abbf5402ef1411fc24af01acec1d6276063997da"
+      "validated_digest": "5eddf213af228ff25c76c00451bc87216f856055cee8265149daf628c932ca00"
     },
     "appsecengineer-pricing": {
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
-      "adapter_version": 5,
-      "body_sha256": "934c2f901177d8daa6214857dd14c134bc0d6234c1c3cfa1f1f02b1481864037",
+      "adapter_version": 7,
+      "body_sha256": "f888a1522f78b5f2954edf01bfd47af2f9531647028423dc323389a8967d103e",
       "etag": null,
-      "last_modified": "Sun, 08 Nov 2026 08:58:19 GMT",
+      "last_modified": "Sun, 08 Nov 2026 08:46:42 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4378,13 +4438,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "2a42169433df87d92e822b7927f4b4d8417e2195d2f0159efda621dc5d4f6182"
+      "validated_digest": "e98387da45020cd2e88db96e192a9603f165ed7e3dd825048fde7dab50b57eb3"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
-      "adapter_version": 5,
-      "body_sha256": "c108a40327f3538cca8e2be8dd9d47118601cc241ef700614fb6217b529cf656",
+      "adapter_version": 7,
+      "body_sha256": "8098064fc93700ab3d08e548dbeadebb62b9a76aa1370df6806983fb080e2a32",
       "etag": null,
       "last_modified": "Sun, 08 Nov 2026 08:58:23 GMT",
       "deals": [],
@@ -4457,13 +4517,13 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "7bbe98691adfc5930a4ec170c3ce9cdad3da9f98487997ee242fb04c8b4873a6"
+      "validated_digest": "d09275ab1147b250528c7e7cfc2326c2e2f780e6baab317b99357ae683f41bc1"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
-      "adapter_version": 5,
-      "body_sha256": "cd505fe11215379fad1a6e1fd818473d508d2ab773434c1419021497589c32cb",
+      "adapter_version": 7,
+      "body_sha256": "2178812d38167f8b86d19af1ee1f78d373b9d2ab14c6e6f038019682146c1e7d",
       "etag": null,
       "last_modified": "Sun, 08 Nov 2026 06:36:18 GMT",
       "deals": [
@@ -4499,7 +4559,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4549,7 +4608,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4599,7 +4657,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4649,7 +4706,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4699,7 +4755,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4750,7 +4805,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4800,7 +4854,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4850,7 +4903,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4900,7 +4952,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -4950,7 +5001,6 @@
           "conditions": [
             "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5000,7 +5050,6 @@
           "conditions": [
             "Certification bundle (CDE + CDP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5050,7 +5099,6 @@
           "conditions": [
             "Certification bundle (CCSE + CDP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5065,6 +5113,55 @@
           "first_seen_at": null,
           "price_history": [],
           "evidence_excerpt": "Certified DevSecOps Professional and Certified Container Security Expert (CDP + CCSE): $1214.10 instead of $1498 (18.95% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "0e55d014e2c105b9505758e0",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE)",
+          "description": "Certification bundle: Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-ccnse",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1529.1,
+          "regular_price": 1898.0,
+          "discount_percent": 19.44,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CCNSE + CDP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE): $1529.10 instead of $1898 (19.44% off) in \"Best InfoSec Black Friday Deals 2026\".",
           "marketplace": false,
           "reference_price_basis": "vendor_advertised"
         },
@@ -5101,7 +5198,6 @@
           "conditions": [
             "Certification bundle (CDP + CTMP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5152,7 +5248,6 @@
           "conditions": [
             "Certification bundle (CASP + CDP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5203,7 +5298,6 @@
           "conditions": [
             "Certification bundle (CAISP + CDP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5254,7 +5348,6 @@
           "conditions": [
             "Certification bundle (CAISP + CMCPSE); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5305,7 +5398,6 @@
           "conditions": [
             "Certification bundle (CDP + CSSE); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5355,7 +5447,6 @@
           "conditions": [
             "Certification bundle (CASP + CTMP); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5405,7 +5496,6 @@
           "conditions": [
             "Certification bundle (CCNSE + CCSE); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5456,7 +5546,6 @@
           "conditions": [
             "Certification bundle (CASP + CCNSE + CCSE); the vendor prices the included certifications together.",
             "Vendor-published pre-signup link; checkout not tested.",
-            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
             "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
           ],
@@ -5483,12 +5572,6 @@
         },
         {
           "source_id": "practical-devsecops-2026",
-          "product": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
           "product": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE)",
           "reason": "bundle_includes_unavailable_course",
           "evidence_excerpt": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE) Best Value $2098 $1619.10 → You’re saving $478.90"
@@ -5507,13 +5590,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "e33e451f3d8c5ee1740de75d1f4ad1cda0f1d50067a4923aa06923a6512588ff"
+      "validated_digest": "740c4339d3b464e1e5b78b43e0e626faecab765c782e5f37a837c62c08188cc1"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
-      "adapter_version": 5,
-      "body_sha256": "03f6eccacc4ad1c0d8d7dc9efa03a883fe60b2da2d0de5e29bbd534937b99001",
+      "adapter_version": 7,
+      "body_sha256": "778eb9e20078fa02a45c2feee12c8ed60117c8e7b691ffae3abe7a260df66933",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5587,7 +5670,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
+          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -5608,7 +5691,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "a27960fd26ddb0d141bd4fe62392b34c9051a065873f5d27c9bebd8fdd81c89d"
+      "validated_digest": "b6c5c4e6f6c658bdded8f2edba334c971022abd1786ff49c05da3e1dc03387bc"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5625,8 +5708,8 @@
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
-      "adapter_version": 5,
-      "body_sha256": "80c7e13d9d8fb384dd82d602f8b51e89b200bbcfc961f50e8824c03328f3d6af",
+      "adapter_version": 7,
+      "body_sha256": "32af20585d957e34996a5183451474c040cfba20a7285705891b4e202f0402e3",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5666,14 +5749,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "e3e9619ea0e375b64369ad4e1e065b14a9ca29763e5e07f9ba01ae67657f731d"
+      "validated_digest": "4240f8df766b1e451add6a5d53824cbc619cd843365819fc010954a52512233a"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
-      "adapter_version": 5,
-      "body_sha256": "105f9b48d12a1140dd1f74f7f086ff02af7674510730d2545b793ba42ded8061",
-      "etag": "W/\"105f9b48d12a1140dd1f74f7f086ff02\"",
+      "adapter_version": 7,
+      "body_sha256": "5017b96711cbf9afa17958abbb5b745184b3b0207f8ef48b6aa04cf156b5830a",
+      "etag": "W/\"5017b96711cbf9afa17958abbb5b7451\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5767,7 +5850,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "5503f3e414a9d6b761381278261c3c11ba7307bab8fde477392bb63dc60c8a57"
+      "validated_digest": "4a2061b5be411a61989f83b4cb32bfc501b4fe6d646ae4db9ffe4bb42256a094"
     }
   },
   "candidates": [
@@ -9025,6 +9108,66 @@
       "product": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE)",
       "reason": "bundle_includes_unavailable_course",
       "evidence_excerpt": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE) Best Value $2797 $2186.10 → You’re saving $610.90"
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://screensage.pro/bf2026?ref=twf-nikhila-bf2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://getpaplo.com/news/black-friday-2026?utm_source=press-twf-bf&utm_medium=listing&utm_campaign=press-twf-bf",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://getlinkbunny.com/pricing#black-friday-2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://pricing.cleanclip.cc/src?ref=twf-nikhila-bf2026",
+      "section": "💻 Mac & Desktop Utilities",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://prettyprogress.app/download",
+      "section": "✅ Productivity, Notes & Focus",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://pepflow.app/download",
+      "section": "📱 Lifestyle, Health & Travel",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
     }
   ],
   "reviewed_evidence": [
