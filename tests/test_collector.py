@@ -207,17 +207,55 @@ class PracticalDevSecOpsTests(unittest.TestCase):
     FIXTURE = (ROOT / 'tests/fixtures/practical-devsecops-2026.html').read_bytes()
     SOURCE = next(x for x in REGISTRY['sources'] if x['id'] == 'practical-devsecops-2026')
 
-    def test_singles_publish_bundles_and_coming_soon_do_not(self):
+    BUNDLE = 'Certified DevSecOps Professional and Certified DevSecOps Expert (CDP + CDE)'
+
+    def bundle_reasons(self, *replacements):
+        body = self.FIXTURE
+        for old, new in replacements:
+            self.assertIn(old.encode(), body)
+            body = body.replace(old.encode(), new.encode())
+        deals, candidates, _ = practical_devsecops.parse(body, self.SOURCE)
+        return [x['product'] for x in deals if '+' in x['product']], [x['reason'] for x in candidates if x['reason'] != 'course_not_yet_available']
+
+    def test_singles_and_verified_bundles_publish_coming_soon_does_not(self):
         deals, candidates, status = practical_devsecops.parse(self.FIXTURE, self.SOURCE)
         self.assertEqual(status, 'confirmed')
         by_name = {x['product']: x for x in deals}
-        self.assertEqual(set(by_name), {'Certified DevSecOps Professional (CDP)', 'Certified AI Security Professional (CAISP)'})
-        self.assertEqual({x['reason'] for x in candidates}, {'bundle_or_unlabelled_pricing_needs_review', 'course_not_yet_available'})
+        self.assertEqual(set(by_name), {'Certified DevSecOps Professional (CDP)', 'Certified AI Security Professional (CAISP)', self.BUNDLE})
+        self.assertEqual({x['reason'] for x in candidates}, {'course_not_yet_available'})
+        bundle = by_name[self.BUNDLE]
+        self.assertEqual((bundle['sale_price'], bundle['regular_price'], bundle['discount_percent']), (1709.1, 2098.0, 18.54))
+        self.assertEqual(bundle['offer_url'], 'https://www.practical-devsecops.com/pre-signup/?course=cdp-cde')
+        self.assertEqual((bundle['currency'], bundle['currency_symbol'], bundle['category']), (None, '$', 'certifications'))
+        self.assertNotEqual(bundle['id'], by_name['Certified DevSecOps Professional (CDP)']['id'])
         cdp = by_name['Certified DevSecOps Professional (CDP)']
         self.assertEqual((cdp['sale_price'], cdp['regular_price'], cdp['discount_percent']), (764.15, 899.0, 15.0))
         self.assertEqual(cdp['offer_url'], 'https://www.practical-devsecops.com/pre-signup/?course=cdp')
         self.assertEqual(cdp['eligibility_basis'], 'explicit_2026')
         self.assertTrue(all(acceptable(x, NOW)[0] for x in deals))
+
+    def test_single_offer_identity_is_unchanged_by_bundle_support(self):
+        # Changing a single's identity would reset its first-seen date and price history.
+        by_name = {x['product']: x['id'] for x in practical_devsecops.parse(self.FIXTURE, self.SOURCE)[0]}
+        self.assertEqual(by_name['Certified DevSecOps Professional (CDP)'], identity({
+            'vendor': 'Practical DevSecOps', 'product': 'Certified DevSecOps Professional (CDP)', 'coupon': None,
+            'billing_period': None, 'scope': ['Individual certification; non-bundle; regional eligibility unspecified']}))
+
+    def test_bundle_needs_matching_vendor_saving(self):
+        self.assertEqual(self.bundle_reasons(('saving $388.90', 'saving $300.00')), ([], ['bundle_saving_does_not_match_prices']))
+        self.assertEqual(self.bundle_reasons(('<div class="bfcm_pricing_save_text">', '<div class="other">')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
+
+    def test_bundle_needs_one_clear_price_pair(self):
+        self.assertEqual(self.bundle_reasons(('$1709.10 →', '$1709.10 or $1500 →')), ([], ['invalid_price_pair']))
+        self.assertEqual(self.bundle_reasons(('$1709.10 →', '$2500 →'), ('saving $388.90', 'saving $-402.00')), ([], ['invalid_price_pair']))
+        self.assertEqual(self.bundle_reasons(('pdso_bundle_discount_price', 'pdso_other_price')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
+
+    def test_bundle_with_coming_soon_course_is_withheld(self):
+        self.assertEqual(self.bundle_reasons(('(CDP + CDE)', '(CDP + CAASE)')), ([], ['bundle_includes_unavailable_course']))
+
+    def test_bundle_without_course_codes_or_off_domain_link_is_withheld(self):
+        self.assertEqual(self.bundle_reasons(('(CDP + CDE)', '')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
+        self.assertEqual(self.bundle_reasons(('/pre-signup/?course=cdp-cde', 'https://elsewhere.example/buy')), ([], ['offer_link_left_vendor_domain']))
 
     def test_usd_only_from_matching_vendor_banner_card(self):
         by_name = {x['product']: x for x in practical_devsecops.parse(self.FIXTURE, self.SOURCE)[0]}
