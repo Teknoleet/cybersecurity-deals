@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T08:46:47Z",
+  "updated_at": "2026-11-08T08:58:28Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -4228,9 +4228,9 @@
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
       "adapter_version": 5,
-      "body_sha256": "90aef5beae67a9910654d58e4de78ef4d3d2b7f42f8da9f03c2e10ac2bbd4108",
+      "body_sha256": "934c2f901177d8daa6214857dd14c134bc0d6234c1c3cfa1f1f02b1481864037",
       "etag": null,
-      "last_modified": "Sun, 08 Nov 2026 08:46:42 GMT",
+      "last_modified": "Sun, 08 Nov 2026 08:58:19 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4378,15 +4378,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "95314bdb7cda7f7338cd04b4228e8308cc22417c4825fb2ba7e6ab37b4e8ca81"
+      "validated_digest": "2a42169433df87d92e822b7927f4b4d8417e2195d2f0159efda621dc5d4f6182"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
       "adapter_version": 5,
-      "body_sha256": "69da2de0c0147ae0d4048cc0a58d0ee55de309066fd851312dd923c8a66835c0",
+      "body_sha256": "c108a40327f3538cca8e2be8dd9d47118601cc241ef700614fb6217b529cf656",
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 21:27:27 GMT",
+      "last_modified": "Sun, 08 Nov 2026 08:58:23 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4457,7 +4457,7 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "4368033ddad3bc35d0b6087d269794820b7f889c02797ee0045d95b3b0dc611c"
+      "validated_digest": "7bbe98691adfc5930a4ec170c3ce9cdad3da9f98487997ee242fb04c8b4873a6"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
@@ -5513,7 +5513,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 5,
-      "body_sha256": "c3500f6b1116178cef75bb97a8ea8b848df9588cda0a39fa3aa1440892fc31cf",
+      "body_sha256": "03f6eccacc4ad1c0d8d7dc9efa03a883fe60b2da2d0de5e29bbd534937b99001",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5587,7 +5587,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
+          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -5608,7 +5608,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "bf4d99a1b421f82cc3c54087a6a7615a846843a17475f3f0048630a8623f2631"
+      "validated_digest": "a27960fd26ddb0d141bd4fe62392b34c9051a065873f5d27c9bebd8fdd81c89d"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5626,7 +5626,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 5,
-      "body_sha256": "60724c84849559d6395eca6fd7531118e47e40d038940a5831b744ff281d20e5",
+      "body_sha256": "80c7e13d9d8fb384dd82d602f8b51e89b200bbcfc961f50e8824c03328f3d6af",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5666,7 +5666,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "12f01a577744acd2661ac05d9f45b7287380379849e94ba7ab2923d4e1fcaf59"
+      "validated_digest": "e3e9619ea0e375b64369ad4e1e065b14a9ca29763e5e07f9ba01ae67657f731d"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",

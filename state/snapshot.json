@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "edition": 2026,
-  "generated_at": "2026-11-08T08:46:47Z",
+  "generated_at": "2026-11-08T08:58:28Z",
   "collection": {
-    "last_completed_at": "2026-11-08T08:46:47Z",
+    "last_completed_at": "2026-11-08T08:58:28Z",
     "source_count": 13,
-    "successful_sources": 9,
-    "failed_sources": 2
+    "successful_sources": 8,
+    "failed_sources": 3
   },
   "sources": [
     {
@@ -16,11 +16,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-08T08:46:35Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:35Z",
+      "last_attempt_at": "2026-11-08T08:58:12Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:13Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Current representation parsed; checkout not tested."
+      "note": "Known master README; discovery only. Current retrieved edition is 2025; historical codes and Q1 2026 dates confer no 2026 eligibility. Matched previously validated representation (304)."
     },
     {
       "id": "github-twf-nikhila",
@@ -29,11 +29,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "discovery",
-      "last_attempt_at": "2026-11-08T08:46:35Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:36Z",
+      "last_attempt_at": "2026-11-08T08:58:13Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:13Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Current representation parsed; checkout not tested."
+      "note": "General developer deals list with a 2026 edition and a small Security & Privacy section; discovery only, no automatic publication. Matched previously validated representation (304)."
     },
     {
       "id": "github-hysnsec",
@@ -42,11 +42,11 @@
       "type": "github",
       "adapter": "github_markdown",
       "status": "historical",
-      "last_attempt_at": "2026-11-08T08:46:36Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:36Z",
+      "last_attempt_at": "2026-11-08T08:58:13Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:14Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Current representation parsed; checkout not tested."
+      "note": "InfoSec list whose heading still names the 2025 edition; classified historical, discovery only. No copied offers. Matched previously validated representation (304)."
     },
     {
       "id": "appsecengineer-pricing",
@@ -55,8 +55,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-08T08:46:36Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:42Z",
+      "last_attempt_at": "2026-11-08T08:58:14Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:19Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Pricing page checked for discovery only; no 2026 campaign evidence, so nothing publishes from it. Current representation parsed; checkout not tested."
@@ -81,8 +81,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "historical",
-      "last_attempt_at": "2026-11-08T08:46:42Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:43Z",
+      "last_attempt_at": "2026-11-08T08:58:19Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:23Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Explicit 2025 article with mixed seasonal banners; historical only, not a current 2026 campaign. Current representation parsed; checkout not tested."
@@ -94,11 +94,11 @@
       "type": "official",
       "adapter": "practical_devsecops",
       "status": "confirmed",
-      "last_attempt_at": "2026-11-08T08:46:43Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:43Z",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_attempt_at": "2026-11-08T08:58:23Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:23Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "offers_count": 20,
-      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Current representation parsed; checkout not tested."
+      "note": "Vendor 2026 Black Friday article with per-certification sale prices. The site labels the same discount a CSA Month Sale banner; expiry shown only as a countdown. Checkout not tested. Matched previously validated representation (304)."
     },
     {
       "id": "dfir-diva-discounts",
@@ -107,7 +107,7 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "unavailable",
-      "last_attempt_at": "2026-11-08T08:46:43Z",
+      "last_attempt_at": "2026-11-08T08:58:23Z",
       "last_successful_fetch_at": null,
       "last_offer_confirmed_at": null,
       "offers_count": 0,
@@ -120,8 +120,8 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-08T08:46:43Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:45Z",
+      "last_attempt_at": "2026-11-08T08:58:24Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:26Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Discovery only; bundle prices and reference prices need current eligible seller corroboration. Current representation parsed; checkout not tested."
@@ -133,7 +133,7 @@
       "type": "roundup",
       "adapter": "html_discovery",
       "status": "unavailable",
-      "last_attempt_at": "2026-11-08T08:46:45Z",
+      "last_attempt_at": "2026-11-08T08:58:26Z",
       "last_successful_fetch_at": "2026-11-04T00:39:15Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
@@ -146,8 +146,8 @@
       "type": "official",
       "adapter": "html_discovery",
       "status": "discovery",
-      "last_attempt_at": "2026-11-08T08:46:46Z",
-      "last_successful_fetch_at": "2026-11-08T08:46:46Z",
+      "last_attempt_at": "2026-11-08T08:58:26Z",
+      "last_successful_fetch_at": "2026-11-08T08:58:28Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
       "note": "Regional specials page; the vendor geo-redirects to a regional edition. Early-bird pricing is not a 2026 campaign; discovery only. Current representation parsed; checkout not tested."
@@ -158,12 +158,12 @@
       "url": "https://www.stacksocial.com",
       "type": "marketplace",
       "adapter": "html_discovery",
-      "status": "discovery",
-      "last_attempt_at": "2026-11-08T08:46:46Z",
+      "status": "unavailable",
+      "last_attempt_at": "2026-11-08T08:58:28Z",
       "last_successful_fetch_at": "2026-11-08T08:46:47Z",
       "last_offer_confirmed_at": null,
       "offers_count": 0,
-      "note": "Marketplace lead only. Software excluded absent seller authorization. A 2026 product name is not campaign evidence; training/books require scoped current seller evidence. Current representation parsed; checkout not tested."
+      "note": "Fetch/extraction unavailable: robots unavailable (403); fail closed. Prior offer confirmation times are unchanged."
     },
     {
       "id": "reddit-cybersecurity-2025",
@@ -224,7 +224,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -283,7 +283,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -343,7 +343,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -402,7 +402,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -462,7 +462,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -522,7 +522,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -582,7 +582,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -641,7 +641,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -700,7 +700,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -760,7 +760,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-08T08:46:43Z",
       "price_history": [
         {
@@ -819,7 +819,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -878,7 +878,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -937,7 +937,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -997,7 +997,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1056,7 +1056,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1115,7 +1115,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1174,7 +1174,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1233,7 +1233,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1292,7 +1292,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
@@ -1351,7 +1351,7 @@
       "ends_at": null,
       "expiry_label": null,
       "verification_status": "vendor_published",
-      "last_offer_confirmed_at": "2026-11-08T08:46:43Z",
+      "last_offer_confirmed_at": "2026-11-08T08:58:23Z",
       "first_seen_at": "2026-11-04T00:36:35Z",
       "price_history": [
         {
