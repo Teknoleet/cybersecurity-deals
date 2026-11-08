@@ -1,10 +1,13 @@
 """Practical DevSecOps' own 2026 Black Friday article (not a general HTML scraper).
 
-Individual certification cards publish from their local reference/sale price pair.
-Bundle cards publish from their dedicated original/discount price fields only when
-the vendor's own "You're saving" amount equals the difference. "Coming Soon" courses,
-and bundles that include one, stay candidates. USD is recorded only when the
-vendor's own banner card states "USD" for the same product and price.
+Being listed in the vendor's 2026 campaign article is the eligibility criterion;
+prices are not checked against history or against each other. Individual
+certification cards publish from their local reference/sale price pair and bundle
+cards from their dedicated original/discount price fields. A reference price that
+is missing or not above the sale price is dropped and the offer publishes with its
+price alone. "Coming Soon" courses, and bundles that include one, are not yet
+purchasable and stay candidates. USD is recorded only when the vendor's own
+banner card states "USD" for the same product and price.
 """
 from __future__ import annotations
 
@@ -34,23 +37,29 @@ def bundle(container, source, coming_soon):
         return None, {'source_id': source['id'], 'product': product, 'reason': reason,
                       'evidence_excerpt': clean(container.get_text(' ', strip=True))[:300]}
     title_node = container.find('p')
-    title = clean(BADGES.sub('', title_node.get_text(' ', strip=True))) if title_node else ''
+    title = ''
+    if title_node:
+        # An unclosed <p> makes html.parser nest the price block inside the title
+        # paragraph (browsers close it). Read the title without nested price,
+        # saving or badge elements; prices come only from their dedicated fields.
+        title_node = BeautifulSoup(str(title_node), 'html.parser')
+        for element in title_node.select('.pdso_menu_pricing, .bfcm_pricing_save_text, .pdso_menu_tag'):
+            element.decompose()
+        title = clean(BADGES.sub('', title_node.get_text(' ', strip=True)))
     codes = CODES.search(title)
     if not title or not codes or '+' not in codes.group(1):
         return reject('bundle_or_unlabelled_pricing_needs_review', title or None)
     included = {x.strip() for x in codes.group(1).split('+')}
     original = container.select('.pdso_bundle_original_price')
     discount = container.select('.pdso_bundle_discount_price')
-    saving = container.select_one('.bfcm_pricing_save_text')
-    if len(original) != 1 or len(discount) != 1 or saving is None:
+    if len(discount) != 1 or len(original) > 1:
         return reject('bundle_or_unlabelled_pricing_needs_review', title)
-    regular, sale = money(original[0].get_text(' ', strip=True)), money(discount[0].get_text(' ', strip=True))
-    stated = re.search(r'saving\s*\$\s*([\d,]+(?:\.\d{1,2})?)', saving.get_text(' ', strip=True), re.I)
-    if regular is None or sale is None or not stated or regular <= 0 or sale < 0 or sale >= regular:
-        return reject('invalid_price_pair', title)
-    # The vendor's own stated saving must agree with the two prices it shows.
-    if regular - sale != Decimal(stated.group(1).replace(',', '')):
-        return reject('bundle_saving_does_not_match_prices', title)
+    sale = money(discount[0].get_text(' ', strip=True))
+    if sale is None:
+        return reject('bundle_or_unlabelled_pricing_needs_review', title)  # No price at all.
+    regular = money(original[0].get_text(' ', strip=True)) if original else None
+    if regular is not None and (regular <= 0 or sale >= regular):
+        regular = None  # Not a crossed-out price; publish the price alone.
     if included & coming_soon:
         return reject('bundle_includes_unavailable_course', title)
     anchor = container.select_one('.pdso_menu_pricing a[href]')
@@ -128,11 +137,10 @@ def parse(body, source):
                 candidates.append({'source_id': source['id'], 'product': fields['title'], 'reason': 'offer_link_left_vendor_domain'})
                 continue
             regular, sale, title = fields['regular'], fields['sale'], fields['title']
-            discount = ((1 - sale / regular) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+            discount = ((1 - sale / regular) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP) if regular else None
             conditions = [
                 f'Certification bundle ({" + ".join(fields["included"])}); the vendor prices the included certifications together.',
                 'Vendor-published pre-signup link; checkout not tested.',
-                'Reference prices are vendor-advertised, not independently verified historical baselines. The vendor\'s stated saving matches the two prices shown.',
                 'Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.',
             ]
             if site_label:
@@ -145,13 +153,15 @@ def parse(body, source):
                 'eligibility_basis': basis, 'eligibility_evidence': dict(evidence, scope='Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article'),
                 'source_id': source['id'], 'source_url': source['url'], 'discovery_urls': [],
                 'offer_url': url, 'coupon': None, 'currency': None, 'currency_symbol': '$',
-                'sale_price': float(sale), 'regular_price': float(regular), 'discount_percent': float(discount),
+                'sale_price': float(sale), 'regular_price': float(regular) if regular else None,
+                'discount_percent': float(discount) if discount is not None else None,
                 'billing_period': None, 'conditions': conditions,
                 'scope': ['Certification bundle; regional eligibility unspecified'],
                 'starts_at': None, 'ends_at': None, 'expiry_label': None,
                 'verification_status': 'vendor_published', 'last_offer_confirmed_at': None,
                 'first_seen_at': None, 'price_history': [],
-                'evidence_excerpt': f'{title}: ${sale} instead of ${regular} ({discount}% off) in "{heading}".',
+                'evidence_excerpt': (f'{title}: ${sale} instead of ${regular} ({discount}% off) in "{heading}".'
+                                     if regular else f'{title}: ${sale} in "{heading}".'),
                 'marketplace': False, 'reference_price_basis': 'vendor_advertised',
             }
             deal['id'] = identity(deal)
@@ -176,10 +186,9 @@ def parse(body, source):
             continue
         regular_text, sale_text = next(iter(matches))
         regular, sale = (Decimal(x.replace(',', '')) for x in (regular_text, sale_text))
-        if regular <= 0 or sale < 0 or sale >= regular:
-            candidates.append({'source_id': source['id'], 'product': title, 'reason': 'invalid_price_pair'})
-            continue
-        discount = ((1 - sale / regular) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+        if regular <= 0 or sale >= regular:
+            regular = None  # Not a crossed-out price; publish the price alone.
+        discount = ((1 - sale / regular) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP) if regular else None
         url = urljoin(ORIGIN + '/', str(anchor['href']))
         if urlsplit(url).hostname != urlsplit(ORIGIN).hostname:
             candidates.append({'source_id': source['id'], 'product': title, 'reason': 'offer_link_left_vendor_domain'})
@@ -190,7 +199,6 @@ def parse(body, source):
         conditions = [
             'Individual certification; bundles are listed as separate offers.',
             'Vendor-published pre-signup link; checkout not tested.',
-            'Reference prices are vendor-advertised, not independently verified historical baselines.',
             'Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.',
         ]
         if site_label:
@@ -203,13 +211,15 @@ def parse(body, source):
             'eligibility_basis': basis, 'eligibility_evidence': dict(evidence),
             'source_id': source['id'], 'source_url': source['url'], 'discovery_urls': [],
             'offer_url': url, 'coupon': None, 'currency': currency, 'currency_symbol': '$',
-            'sale_price': float(sale), 'regular_price': float(regular), 'discount_percent': float(discount),
+            'sale_price': float(sale), 'regular_price': float(regular) if regular else None,
+            'discount_percent': float(discount) if discount is not None else None,
             'billing_period': None, 'conditions': conditions,
             'scope': ['Individual certification; non-bundle; regional eligibility unspecified'],
             'starts_at': None, 'ends_at': None, 'expiry_label': None,
             'verification_status': 'vendor_published', 'last_offer_confirmed_at': None,
             'first_seen_at': None, 'price_history': [],
-            'evidence_excerpt': f'{title}: ${sale_text} instead of ${regular_text} ({discount}% off) in "{heading}".',
+            'evidence_excerpt': (f'{title}: ${sale_text} instead of ${regular_text} ({discount}% off) in "{heading}".'
+                                 if regular else f'{title}: ${sale_text} in "{heading}".'),
             'marketplace': False, 'reference_price_basis': 'vendor_advertised',
         }
         deal['id'] = identity(deal)

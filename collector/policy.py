@@ -139,14 +139,8 @@ def deduplicate(deals):
         groups.setdefault(item['id'], []).append(item)
     public, conflicts = [], []
     for key, items in groups.items():
-        prices = {(x.get('sale_price'), x.get('regular_price'), x.get('currency'),
-                   x.get('currency_symbol'), x.get('discount_percent')) for x in items}
-        if len(prices) > 1:
-            conflicts.append({'reason': 'conflicting_prices', 'deal_id': key,
-                              'offers': items})
-            continue
-        # A stale retained source must not override a newly confirmed identical
-        # observation merely because it appeared first in the combined list.
+        # Prices are not cross-checked: when the same offer appears more than once,
+        # the most recently confirmed record (and its price) is published.
         first = max(items, key=lambda x: x.get('last_offer_confirmed_at') or '')
         first_seen = [x.get('first_seen_at') for x in items if x.get('first_seen_at')]
         if first_seen:
@@ -190,14 +184,6 @@ def observe(deal, previous, now):
     deal['id'] = identity(deal)
     deal['last_offer_confirmed_at'] = now
     deal['first_seen_at'] = previous.get('first_seen_at', now) if previous else now
-    history = deepcopy(previous.get('price_history', [])) if previous else []
-    # Unknown currencies are not comparable to an ISO currency. Reset when the
-    # underlying currency changes even though the offer identity remains stable.
-    if previous and (previous.get('currency'), previous.get('currency_symbol')) != (deal.get('currency'), deal.get('currency_symbol')):
-        history = []
-    price = deal.get('sale_price')
-    observation = {'at': now, 'price': price, 'currency': deal.get('currency')}
-    if price is not None and (not history or history[-1]['price'] != price or history[-1]['currency'] != deal.get('currency')):
-        history.append(observation)
-    deal['price_history'] = history[-90:]
+    # No price history is kept: the current vendor price is the only price shown.
+    deal['price_history'] = []
     return deal

@@ -44,7 +44,7 @@ An offer needs either explicit **2026 offer/campaign evidence**, or a credible *
 
 Date eligibility is not proof that an offer remains redeemable. Historical, expired, conflicting, unsupported, and date-ambiguous candidates stay out of current results. Future offers are labeled upcoming. Missing expiry, price, timezone, VAT, or renewal terms remain unknown. The edition stays 2026 until a reviewed lifecycle decision changes it.
 
-Cards distinguish **Vendor-published**, **Marketplace-published**, and **Stale — recheck pending**. These describe evidence, not successful checkout or product endorsement. Original currencies and billing periods are preserved; an advertised crossed-out reference price is not a verified historical baseline. Any lowest-observed claim starts only when comparable tracking began. Third-party book and training bundles identify the seller; software-license offers require established seller authorization.
+Cards distinguish **Vendor-published**, **Marketplace-published**, and **Stale — recheck pending**. These describe evidence, not successful checkout or product endorsement. Original currencies and billing periods are preserved. Prices are shown as the vendor currently publishes them: there is no price history and no cross-checking of prices, and an offer without a crossed-out price simply shows its price. Third-party book and training bundles identify the seller; software-license offers require established seller authorization.
 
 ## Freshness and source limitations
 

@@ -35,3 +35,7 @@ The owner removed TrainSec from the source registry. Its 33 offers left the publ
 ## Structured-data adapter, 7 November 2026
 
 A config-driven `structured_offers` adapter publishes schema.org `Offer` data from a vendor's own 2026 campaign page, under the same evidence bar as the maintained adapters; see [operations](../docs/operations.md#adding-a-vendor-with-structured-data-no-new-parser). Independently of any adapter, the collector now refuses to publish offers from a source that is not `type: official` on a hostname in `supported_official_domains`. No vendor is registered for the new adapter yet. Collector tests now total 74.
+
+## Current prices only, 8 November 2026
+
+By owner decision, prices are no longer a publication filter. No price history is kept (`price_history` stays empty), offers with the same identity publish the most recently confirmed price instead of being quarantined, and adapters no longer withhold 2026 offers over a missing or non-higher reference price, an invalid currency code or a stated saving that disagrees with the prices; such offers show their price alone or an unspecified currency. Offers with no price at all, "Coming Soon" courses, off-domain links and non-2026 evidence are still withheld.

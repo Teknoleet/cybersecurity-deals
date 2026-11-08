@@ -66,6 +66,17 @@ class StaticBuildTests(unittest.TestCase):
         visible = html.split('<details', 1)[0]
         self.assertIn('Upcoming · Recheck pending', visible)
 
+    def test_price_only_offer_renders_without_reference_or_history(self):
+        deal = prepare_deals({'deals': [self.offer(regular_price=None, discount_percent=None,
+                                                   price_history=[{'at': '2026-11-01T00:00:00Z', 'price': 90, 'currency': None}])]}, DEFAULT_TAXONOMY)[0]
+        env = Environment(loader=FileSystemLoader(ROOT / 'web/templates'), autoescape=True)
+        render_card = getattr(env.get_template('card.html').module, 'offer_card')
+        html = str(render_card(deal, {'training': 'Training & Labs'}, {'appsec': 'AppSec'}))
+        self.assertIn('$60', html)
+        self.assertNotIn('<del', html)
+        self.assertNotIn('% off', html.lower())
+        self.assertNotIn('Observed price', html)
+
     def test_structured_data_never_invents_currency_and_is_script_safe(self):
         deals = prepare_deals({'deals': [self.offer(), self.offer(id='eur', currency='EUR', product='</script><b>x', offer_url='https://example.com/eur')]}, DEFAULT_TAXONOMY)
         context = {'deals': deals, 'collection': {'last_completed_at': None}, 'category_labels': {'training': 'Training & Labs'}}
