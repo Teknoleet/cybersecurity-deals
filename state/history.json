@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T01:50:36Z",
+  "updated_at": "2026-11-08T08:46:47Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 4,
+      "adapter_version": 5,
       "body_sha256": "d61653990022e1240f7b4004129136801d3ed856f77d435d9a7e04c8f2c337c1",
       "etag": "W/\"0dc501722dd2e2f0a9e2d08a39c38aaf1264c4f70e95e27009e2eab3d86e4723\"",
       "last_modified": null,
@@ -1183,7 +1183,7 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "70db146d1ec0b5dcf3cabdbe74ff06a6c900a697f6f84f3e35e555649086dab2"
+      "validated_digest": "848a87ab0e787633d4bd724740a45f2293ce0719ead9130a4d4dbfa7b3c0abaf"
     },
     "trainsec-black-friday": {
       "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
@@ -2961,7 +2961,7 @@
     "github-twf-nikhila": {
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 4,
+      "adapter_version": 5,
       "body_sha256": "85f11d50a6779c3e1806e74029e0ad77388548d4187638e07a943195171bd878",
       "etag": "W/\"31f6e6f2547177d5dda12db2ad95f984f16a8e1fd85d3b1346f7a5478f06f11d\"",
       "last_modified": null,
@@ -4119,12 +4119,12 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "ceef9ca5611336bb7b090a0cec3a9dc3c50bef8fcbfdfda87ac77fe2017d8d73"
+      "validated_digest": "926e1965d6658d55c98a63810d594b505a2903ca448021f885b9c68dc03171df"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 4,
+      "adapter_version": 5,
       "body_sha256": "10fb8f6c440f5b1651fe775cadf8691b3b7d716f2c8eed26614247bbe804790a",
       "etag": "W/\"4b3b8b4060fdff44968ebd8d0fd44f209d22a5aecf8083d05995cec476ed3220\"",
       "last_modified": null,
@@ -4222,15 +4222,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "7b5a8680dfd5766915980fdc3cb1e20615e288668e34f5a20fb5b07f282964ba"
+      "validated_digest": "a27ada8e94ce85e5c57329f5abbf5402ef1411fc24af01acec1d6276063997da"
     },
     "appsecengineer-pricing": {
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "a6d7b604a7c5a6029235dcaa25791c420b0715d5d91fa21130bf678c7e8984f7",
+      "adapter_version": 5,
+      "body_sha256": "90aef5beae67a9910654d58e4de78ef4d3d2b7f42f8da9f03c2e10ac2bbd4108",
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 14:19:24 GMT",
+      "last_modified": "Sun, 08 Nov 2026 08:46:42 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4378,15 +4378,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "c375c5b1b62a2abce7ea8bb6d9bc2b095dc6f336a8978f9744ccf1b07e5cad4a"
+      "validated_digest": "95314bdb7cda7f7338cd04b4228e8308cc22417c4825fb2ba7e6ab37b4e8ca81"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "ae88bb5665df898bf43a139d0c8905f65f37113eee215a65517383db3c63a001",
+      "adapter_version": 5,
+      "body_sha256": "69da2de0c0147ae0d4048cc0a58d0ee55de309066fd851312dd923c8a66835c0",
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 21:54:09 GMT",
+      "last_modified": "Sat, 07 Nov 2026 21:27:27 GMT",
       "deals": [],
       "candidates": [
         {
@@ -4457,15 +4457,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "ba5427a264354009bf7f301cb418d59174d7aea843755857259f927100e679e9"
+      "validated_digest": "4368033ddad3bc35d0b6087d269794820b7f889c02797ee0045d95b3b0dc611c"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
-      "adapter_version": 4,
-      "body_sha256": "a7949e799f3e5ef4e90b2b9bee2f4e5e30d5829ab5ea784a2b5f478acefa4779",
+      "adapter_version": 5,
+      "body_sha256": "cd505fe11215379fad1a6e1fd818473d508d2ab773434c1419021497589c32cb",
       "etag": null,
-      "last_modified": "Sat, 07 Nov 2026 18:55:09 GMT",
+      "last_modified": "Sun, 08 Nov 2026 06:36:18 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -4497,7 +4497,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4547,7 +4547,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4597,7 +4597,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4647,7 +4647,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4697,7 +4697,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4748,7 +4748,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4798,7 +4798,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4848,7 +4848,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4898,7 +4898,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4948,7 +4948,7 @@
           "discount_percent": 15.0,
           "billing_period": null,
           "conditions": [
-            "Individual certification; bundles are priced separately and not listed here.",
+            "Individual certification; bundles are listed as separate offers.",
             "Vendor-published pre-signup link; checkout not tested.",
             "Reference prices are vendor-advertised, not independently verified historical baselines.",
             "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
@@ -4967,6 +4967,512 @@
           "evidence_excerpt": "Certified Security Champion (CSC): $509.15 instead of $599 (15.00% off) in \"Best InfoSec Black Friday Deals 2026\".",
           "marketplace": false,
           "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "dae0e9e7e59ac950810a91bc",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and Certified DevSecOps Expert (CDP + CDE)",
+          "description": "Certification bundle: Certified DevSecOps Professional and Certified DevSecOps Expert (CDP + CDE).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-cde",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1709.1,
+          "regular_price": 2098.0,
+          "discount_percent": 18.54,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CDE + CDP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and Certified DevSecOps Expert (CDP + CDE): $1709.10 instead of $2098 (18.54% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "cebce5c019096414fb862b79",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and Certified Container Security Expert (CDP + CCSE)",
+          "description": "Certification bundle: Certified DevSecOps Professional and Certified Container Security Expert (CDP + CCSE).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-ccse",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1214.1,
+          "regular_price": 1498.0,
+          "discount_percent": 18.95,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CCSE + CDP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and Certified Container Security Expert (CDP + CCSE): $1214.10 instead of $1498 (18.95% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "2a7e4c71be18bc3b37cde8af",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and Threat Modeling Professional (CDP + CTMP)",
+          "description": "Certification bundle: Certified DevSecOps Professional and Threat Modeling Professional (CDP + CTMP).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops",
+            "appsec"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-ctmp",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1439.1,
+          "regular_price": 1798.0,
+          "discount_percent": 19.96,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CDP + CTMP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and Threat Modeling Professional (CDP + CTMP): $1439.10 instead of $1798 (19.96% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "a1591b84f203c7f84c8689df",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and API Security Pro (CDP + CASP)",
+          "description": "Certification bundle: Certified DevSecOps Professional and API Security Pro (CDP + CASP).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops",
+            "appsec"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-casp",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1439.1,
+          "regular_price": 1798.0,
+          "discount_percent": 19.96,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CASP + CDP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and API Security Pro (CDP + CASP): $1439.10 instead of $1798 (19.96% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "d66cd6b18e617809beb5d6f2",
+          "vendor": "Practical DevSecOps",
+          "product": "DevSecOps Professional and AI Security Professional (CDP + CAISP)",
+          "description": "Certification bundle: DevSecOps Professional and AI Security Professional (CDP + CAISP).",
+          "category": "certifications",
+          "topics": [
+            "ai-security",
+            "cloud-devsecops"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-caisp",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1619.1,
+          "regular_price": 2098.0,
+          "discount_percent": 22.83,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CAISP + CDP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "DevSecOps Professional and AI Security Professional (CDP + CAISP): $1619.10 instead of $2098 (22.83% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "b243f65af5a7293327053dd2",
+          "vendor": "Practical DevSecOps",
+          "product": "AI Security Professional and MCP Security Expert (CAISP + CMCPSE)",
+          "description": "Certification bundle: AI Security Professional and MCP Security Expert (CAISP + CMCPSE).",
+          "category": "certifications",
+          "topics": [
+            "ai-security",
+            "mcp-security"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=caisp-cmcpse",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1456.1,
+          "regular_price": 1898.0,
+          "discount_percent": 23.28,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CAISP + CMCPSE); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "AI Security Professional and MCP Security Expert (CAISP + CMCPSE): $1456.10 instead of $1898 (23.28% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "e8762b59edb9d482321d26a9",
+          "vendor": "Practical DevSecOps",
+          "product": "Certified DevSecOps Professional and Software Supply Chain Security Expert (CDP + CSSE)",
+          "description": "Certification bundle: Certified DevSecOps Professional and Software Supply Chain Security Expert (CDP + CSSE).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops",
+            "appsec"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=cdp-csse",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1376.1,
+          "regular_price": 1698.0,
+          "discount_percent": 18.96,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CDP + CSSE); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Certified DevSecOps Professional and Software Supply Chain Security Expert (CDP + CSSE): $1376.10 instead of $1698 (18.96% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "4937b31fa3bf003bc7674193",
+          "vendor": "Practical DevSecOps",
+          "product": "Threat Modeling Professional and API Security Professional (CTMP + CASP)",
+          "description": "Certification bundle: Threat Modeling Professional and API Security Professional (CTMP + CASP).",
+          "category": "certifications",
+          "topics": [
+            "appsec"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ctmp-casp",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1439.1,
+          "regular_price": 1798.0,
+          "discount_percent": 19.96,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CASP + CTMP); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Threat Modeling Professional and API Security Professional (CTMP + CASP): $1439.10 instead of $1798 (19.96% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "33987cb09609b0042580e4ba",
+          "vendor": "Practical DevSecOps",
+          "product": "Container Security Expert and Cloud Native Security Expert (CCSE + CCNSE)",
+          "description": "Certification bundle: Container Security Expert and Cloud Native Security Expert (CCSE + CCNSE).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ccse-ccnse",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1295.1,
+          "regular_price": 1598.0,
+          "discount_percent": 18.95,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CCNSE + CCSE); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Container Security Expert and Cloud Native Security Expert (CCSE + CCNSE): $1295.10 instead of $1598 (18.95% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "93050942623b891317beb8ab",
+          "vendor": "Practical DevSecOps",
+          "product": "Container Security Expert and Cloud Native Security Expert and API Security Pro (CCSE + CCNSE + CASP)",
+          "description": "Certification bundle: Container Security Expert and Cloud Native Security Expert and API Security Pro (CCSE + CCNSE + CASP).",
+          "category": "certifications",
+          "topics": [
+            "cloud-devsecops",
+            "appsec"
+          ],
+          "campaign_type": "black_friday",
+          "campaign_year": 2026,
+          "eligibility_basis": "explicit_2026",
+          "eligibility_evidence": {
+            "campaign_text": "Best InfoSec Black Friday Deals 2026 Your customers want doorbusters. Attackers want your doors. Black Friday 2026 brings bot swarms, credential stuffing and cloned checkout pages, all aimed at your stack during its loudest week. Meanwhile, your unspent training budget quietly expires in January. Here’s the math nobody wants to do: one forgotten API endpoint plus one stale container image can turn record revenue into a breach headline. Practical DevSecOps turns that equation around. Across 11 hands-on certifications, your engineers learn to lock down APIs, containers, AI systems and supply chains by doing the work, in live labs, against real attacks. More than 12,500 security pros have already sharpened their skills there. Now it’s 15% off. Buy this week, start whenever you like, and let attackers find the doors already shut. CSA MONTH SALE · AI Security Course Certified AI Security Professional CSA MONTH SALE · Kubernetes Security Certified Cloud Native Security Expert CSA MONTH SALE · DevSecOps Course Certified DevSecOps Professional CSA MONTH SALE · AI Threat Modeling Certified Threat Modeling Professional CSA MONTH SALE · API Security Course Certified API Security Professional CSA MONTH SALE · Software Supply Chain Security Certified Software Supply Chain Security Expert CSA MONTH SALE · MCP Security Course Certified MCP Security Expert CSA MONTH SALE · Container Security Certified Container Security Expert CSA MONTH SALE · Security Certified Security Champion CSA MONTH S",
+            "official_corroboration": true,
+            "scope": "Certification bundle cards with their own advertised original and discount prices in the vendor 2026 article",
+            "checkout_tested": false
+          },
+          "source_id": "practical-devsecops-2026",
+          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "discovery_urls": [],
+          "offer_url": "https://www.practical-devsecops.com/pre-signup/?course=ccse-ccnse-casp",
+          "coupon": null,
+          "currency": null,
+          "currency_symbol": "$",
+          "sale_price": 1799.1,
+          "regular_price": 2497.0,
+          "discount_percent": 27.95,
+          "billing_period": null,
+          "conditions": [
+            "Certification bundle (CASP + CCNSE + CCSE); the vendor prices the included certifications together.",
+            "Vendor-published pre-signup link; checkout not tested.",
+            "Reference prices are vendor-advertised, not independently verified historical baselines. The vendor's stated saving matches the two prices shown.",
+            "Expiry is shown by the vendor only as a countdown; no end date is established. Tax/VAT and regional eligibility not established.",
+            "The vendor site currently labels the same discount \"CSA Month Sale\"; the 2026 Black Friday article lists these prices."
+          ],
+          "scope": [
+            "Certification bundle; regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Container Security Expert and Cloud Native Security Expert and API Security Pro (CCSE + CCNSE + CASP): $1799.10 instead of $2497 (27.95% off) in \"Best InfoSec Black Friday Deals 2026\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
         }
       ],
       "candidates": [
@@ -4977,97 +5483,37 @@
         },
         {
           "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and Certified DevSecOps Expert (CDP + CDE) Best Value $2098 $1709.10 → You’re saving $388.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and Certified Container Security Expert (CDP + CCSE) $1498 $1214.10 → You’re saving $283.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
+          "product": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90",
           "reason": "bundle_or_unlabelled_pricing_needs_review",
           "evidence_excerpt": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90"
         },
         {
           "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and Threat Modeling Professional (CDP + CTMP) $1798 $1439.10 → You’re saving $358.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and API Security Pro (CDP + CASP) $1798 $1439.10 → You’re saving $358.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "DevSecOps Professional and AI Security Professional (CDP + CAISP) Best Seller Best Value $2098 $1619.10 → You’re saving $478.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
+          "product": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE)",
+          "reason": "bundle_includes_unavailable_course",
           "evidence_excerpt": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE) Best Value $2098 $1619.10 → You’re saving $478.90"
         },
         {
           "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
+          "product": "MCP Security Expert and Agentic AI Security Expert (CMCPSE + CAASE)",
+          "reason": "bundle_includes_unavailable_course",
           "evidence_excerpt": "MCP Security Expert and Agentic AI Security Expert (CMCPSE + CAASE) Best Value $1598 $1295.10 → You’re saving $302.90"
         },
         {
           "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "AI Security Professional and MCP Security Expert (CAISP + CMCPSE) Best Seller Best Value $1898 $1456.10 → You’re saving $441.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Certified DevSecOps Professional and Software Supply Chain Security Expert (CDP + CSSE) $1698 $1376.10 → You’re saving $321.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Threat Modeling Professional and API Security Professional (CTMP + CASP) $1798 $1439.10 → You’re saving $358.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Container Security Expert and Cloud Native Security Expert (CCSE + CCNSE) $1598 $1295.10 → You’re saving $302.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
+          "product": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE)",
+          "reason": "bundle_includes_unavailable_course",
           "evidence_excerpt": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE) Best Value $2797 $2186.10 → You’re saving $610.90"
-        },
-        {
-          "source_id": "practical-devsecops-2026",
-          "source_url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
-          "reason": "bundle_or_unlabelled_pricing_needs_review",
-          "evidence_excerpt": "Container Security Expert and Cloud Native Security Expert and API Security Pro (CCSE + CCNSE + CASP) Best Value $2497 $1799.10 → You’re saving $697.90"
         }
       ],
       "status": "confirmed",
-      "validated_digest": "dd5419cfd855cc6e18708780ea014eb6601a17398f3dbe9c39a472d8048c684a"
+      "validated_digest": "e33e451f3d8c5ee1740de75d1f4ad1cda0f1d50067a4923aa06923a6512588ff"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "559adb6cd5ad91c2639761c52a71dfbc8ffbfc60e5064389714180f80862164a",
+      "adapter_version": 5,
+      "body_sha256": "c3500f6b1116178cef75bb97a8ea8b848df9588cda0a39fa3aa1440892fc31cf",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5162,7 +5608,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "8d58d99569cc59e2f8f4befe3040234f8f7ef797bdc6e9f6bdeb9c105f9d286a"
+      "validated_digest": "bf4d99a1b421f82cc3c54087a6a7615a846843a17475f3f0048630a8623f2631"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -5179,8 +5625,8 @@
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "b35d490180187688cfc5961984509cdb363bf7d38865001db8711ccc1233bd5c",
+      "adapter_version": 5,
+      "body_sha256": "60724c84849559d6395eca6fd7531118e47e40d038940a5831b744ff281d20e5",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -5220,14 +5666,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "fec79aa99defc5d0f2dc0aa94aeba33c84317662b627d31aefe40037f4195d14"
+      "validated_digest": "12f01a577744acd2661ac05d9f45b7287380379849e94ba7ab2923d4e1fcaf59"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "fce38892e63c60eae9c322b449b4e7ea278d7d7ac742eb8f43d226f7cd8f7012",
-      "etag": "W/\"fce38892e63c60eae9c322b449b4e7ea\"",
+      "adapter_version": 5,
+      "body_sha256": "105f9b48d12a1140dd1f74f7f086ff02af7674510730d2545b793ba42ded8061",
+      "etag": "W/\"105f9b48d12a1140dd1f74f7f086ff02\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -5321,7 +5767,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "bf0a0757c465c70e9fd08003e7e1d4159cde46f78eb14a9c5d8a214d9279c75a"
+      "validated_digest": "5503f3e414a9d6b761381278261c3c11ba7307bab8fde477392bb63dc60c8a57"
     }
   },
   "candidates": [
@@ -8555,6 +9001,30 @@
       "entry_status": "discovered",
       "campaign_year": null,
       "automatic_publication": false
+    },
+    {
+      "source_id": "practical-devsecops-2026",
+      "product": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90",
+      "reason": "bundle_or_unlabelled_pricing_needs_review",
+      "evidence_excerpt": "Certified DevSecOps Professional and Cloud-Native Security Expert (CDP + CCNSE) $1898 $1529.10 → You’re saving $368.90"
+    },
+    {
+      "source_id": "practical-devsecops-2026",
+      "product": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE)",
+      "reason": "bundle_includes_unavailable_course",
+      "evidence_excerpt": "AI Security Professional and Agentic AI Security Expert (CAISP + CAASE) Best Value $2098 $1619.10 → You’re saving $478.90"
+    },
+    {
+      "source_id": "practical-devsecops-2026",
+      "product": "MCP Security Expert and Agentic AI Security Expert (CMCPSE + CAASE)",
+      "reason": "bundle_includes_unavailable_course",
+      "evidence_excerpt": "MCP Security Expert and Agentic AI Security Expert (CMCPSE + CAASE) Best Value $1598 $1295.10 → You’re saving $302.90"
+    },
+    {
+      "source_id": "practical-devsecops-2026",
+      "product": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE)",
+      "reason": "bundle_includes_unavailable_course",
+      "evidence_excerpt": "AI Security Professional and MCP Security Expert and Agentic AI Security Expert (CAISP + CMCPSE + CAASE) Best Value $2797 $2186.10 → You’re saving $610.90"
     }
   ],
   "reviewed_evidence": [
