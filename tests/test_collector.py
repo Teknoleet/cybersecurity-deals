@@ -241,13 +241,28 @@ class PracticalDevSecOpsTests(unittest.TestCase):
             'vendor': 'Practical DevSecOps', 'product': 'Certified DevSecOps Professional (CDP)', 'coupon': None,
             'billing_period': None, 'scope': ['Individual certification; non-bundle; regional eligibility unspecified']}))
 
-    def test_bundle_needs_matching_vendor_saving(self):
-        self.assertEqual(self.bundle_reasons(('saving $388.90', 'saving $300.00')), ([], ['bundle_saving_does_not_match_prices']))
-        self.assertEqual(self.bundle_reasons(('<div class="bfcm_pricing_save_text">', '<div class="other">')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
+    def bundle_deal(self, *replacements):
+        body = self.FIXTURE
+        for old, new in replacements:
+            body = body.replace(old.encode(), new.encode())
+        return next(x for x in practical_devsecops.parse(body, self.SOURCE)[0] if '+' in x['product'])
 
-    def test_bundle_needs_one_clear_price_pair(self):
-        self.assertEqual(self.bundle_reasons(('$1709.10 →', '$1709.10 or $1500 →')), ([], ['invalid_price_pair']))
-        self.assertEqual(self.bundle_reasons(('$1709.10 →', '$2500 →'), ('saving $388.90', 'saving $-402.00')), ([], ['invalid_price_pair']))
+    def test_bundle_prices_are_not_cross_checked(self):
+        # The vendor's stated saving is not compared with the prices; a 2026 listing qualifies.
+        deal = self.bundle_deal(('saving $388.90', 'saving $300.00'))
+        self.assertEqual((deal['sale_price'], deal['regular_price'], deal['discount_percent']), (1709.1, 2098.0, 18.54))
+        deal = self.bundle_deal(('<div class="bfcm_pricing_save_text">', '<div class="other">'))
+        self.assertEqual(deal['sale_price'], 1709.1)
+
+    def test_bundle_without_crossed_out_price_publishes_price_alone(self):
+        for replacements in ([('$1709.10 →', '$2500 →')], [('<span class="pdso_bundle_original_price"> $2098</span>', '')]):
+            deal = self.bundle_deal(*replacements)
+            self.assertIsNone(deal['regular_price'])
+            self.assertIsNone(deal['discount_percent'])
+            self.assertTrue(acceptable(deal, NOW)[0])
+
+    def test_bundle_without_a_readable_price_is_withheld(self):
+        self.assertEqual(self.bundle_reasons(('$1709.10 →', '$1709.10 or $1500 →')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
         self.assertEqual(self.bundle_reasons(('pdso_bundle_discount_price', 'pdso_other_price')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
 
     def test_bundle_title_survives_unclosed_paragraph(self):
@@ -296,7 +311,8 @@ class StructuredOffersTests(unittest.TestCase):
         deals, candidates, status = self.parse()
         self.assertEqual(status, 'confirmed')
         by_name = {x['product']: x for x in deals}
-        self.assertEqual(set(by_name), {'Red Team Operator', 'Lab Subscription — Annual'})
+        self.assertEqual(set(by_name), {'Red Team Operator', 'Lab Subscription — Annual', 'Lab Subscription — Monthly',
+                                        'Exam Voucher', 'Mystery Box'})
         rto = by_name['Red Team Operator']
         self.assertEqual((rto['sale_price'], rto['regular_price'], rto['discount_percent'], rto['currency']), (150.0, 300.0, 50.0, 'USD'))
         self.assertEqual(rto['offer_url'], 'https://www.vendor.example/courses/rto')
@@ -305,13 +321,16 @@ class StructuredOffersTests(unittest.TestCase):
         labs = by_name['Lab Subscription — Annual']
         self.assertEqual(labs['offer_url'], 'https://checkout.vendor.example/labs/annual')
         self.assertEqual(labs['starts_at'], '2026-11-20T00:00:00Z')
+        # Price-only offers publish; no reference price, discount or currency is invented.
+        for name, expected in (('Lab Subscription — Monthly', (25.0, None, None, 'EUR')),
+                               ('Exam Voucher', (500.0, None, None, 'USD')),
+                               ('Mystery Box', (10.0, 20.0, 50.0, None))):
+            d = by_name[name]
+            self.assertEqual((d['sale_price'], d['regular_price'], d['discount_percent'], d['currency']), expected, name)
         self.assertEqual({x['product']: x['reason'] for x in candidates if 'product' in x}, {
-            'Lab Subscription': 'structured_offer_missing_reference_price',
             'Range Bundle': 'aggregate_offer_needs_review',
             'Partner Course': 'offer_link_left_vendor_domain',
-            'Badge Kit': 'structured_offer_not_available',
-            'Exam Voucher': 'invalid_price_pair',
-            'Mystery Box': 'structured_offer_missing_currency'})
+            'Badge Kit': 'structured_offer_not_available'})
         self.assertIn('malformed_structured_data', {x['reason'] for x in candidates})
         self.assertTrue(all(x['coupon'] is None for x in deals))
         self.assertNotIn('SAVE2026', str(deals))
@@ -326,7 +345,8 @@ class StructuredOffersTests(unittest.TestCase):
         self.assertEqual(self.parse(body)[0], [])
 
     def test_campaign_without_publishable_offers_is_discovery(self):
-        body = self.FIXTURE.replace(b'ListPrice', b'SalePrice').replace(b'StrikethroughPrice', b'SalePrice')
+        ld = {'@type': 'Product', 'name': 'No price', 'offers': {'@type': 'Offer', 'priceCurrency': 'USD'}}
+        body = f'<h1>Black Friday 2026</h1><script type="application/ld+json">{json.dumps(ld)}</script>'.encode()
         deals, candidates, status = self.parse(body)
         self.assertEqual((deals, status), ([], 'discovery'))
         self.assertIn('structured_campaign_without_publishable_offers', {x['reason'] for x in candidates})
@@ -380,14 +400,21 @@ class StructuredOffersTests(unittest.TestCase):
                     {'priceValidUntil': 'end of month'}, {'validFrom': 'soon'}):
             self.assertEqual(self.probe(**bad), ([], ['invalid_structured_date']), bad)
 
-    def test_hostile_or_ambiguous_prices_do_not_publish(self):
+    def test_unclear_reference_or_currency_is_dropped_not_withheld(self):
         list_price = lambda price, currency='USD': {'priceType': 'https://schema.org/ListPrice', 'price': price, 'priceCurrency': currency}
-        self.assertEqual(self.probe(priceSpecification=[list_price(10), list_price(12)]), ([], ['ambiguous_reference_price']))
-        self.assertEqual(self.probe(priceSpecification=list_price(10, 'EUR')), ([], ['structured_offer_missing_reference_price']))
+        for spec in ([list_price(10), list_price(12)], list_price(10, 'EUR'), list_price(5), list_price(3)):
+            deals, reasons = self.probe(priceSpecification=spec)
+            self.assertEqual(reasons, [], spec)
+            self.assertEqual((deals[0]['sale_price'], deals[0]['regular_price'], deals[0]['discount_percent']), (5.0, None, None), spec)
+        deal = self.probe(priceCurrency='US Dollars')[0][0]
+        self.assertEqual((deal['currency'], deal['regular_price']), (None, 10.0))
+        self.assertTrue(acceptable(deal, NOW)[0])
+
+    def test_offer_without_any_usable_price_is_withheld(self):
         for price in (-5, 'NaN', 'Infinity', True, None, 'free', ''):
             self.assertEqual(self.probe(price=price), ([], ['structured_offer_missing_price']), price)
-        self.assertEqual(self.probe(priceCurrency='US Dollars'), ([], ['structured_offer_missing_currency']))
-        self.assertEqual(self.probe(price='1,250.50', priceSpecification=list_price('2,501'))[0][0]['sale_price'], 1250.5)
+        spec = {'priceType': 'https://schema.org/ListPrice', 'price': '2,501', 'priceCurrency': 'USD'}
+        self.assertEqual(self.probe(price='1,250.50', priceSpecification=spec)[0][0]['sale_price'], 1250.5)
 
     def test_offer_examination_is_bounded(self):
         offer = {'@type': 'Offer', 'price': 1, 'priceCurrency': 'USD',
@@ -406,13 +433,14 @@ class StructuredOffersTests(unittest.TestCase):
         self.assertEqual(snap['deals'], [])
         self.assertEqual(snap['sources'][0]['status'], 'unavailable')
         snap, _, _, _ = collect_once(response, reg=self.reg('www.vendor.example'))
-        self.assertEqual(len(snap['deals']), 2)
+        self.assertEqual(len(snap['deals']), 5)
         self.assertEqual(snap['sources'][0]['status'], 'confirmed')
         self.assertTrue(validate_snapshot(snap))
         upcoming = next(x for x in snap['deals'] if x['product'] == 'Lab Subscription — Annual')
         self.assertEqual(upcoming['offer_timing'], 'upcoming')
         later, _, _, _ = collect_once(FetchError('blocked'), snap, at='2026-12-02T12:00:00Z', reg=self.reg('www.vendor.example'))
-        self.assertEqual([x['product'] for x in later['deals']], ['Lab Subscription — Annual'])
+        self.assertEqual({x['product'] for x in later['deals']},
+                         {'Lab Subscription — Annual', 'Lab Subscription — Monthly', 'Exam Voucher', 'Mystery Box'})
 
 
 class HtmlDiscoveryTests(unittest.TestCase):
@@ -460,7 +488,7 @@ class LifecycleTests(unittest.TestCase):
         self.assertTrue(all(x['last_offer_confirmed_at'] == LATER for x in later['deals']))
         self.assertEqual(f.fetch.call_args.kwargs['headers']['If-None-Match'], '"real-1"')
         self.assertTrue(all(x['first_seen_at'] == NOW for x in later['deals']))
-        self.assertTrue(all(len(x['price_history']) == 1 for x in later['deals']))
+        self.assertTrue(all(x['price_history'] == [] for x in later['deals']))
 
     def test_bare_304_does_not_create_or_confirm_offers(self):
         snap, _, _, _ = collect_once(result(status=304))
@@ -523,12 +551,15 @@ class IdentityHistoryOverrideTests(unittest.TestCase):
         self.assertEqual(len(deals[0]['discovery_urls']), 2)
         self.assertEqual(len(deals[0]['provenance']), 2)
 
-    def test_conflicting_prices_are_quarantined_not_stale(self):
-        a, b = offer(), offer()
-        b['sale_price'] = 900
-        deals, conflicts = deduplicate([a, b])
-        self.assertEqual(deals, [])
-        self.assertEqual(conflicts[0]['reason'], 'conflicting_prices')
+    def test_differing_prices_publish_the_most_recent_confirmation(self):
+        # Prices are not cross-checked; the newest confirmed record wins.
+        older, newer = observe(offer(), None, NOW), observe(offer(), None, LATER)
+        newer['sale_price'] = 900
+        deals, conflicts = deduplicate([newer, older])
+        self.assertEqual((len(deals), conflicts), (1, []))
+        self.assertEqual(deals[0]['sale_price'], 900)
+        deals, _ = deduplicate([older, newer])
+        self.assertEqual(deals[0]['sale_price'], 900)
 
     def test_fresh_identical_evidence_wins_over_stale_source(self):
         stale = observe(offer(), None, NOW)
@@ -545,25 +576,17 @@ class IdentityHistoryOverrideTests(unittest.TestCase):
             other[key] = value
             self.assertNotEqual(identity(d), identity(other))
 
-    def test_price_change_only_history_max_90(self):
+    def test_no_price_history_is_kept(self):
         d = offer()
         previous = None
-        for i in range(100):
+        for i in range(5):
             d['sale_price'] = 100 + i
             previous = observe(d, previous, NOW)
         assert previous is not None
-        self.assertEqual(len(previous['price_history']), 90)
-        unchanged = observe(d, previous, LATER)
-        self.assertEqual(unchanged['price_history'], previous['price_history'])
-        self.assertEqual(unchanged['first_seen_at'], NOW)
-
-    def test_currency_change_resets_comparability(self):
-        d = offer()
-        previous = observe(d, None, NOW)
-        d['currency'] = 'USD'
+        self.assertEqual(previous['price_history'], [])
+        previous['price_history'] = [{'at': NOW, 'price': 1, 'currency': None}]  # Legacy state is dropped.
         current = observe(d, previous, LATER)
-        self.assertEqual(len(current['price_history']), 1)
-        self.assertEqual(current['price_history'][0]['at'], LATER)
+        self.assertEqual((current['price_history'], current['sale_price'], current['first_seen_at']), ([], 104, NOW))
 
     def test_safe_overrides_and_exclusions(self):
         d = offer()

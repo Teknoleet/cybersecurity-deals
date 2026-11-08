@@ -9,9 +9,12 @@ maintained adapters:
   naming the vendor, category and topics (reviewed configuration, not page text);
 * the page's own ``<h1>`` must name the 2026 Black Friday / Cyber Monday campaign;
   structured data, footers and product names never establish eligibility;
-* each published offer needs an ISO currency, a sale price and a vendor
-  reference price (``ListPrice``/``StrikethroughPrice``) above it, and must link
-  to the vendor's own domain. Anything else is kept as a candidate for review.
+* each published offer needs a price and must link to the vendor's own domain.
+  Being on the vendor's 2026 campaign page is the eligibility criterion; prices
+  are not checked against history or a reference. A vendor reference price
+  (``ListPrice``/``StrikethroughPrice``) is shown only when it is above the sale
+  price; otherwise the offer publishes with its price alone. A currency that is
+  not an ISO code is shown as unspecified rather than guessed.
 
 Coupon values are never read from structured data. A date-only ``validThrough``
 is shown as the vendor's date and enforced only once it has passed in every
@@ -106,17 +109,12 @@ def as_list(value):
     return value if isinstance(value, list) else [value] if value is not None else []
 
 
-class Ambiguous(ValueError):
-    """Structured price fields disagree; the offer needs human review."""
-
-
 def prices(offer):
-    """Return (sale, reference, currency) only from unambiguous structured fields."""
+    """Return (sale, reference, currency) from structured fields; unclear parts become None."""
     currency = currency_of(offer)
-    if currency is None and offer.get('priceCurrency') not in (None, ''):
-        return None, None, None  # A stated but invalid currency is not inferred from elsewhere.
+    stated_invalid = currency is None and offer.get('priceCurrency') not in (None, '')
     sale = amount(offer.get('price'))
-    reference = None
+    reference, conflicting = None, False
     for spec in as_list(offer.get('priceSpecification')):
         if not isinstance(spec, dict):
             continue
@@ -125,14 +123,15 @@ def prices(offer):
         value = amount(spec.get('price'))
         if value is None or (currency and spec_currency != currency):
             continue
-        currency = currency or spec_currency
+        if not stated_invalid:
+            currency = currency or spec_currency
         if any(x in price_type for x in REFERENCE_TYPES):
-            if reference is not None and reference != value:
-                raise Ambiguous('two different reference prices')
+            conflicting = conflicting or (reference is not None and reference != value)
             reference = value
         elif sale is None and not price_type:
             sale = value
-    return sale, reference, currency
+    # Two different reference prices: show none rather than pick one.
+    return sale, None if conflicting else reference, None if stated_invalid else currency
 
 
 def timestamp(value):
@@ -179,7 +178,7 @@ def parse(body, source):
             intro.append(value)
     campaign = ' '.join([heading, *intro])[:1500]
     evidence = {'campaign_text': campaign, 'official_corroboration': True, 'structured_data': True,
-                'scope': f'schema.org offers on the {vendor} 2026 campaign page with vendor reference prices',
+                'scope': f'schema.org offers on the {vendor} 2026 campaign page',
                 'checkout_tested': False}
     basis = eligibility(evidence)
     # The vendor's own page heading must name the 2026 campaign. Structured data
@@ -224,25 +223,12 @@ def parse(body, source):
             if any(x in str(offer.get('availability') or '') for x in UNAVAILABLE):
                 reject('structured_offer_not_available')
                 continue
-            try:
-                sale, reference, currency = prices(offer)
-            except Ambiguous:
-                reject('ambiguous_reference_price')
-                continue
-            if currency is None:
-                reject('structured_offer_missing_currency')
-                continue
+            sale, reference, currency = prices(offer)
             if sale is None:
-                reject('structured_offer_missing_price')
+                reject('structured_offer_missing_price')  # No price at all: nothing to list.
                 continue
-            if reference is None:
-                # A price on a campaign page, without the vendor's own reference
-                # price, does not show that this item is discounted.
-                reject('structured_offer_missing_reference_price')
-                continue
-            if reference <= 0 or sale >= reference:
-                reject('invalid_price_pair')
-                continue
+            if reference is not None and (reference <= 0 or sale >= reference):
+                reference = None  # Not a crossed-out price; publish the price alone.
             url = urljoin(source['url'], str(offer.get('url') or node.get('url') or source['url']))
             parts = urlsplit(url)
             if (parts.scheme not in {'http', 'https'} or parts.username or parts.password
@@ -256,14 +242,17 @@ def parse(body, source):
                 # An unreadable end date must not turn into an open-ended offer.
                 reject('invalid_structured_date')
                 continue
-            discount = ((1 - sale / reference) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+            discount = ((1 - sale / reference) * 100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP) if reference else None
             plan = text(offer.get('name'), 120)
             product = f'{name} — {plan}' if plan and plan.casefold() != name.casefold() else name
             conditions = [
                 'Prices are read from the vendor page\'s schema.org structured data; checkout not tested.',
-                'Reference prices are vendor-advertised, not independently verified historical baselines.',
                 'Tax/VAT, renewal terms and regional eligibility are not established.',
             ]
+            if reference is None:
+                conditions.append('The vendor publishes no crossed-out price for this item, so no discount size is shown.')
+            if currency is None:
+                conditions.append('The vendor data does not state a valid currency code; confirm it with the seller.')
             if start_day:
                 conditions.append(f'The vendor gives a start date of {start_day.isoformat()} without a time zone.')
             expiry_label, expiry_cutoff = None, None
@@ -278,13 +267,15 @@ def parse(body, source):
                 'eligibility_basis': basis, 'eligibility_evidence': dict(evidence),
                 'source_id': source['id'], 'source_url': source['url'], 'discovery_urls': [],
                 'offer_url': url, 'coupon': None, 'currency': currency, 'currency_symbol': None,
-                'sale_price': float(sale), 'regular_price': float(reference), 'discount_percent': float(discount),
+                'sale_price': float(sale), 'regular_price': float(reference) if reference else None,
+                'discount_percent': float(discount) if discount is not None else None,
                 'billing_period': None, 'conditions': conditions,
-                'scope': [f'Structured offer "{product}" in {currency}; regional eligibility unspecified'],
+                'scope': [f'Structured offer "{product}" in {currency or "an unspecified currency"}; regional eligibility unspecified'],
                 'starts_at': starts_at, 'ends_at': ends_at, 'expiry_label': expiry_label,
                 'verification_status': 'vendor_published', 'last_offer_confirmed_at': None,
                 'first_seen_at': None, 'price_history': [],
-                'evidence_excerpt': f'{product}: {sale} {currency} instead of {reference} {currency} ({discount}% off) on "{heading[:200]}".',
+                'evidence_excerpt': (f'{product}: {sale} {currency or ""} instead of {reference} {currency or ""} ({discount}% off) on "{heading[:200]}".'
+                                     if reference else f'{product}: {sale} {currency or ""} on "{heading[:200]}".').replace('  ', ' '),
                 'marketplace': False, 'reference_price_basis': 'vendor_advertised',
             }
             if expiry_cutoff:

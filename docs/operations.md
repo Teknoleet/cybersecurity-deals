@@ -15,7 +15,7 @@ When adding a parser, confirm the source permits the proposed access method and 
 Many vendor campaign pages describe their products with schema.org `Offer` data in `<script type="application/ld+json">`. The `structured_offers` adapter publishes those offers from configuration alone. To add a vendor:
 
 1. Confirm the vendor's own page is a 2026 campaign page: its `<h1>` must name Black Friday, Cyber Monday or BFCM together with 2026. Check that robots rules and terms permit fetching it.
-2. View the page source and confirm its JSON-LD offers include an ISO `priceCurrency`, a `price`, and a `priceSpecification` whose `priceType` is `ListPrice` or `StrikethroughPrice` above that price. Offers without a vendor reference price stay candidates, because a price on its own does not show a discount.
+2. View the page source and confirm its JSON-LD offers include a `price`. Being on the vendor's 2026 campaign page is what qualifies an offer; prices are not checked against history or a reference. A `priceSpecification` whose `priceType` is `ListPrice` or `StrikethroughPrice` above the price is shown as the crossed-out price; otherwise the offer shows its price alone. An invalid `priceCurrency` is shown as unspecified.
 3. Register it in `config/sources.json` with `"type": "official"`, `"adapter": "structured_offers"`, `"capability": "supported"` and a `structured` block, then add its exact hostname to `policy.supported_official_domains`:
 
    ```json
@@ -25,7 +25,7 @@ Many vendor campaign pages describe their products with schema.org `Offer` data 
    `category` and `topics` must come from `config/taxonomy.json`. Optional `item_types` narrows the schema.org types read (default: Product, Course, SoftwareApplication, WebApplication, MobileApplication, Service, Book, EducationalOccupationalProgram, ProductGroup). Unknown keys and values fail closed.
 4. Run `python3 -m collector.run --source SOURCE_ID` and review `state/candidates.json` before merging.
 
-The adapter never reads coupons from structured data. It publishes only offers that link to the vendor's own domain or its subdomains. Aggregate price ranges, sold-out items, missing currencies, equal or inverted price pairs and malformed JSON-LD are kept as candidates. A timezone-aware `validThrough` becomes `ends_at`. A date-only `validThrough` or `priceValidUntil` is shown as the vendor's date and enforced through `expiry_cutoff_at`, the first instant at which that date has passed in every time zone; no exact deadline is invented.
+The adapter never reads coupons from structured data. It publishes only offers that link to the vendor's own domain or its subdomains. Offers with no price at all, aggregate price ranges, sold-out items and malformed JSON-LD are kept as candidates. A timezone-aware `validThrough` becomes `ends_at`. A date-only `validThrough` or `priceValidUntil` is shown as the vendor's date and enforced through `expiry_cutoff_at`, the first instant at which that date has passed in every time zone; no exact deadline is invented.
 
 Independently of the adapter, the collector refuses to publish offers from any source that is not `type: official` on a hostname listed in `supported_official_domains`. Registering a new publishing vendor therefore always needs that reviewed two-line change.
 
@@ -48,13 +48,13 @@ An owner can also dispatch **Collect and publish** from `main`. Leave `publish` 
 
 ## Independent data branch
 
-`main` contains reviewed code and initial state. `deals-data` contains only `state/snapshot.json` and optionally `state/history.json`; compact changed-price observations may instead be embedded in the snapshot. The workflow uses a fresh temporary Git object store, reads only allowlisted regular JSON blobs, rejects unexpected paths and symlinks, enforces a 10 MiB per-file limit, and never checks out or executes the branch. No downloaded code can replace the current reviewed checkout.
+`main` contains reviewed code and initial state. `deals-data` contains only `state/snapshot.json` and optionally `state/history.json`; The workflow uses a fresh temporary Git object store, reads only allowlisted regular JSON blobs, rejects unexpected paths and symlinks, enforces a 10 MiB per-file limit, and never checks out or executes the branch. No downloaded code can replace the current reviewed checkout.
 
 The first data commit is an orphan/root commit built from an empty index, with no copy of main's code and no main parent. Later commits parent the prior data commit. Saving uses an explicit expected-old lease, not an unconditional overwrite; a concurrent human or external writer causes a safe failure. Workflow-level concurrency serializes collection and deployment together with cancellation disabled. GitHub may keep only one pending run in a concurrency group, so do not assume every queued manual request will execute. Data commits cannot loop back into this workflow because it has no push trigger.
 
 Tests and a complete static build must succeed before state is committed. No Actions artifact or cache is used as persistence. The publish job rereads the exact collected commit and rebuilds with the same reviewed code commit, avoiding a branch-head race. The data branch is not trusted executable code; changes to its allowlist or schema require reviewed workflow changes.
 
-Keep evidence and price observations compact and bounded. Record an observation only when a comparable price changes, not on every fetch; compare the same product, plan, currency, billing period, and scope. Do not turn vendor reference prices into observed history. Git still retains old commits even when current arrays are bounded: monitor branch size and plan an owner-approved retention/reset procedure if growth becomes material. Do not silently rewrite remote history. Do not add arbitrary `history/` files without first reviewing the workflow's exact allowlist.
+Keep evidence compact and bounded. No price history is recorded: each offer carries only the vendor's current price (`price_history` stays an empty list for schema compatibility). Git still retains old commits even when current arrays are bounded: monitor branch size and plan an owner-approved retention/reset procedure if growth becomes material. Do not silently rewrite remote history. Do not add arbitrary `history/` files without first reviewing the workflow's exact allowlist.
 
 ## Failure and recovery
 
