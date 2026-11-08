@@ -250,6 +250,14 @@ class PracticalDevSecOpsTests(unittest.TestCase):
         self.assertEqual(self.bundle_reasons(('$1709.10 →', '$2500 →'), ('saving $388.90', 'saving $-402.00')), ([], ['invalid_price_pair']))
         self.assertEqual(self.bundle_reasons(('pdso_bundle_discount_price', 'pdso_other_price')), ([], ['bundle_or_unlabelled_pricing_needs_review']))
 
+    def test_bundle_title_survives_unclosed_paragraph(self):
+        # Live markup for one card lacked </p>; html.parser then nested the price
+        # block inside the title paragraph and the bundle fell back to review.
+        bundles, reasons = self.bundle_reasons(('Best Value</span></p>', 'Best Value</span>'))
+        self.assertEqual((bundles, reasons), ([self.BUNDLE], []))
+        deal = next(x for x in practical_devsecops.parse(self.FIXTURE.replace('Best Value</span></p>'.encode(), 'Best Value</span>'.encode()), self.SOURCE)[0] if '+' in x['product'])
+        self.assertEqual((deal['sale_price'], deal['regular_price']), (1709.1, 2098.0))
+
     def test_bundle_with_coming_soon_course_is_withheld(self):
         self.assertEqual(self.bundle_reasons(('(CDP + CDE)', '(CDP + CAASE)')), ([], ['bundle_includes_unavailable_course']))
 

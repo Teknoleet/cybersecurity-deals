@@ -34,7 +34,15 @@ def bundle(container, source, coming_soon):
         return None, {'source_id': source['id'], 'product': product, 'reason': reason,
                       'evidence_excerpt': clean(container.get_text(' ', strip=True))[:300]}
     title_node = container.find('p')
-    title = clean(BADGES.sub('', title_node.get_text(' ', strip=True))) if title_node else ''
+    title = ''
+    if title_node:
+        # An unclosed <p> makes html.parser nest the price block inside the title
+        # paragraph (browsers close it). Read the title without nested price,
+        # saving or badge elements; prices come only from their dedicated fields.
+        title_node = BeautifulSoup(str(title_node), 'html.parser')
+        for element in title_node.select('.pdso_menu_pricing, .bfcm_pricing_save_text, .pdso_menu_tag'):
+            element.decompose()
+        title = clean(BADGES.sub('', title_node.get_text(' ', strip=True)))
     codes = CODES.search(title)
     if not title or not codes or '+' not in codes.group(1):
         return reject('bundle_or_unlabelled_pricing_needs_review', title or None)
