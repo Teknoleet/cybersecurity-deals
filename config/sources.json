@@ -138,6 +138,61 @@
       "note": "Regional specials page; the vendor geo-redirects to a regional edition. Early-bird pricing is not a 2026 campaign; discovery only."
     },
     {
+      "id": "proton-black-friday",
+      "name": "Proton Black Friday deals",
+      "url": "https://proton.me/black-friday",
+      "type": "official",
+      "adapter": "html_discovery",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["privacy-vpn"],
+      "note": "Vendor's own Black Friday page with plan prices, but its heading and intro never state 2026 (only the footer year), so it fails the explicit-2026 evidence bar; discovery only."
+    },
+    {
+      "id": "protonvpn-black-friday",
+      "name": "Proton VPN Black Friday deal",
+      "url": "https://protonvpn.com/black-friday",
+      "type": "official",
+      "adapter": "html_discovery",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["privacy-vpn"],
+      "note": "Vendor's own Black Friday VPN page with plan prices; no 2026 in its campaign heading or intro, so discovery only."
+    },
+    {
+      "id": "hak5-hacked-november",
+      "name": "Hak5 Hacked November sale",
+      "url": "https://shop.hak5.org/pages/hacked-november",
+      "type": "official",
+      "adapter": "html_discovery",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["hardware-physical", "offensive-security"],
+      "note": "Vendor's own November sale page with gift-pack prices and a stackable code; it names neither Black Friday nor 2026 in its campaign text, so discovery only."
+    },
+    {
+      "id": "offsec-learn-one",
+      "name": "OffSec Learn One promotion",
+      "url": "https://www.offsec.com/products/learn-one/",
+      "type": "official",
+      "adapter": "html_discovery",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["offensive-security"],
+      "note": "Vendor's own Learn One page showing a $550-off anniversary promotion; not labelled a 2026 Black Friday campaign, so discovery only."
+    },
+    {
+      "id": "totalsem-early-black-friday",
+      "name": "Total Seminars early Black Friday",
+      "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+      "type": "official",
+      "adapter": "html_discovery",
+      "capability": "discovery_only",
+      "enabled": true,
+      "topics": ["blue-team-dfir"],
+      "note": "Vendor post dated 10 November 2026 announcing 25% off with a code through 30 November 2026 (Security+ and SecAI+ training included). Sitewide coupon with no per-product prices and no maintained parser; discovery only."
+    },
+    {
       "id": "stacksocial",
       "name": "StackSocial",
       "url": "https://www.stacksocial.com",
