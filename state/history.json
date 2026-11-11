@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T20:58:48Z",
+  "updated_at": "2026-11-11T22:10:11Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 7,
+      "adapter_version": 8,
       "body_sha256": "d61653990022e1240f7b4004129136801d3ed856f77d435d9a7e04c8f2c337c1",
       "etag": "W/\"0dc501722dd2e2f0a9e2d08a39c38aaf1264c4f70e95e27009e2eab3d86e4723\"",
       "last_modified": null,
@@ -1183,7 +1183,7 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "8557ac465ed47a8229dde91f494dbce2bee4d433ee1798e355f8560e12761ef4"
+      "validated_digest": "c6f58a9b5b154acf1858f6aa4d32e2e2dbcea2adcf418434cbea9fe4ef5c92dc"
     },
     "trainsec-black-friday": {
       "url": "https://trainsec.net/cybersecurity-courses-black-friday-2026/",
@@ -2961,7 +2961,7 @@
     "github-twf-nikhila": {
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 7,
+      "adapter_version": 8,
       "body_sha256": "85e24cdccc752f0822632b5031faa38657130a9bd17a10a7d664b689ca2da3b4",
       "etag": "W/\"b3bdbb26962dfbe107c57c6e1a35d205648ab1729e16f4b16b288d87ef36b607\"",
       "last_modified": null,
@@ -4849,12 +4849,12 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "92617249db21fb771edce2c1badc675943ddb1778565b56d4a661c7066a39df6"
+      "validated_digest": "d04cc1e8a9cb2be905c4eb23d903d0848845d48a1242ed800e8e821466a3c579"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
       "adapter": "github_markdown",
-      "adapter_version": 7,
+      "adapter_version": 8,
       "body_sha256": "10fb8f6c440f5b1651fe775cadf8691b3b7d716f2c8eed26614247bbe804790a",
       "etag": "W/\"4b3b8b4060fdff44968ebd8d0fd44f209d22a5aecf8083d05995cec476ed3220\"",
       "last_modified": null,
@@ -4952,15 +4952,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "5eddf213af228ff25c76c00451bc87216f856055cee8265149daf628c932ca00"
+      "validated_digest": "6e9673a51bec248a6b5e27fcf45cd30878593dd5ccd0b9d8a0086241ed8f88d7"
     },
     "appsecengineer-pricing": {
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
-      "adapter_version": 7,
-      "body_sha256": "6425299df556ff4dff42b23d66d59c7ffdd7ae00af58296ed6c0b06b765a08dc",
+      "adapter_version": 8,
+      "body_sha256": "bb2004f33244cf08d1ce459426595d3fa7c309e2a5d4f7187580da5b6820e9e7",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 11:07:07 GMT",
+      "last_modified": "Wed, 11 Nov 2026 22:09:45 GMT",
       "deals": [],
       "candidates": [
         {
@@ -5108,13 +5108,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "c8a3e3928d74e845b027a3982cbaf0e2c40cd9aaee0d2301cb286a59107c0461"
+      "validated_digest": "e947762a2b6f06460e9078e054268a982da981688995aa0827d7dc083cd212ca"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
-      "adapter_version": 7,
-      "body_sha256": "f4d0e62c52ea254e22e8b45150b773f601f07c28d06e160e04401615063e56ed",
+      "adapter_version": 8,
+      "body_sha256": "9a2689b2532d743c476411e362a7f94d1180a79549aa08a4e75fe51080bc66db",
       "etag": null,
       "last_modified": "Wed, 11 Nov 2026 13:21:34 GMT",
       "deals": [],
@@ -5187,13 +5187,13 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "36ecf90671a227654a492fb42ae50378638a743b45b2ac7e56bfc891ac3b6dbc"
+      "validated_digest": "0cdd64ae38dd0c3fc1399ea016115f65de1f086a0491fe98e4d47cb6dfd87603"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
-      "adapter_version": 7,
-      "body_sha256": "e33b134c8504081d28f0f4f0386ffee296785e59a1d4a1c87b10dadf5beb3da7",
+      "adapter_version": 8,
+      "body_sha256": "e4d55d05843357d5fafda52dd1b7ac9cbc828532e9cc1ca0cbabfd92e011b5a9",
       "etag": null,
       "last_modified": "Wed, 11 Nov 2026 17:48:46 GMT",
       "deals": [
@@ -6260,13 +6260,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "d7a9304fafc106907436e61a5732931b6157f84fa422e550bb9c14b1594a4882"
+      "validated_digest": "107a975951708e5a1ac7c5bf602fc44654e7f9dbd7ae2e90d0bafdf5501aa1a7"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
-      "adapter_version": 7,
-      "body_sha256": "1a9f2a05f756c6c39326f6ecad4d6f92dffe838695759cfc21c7f4d4371f73e0",
+      "adapter_version": 8,
+      "body_sha256": "27b6cec22a5a9203b32b982a746f947ef2f1003430168e74258970111dad0086",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6340,7 +6340,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
+          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -6361,7 +6361,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "b43a16535679a4720bdf986a746e7e2a34fa07c703435a387d84d585230dec25"
+      "validated_digest": "9f68072be53fe222f79cdc49813bd1722d8063db5c47fbb3f7ba8216c47f0c40"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -6378,8 +6378,8 @@
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
-      "adapter_version": 7,
-      "body_sha256": "352fb3bb1d5278b8e0f6a6b3960d7cd04bf20ab8f825b5256c4803ca6aa23923",
+      "adapter_version": 8,
+      "body_sha256": "86942d085108535b2a446aefade2798c4253f609dc2923a4f0064455420e1371",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6419,14 +6419,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "f70d013b2eaabab57decd7956e811678cf4b98b5c7fb62f616eb4b8b6c606580"
+      "validated_digest": "49abd8229aebf41bcbbf53ac28a9fb722784ea5a8dff0c4d039b6ff1c7940b77"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
-      "adapter_version": 7,
-      "body_sha256": "2b421b828c6a3495c5b947120fec06d92cec6deb13ea6a2fbdc51252c295dfae",
-      "etag": "W/\"2b421b828c6a3495c5b947120fec06d9\"",
+      "adapter_version": 8,
+      "body_sha256": "d9fcd1f9b79320f6ccafa398ebcbcaf85e1fe9ee1f50643a876a70fc53cd4c19",
+      "etag": "W/\"d9fcd1f9b79320f6ccafa398ebcbcaf8\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -6520,7 +6520,617 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "0f82179f53a450584e937e2463bddd4f3872129e1dcecead49739ec3f58fef65"
+      "validated_digest": "15d17863fe97615d8966ed552d0ecdc2ef68064d6bb2cc9703fdee00ac8b6e0b"
+    },
+    "proton-black-friday": {
+      "url": "https://proton.me/black-friday",
+      "adapter": "html_discovery",
+      "adapter_version": 8,
+      "body_sha256": "466971f245d70c9f24d40b191dfb734d93ba1b9e105407b53aff42281d85dda1",
+      "etag": "\"8c0e-65ffc6b6814fc\"",
+      "last_modified": "Wed, 11 Nov 2026 08:59:58 GMT",
+      "deals": [],
+      "candidates": [
+        {
+          "source_id": "proton-black-friday",
+          "discovery_url": "https://proton.me/black-friday",
+          "offer_url": "https://account.proton.me/signup?plan=mail2022&billing=12&currency=USD&coupon=BF2026NEW",
+          "section": "Mail Plus",
+          "page_heading": "Proton Black Friday deals",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "proton-black-friday",
+          "discovery_url": "https://proton.me/black-friday",
+          "offer_url": "https://account.proton.me/signup?plan=bundle2022&billing=1&currency=USD&coupon=BF2026TRIAL",
+          "section": "Proton Unlimited",
+          "page_heading": "Proton Black Friday deals",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "proton-black-friday",
+          "discovery_url": "https://proton.me/black-friday",
+          "offer_url": "https://account.proton.me/signup?plan=bundle2022&billing=12&currency=USD&coupon=BF2026NEW",
+          "section": "Proton Unlimited",
+          "page_heading": "Proton Black Friday deals",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "proton-black-friday",
+          "discovery_url": "https://proton.me/black-friday",
+          "offer_url": "https://account.proton.me/login",
+          "section": "Frequently asked questions",
+          "page_heading": "Proton Black Friday deals",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        }
+      ],
+      "status": "discovery",
+      "validated_digest": "a47417de383fae085d69de6ae982caab18010d648bcd787e725a0588d5cb019b"
+    },
+    "protonvpn-black-friday": {
+      "url": "https://protonvpn.com/black-friday",
+      "adapter": "html_discovery",
+      "adapter_version": 8,
+      "body_sha256": "64a310aed8dab328e7db08d3c8b0b2806656f27d2f4c0d58091811cc63568975",
+      "etag": "\"74a5-65ffc7610cce3\"",
+      "last_modified": "Wed, 11 Nov 2026 09:02:57 GMT",
+      "deals": [],
+      "candidates": [
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://account.protonvpn.com/signup?plan=vpn2024&billing=12&currency=USD&coupon=BF2026NEW",
+          "section": "VPN Plus",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://account.protonvpn.com/signup?plan=bundle2022&billing=1&currency=USD&coupon=BF2026TRIAL",
+          "section": "Proton Unlimited",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://nordvpn.com/pricing/",
+          "section": "Why choose Proton VPN",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://www.cnet.com/tech/services-and-software/what-is-kape-technologies-what-you-need-to-know-about-the-parent-company-of-cyberghost-vpn/",
+          "section": "Why choose Proton VPN",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://www.zdnet.com/article/meet-nordsec-the-company-behind-nordvpn-wants-to-be-your-one-stop-privacy-suite/",
+          "section": "Why choose Proton VPN",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://account.proton.me/login",
+          "section": "Frequently asked questions",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://proton.me/drive/black-friday",
+          "section": "Frequently asked questions",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://proton.me/mail/black-friday",
+          "section": "Frequently asked questions",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://proton.me/pass/black-friday",
+          "section": "Frequently asked questions",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "protonvpn-black-friday",
+          "discovery_url": "https://protonvpn.com/black-friday",
+          "offer_url": "https://proton.me/legal/terms?ref=pvpn_lp_b2c_vpn_footer",
+          "section": "Frequently asked questions",
+          "page_heading": "Best Black Friday VPN deal",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        }
+      ],
+      "status": "discovery",
+      "validated_digest": "a470b0620a20de87b8ef718cc0bb56a80aa79601f0ffa0c421046faf261be002"
+    },
+    "hak5-hacked-november": {
+      "url": "https://shop.hak5.org/pages/hacked-november",
+      "adapter": "hak5",
+      "adapter_version": 8,
+      "body_sha256": "a98353af80cfc48510480e6fff84efc80e655229a309ebbe2dedfc5a6e372d5d",
+      "etag": null,
+      "last_modified": null,
+      "deals": [
+        {
+          "id": "7eb440c847ffe6584da9949c",
+          "vendor": "Hak5",
+          "product": "Essential Ducky Gift Pack",
+          "description": "Essential Ducky Gift Pack listed on the Hak5 store sale page.",
+          "category": "hardware",
+          "topics": [
+            "hardware-physical",
+            "offensive-security"
+          ],
+          "campaign_type": "general_promotion",
+          "campaign_year": 2026,
+          "eligibility_basis": "vendor_campaign_window",
+          "eligibility_evidence": {
+            "campaign_text": "Hacked November - Hak5 Holiday Gift Packs Up to 60% OFF Holiday Gift Packs. Plus, save an additional $5 – $10 on each of our best selling pentest gear with the discount code H4CK3DN0V26 at checkout.",
+            "official_corroboration": true,
+            "vendor_page": true,
+            "scope": "Product cards with their own current and crossed-out prices on the vendor sale page",
+            "checkout_tested": false
+          },
+          "source_id": "hak5-hacked-november",
+          "source_url": "https://shop.hak5.org/pages/hacked-november",
+          "discovery_urls": [],
+          "offer_url": "https://shop.hak5.org/collections/holiday-gift-packs/products/essential-ducky-gift-pack",
+          "coupon": null,
+          "currency": "USD",
+          "currency_symbol": "$",
+          "sale_price": 99.0,
+          "regular_price": 245.0,
+          "discount_percent": 59.59,
+          "billing_period": null,
+          "conditions": [
+            "Vendor-published store listing; checkout not tested.",
+            "Expiry is not published. Tax, shipping and regional eligibility not established.",
+            "The vendor advertises a stackable code (H4CK3DN0V26) for selected gear; it is not applied to the listed price."
+          ],
+          "scope": [
+            "Hak5 store listing; variants and regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Essential Ducky Gift Pack: $99 instead of $245 (59.59% off) on \"Hacked November - Hak5\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "d1828462a795987fd78e46ef",
+          "vendor": "Hak5",
+          "product": "Ultimate Pager Gift Pack - Limited Edition Clear",
+          "description": "Ultimate Pager Gift Pack - Limited Edition Clear listed on the Hak5 store sale page.",
+          "category": "hardware",
+          "topics": [
+            "hardware-physical",
+            "offensive-security"
+          ],
+          "campaign_type": "general_promotion",
+          "campaign_year": 2026,
+          "eligibility_basis": "vendor_campaign_window",
+          "eligibility_evidence": {
+            "campaign_text": "Hacked November - Hak5 Holiday Gift Packs Up to 60% OFF Holiday Gift Packs. Plus, save an additional $5 – $10 on each of our best selling pentest gear with the discount code H4CK3DN0V26 at checkout.",
+            "official_corroboration": true,
+            "vendor_page": true,
+            "scope": "Product cards with their own current and crossed-out prices on the vendor sale page",
+            "checkout_tested": false
+          },
+          "source_id": "hak5-hacked-november",
+          "source_url": "https://shop.hak5.org/pages/hacked-november",
+          "discovery_urls": [],
+          "offer_url": "https://shop.hak5.org/collections/holiday-gift-packs/products/ultimate-pager-gift-pack-limited-edition-clear",
+          "coupon": null,
+          "currency": "USD",
+          "currency_symbol": "$",
+          "sale_price": 499.0,
+          "regular_price": 570.0,
+          "discount_percent": 12.46,
+          "billing_period": null,
+          "conditions": [
+            "Vendor-published store listing; checkout not tested.",
+            "Expiry is not published. Tax, shipping and regional eligibility not established.",
+            "The vendor advertises a stackable code (H4CK3DN0V26) for selected gear; it is not applied to the listed price."
+          ],
+          "scope": [
+            "Hak5 store listing; variants and regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Ultimate Pager Gift Pack - Limited Edition Clear: $499 instead of $570 (12.46% off) on \"Hacked November - Hak5\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        },
+        {
+          "id": "480f7ff8d8a7e02626245c0c",
+          "vendor": "Hak5",
+          "product": "Glytch Crash Kit",
+          "description": "Glytch Crash Kit listed on the Hak5 store sale page.",
+          "category": "hardware",
+          "topics": [
+            "hardware-physical",
+            "offensive-security"
+          ],
+          "campaign_type": "general_promotion",
+          "campaign_year": 2026,
+          "eligibility_basis": "vendor_campaign_window",
+          "eligibility_evidence": {
+            "campaign_text": "Hacked November - Hak5 Holiday Gift Packs Up to 60% OFF Holiday Gift Packs. Plus, save an additional $5 – $10 on each of our best selling pentest gear with the discount code H4CK3DN0V26 at checkout.",
+            "official_corroboration": true,
+            "vendor_page": true,
+            "scope": "Product cards with their own current and crossed-out prices on the vendor sale page",
+            "checkout_tested": false
+          },
+          "source_id": "hak5-hacked-november",
+          "source_url": "https://shop.hak5.org/pages/hacked-november",
+          "discovery_urls": [],
+          "offer_url": "https://shop.hak5.org/collections/regios-discount/products/glytch-crash-kit",
+          "coupon": null,
+          "currency": "USD",
+          "currency_symbol": "$",
+          "sale_price": 99.0,
+          "regular_price": 120.0,
+          "discount_percent": 17.5,
+          "billing_period": null,
+          "conditions": [
+            "Vendor-published store listing; checkout not tested.",
+            "Expiry is not published. Tax, shipping and regional eligibility not established.",
+            "The vendor advertises a stackable code (H4CK3DN0V26) for selected gear; it is not applied to the listed price."
+          ],
+          "scope": [
+            "Hak5 store listing; variants and regional eligibility unspecified"
+          ],
+          "starts_at": null,
+          "ends_at": null,
+          "expiry_label": null,
+          "verification_status": "vendor_published",
+          "last_offer_confirmed_at": null,
+          "first_seen_at": null,
+          "price_history": [],
+          "evidence_excerpt": "Glytch Crash Kit: $99 instead of $120 (17.50% off) on \"Hacked November - Hak5\".",
+          "marketplace": false,
+          "reference_price_basis": "vendor_advertised"
+        }
+      ],
+      "candidates": [
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "O.MG Gift Pack",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "🎁 O.MG Gift Pack from $215 $245"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "Ultimate Pentest Gift Pack",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "🎁 Ultimate Pentest Gift Pack from $799 $1,115"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "WiFi Pineapple Pager",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "WiFi Pineapple Pager from $300 $320"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "USB Rubber Ducky",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "USB Rubber Ducky from $100 $170"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "O.MG Cable",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "O.MG Cable from $150"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "LAN Turtle Hub",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "LAN Turtle Hub from $120 $200"
+        },
+        {
+          "source_id": "hak5-hacked-november",
+          "product": "O.MG Plug",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "O.MG Plug from $85"
+        }
+      ],
+      "status": "confirmed",
+      "validated_digest": "a5db11bbff79108c3abc7527476d054a33d7ea73fee21c7a28bf7540a8f77f83"
+    },
+    "offsec-learn-one": {
+      "url": "https://www.offsec.com/products/learn-one/",
+      "adapter": "html_discovery",
+      "adapter_version": 8,
+      "body_sha256": "c824cdf3e69754fd91cded2064f21ab614499555ffab07d11921a01a736398bd",
+      "etag": "W/\"17320-65ff09d5e39df\"",
+      "last_modified": "Tue, 10 Nov 2026 18:54:57 GMT",
+      "deals": [],
+      "candidates": [
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://portal.offsec.com/sign-in/",
+          "section": "",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/064809ed-5dc5-4a88-8a1a-448d53d8c285",
+          "section": "Level 20",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/c920eb11-27c1-49b3-815c-882486ee6ed6",
+          "section": "Level 20",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://portal.offsec.com/checkout/?view=learn-one",
+          "section": "Learn One",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://help.offsec.com/hc/en-us/articles/4410261427732-Course-material-download-FAQ",
+          "section": "Learn One FAQ",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://help.offsec.com/hc/en-us/search/click?data=BAh7DjoHaWRsKwgUNQELAgQ6D2FjY291bnRfaWRpA1hFkjoJdHlwZUkiDGFydGljbGUGOgZFVDoIdXJsSSIBfmh0dHBzOi8vaGVscC5vZmZlbnNpdmUtc2VjdXJpdHkuY29tL2hjL2VuLXVzL2FydGljbGVzLzQ0MDY4MjEwNzQxOTYtSG93LXRvLURvd25sb2FkLUNvdXJzZS1NYXRlcmlhbHMtZnJvbS10aGUtVHJhaW5pbmctTGlicmFyeQY7CFQ6DnNlYXJjaF9pZEkiKTVjOTYwOWVmLWM0MjktNGRhNy05ZDVmLTg4MGQwMjhlNTJjYwY7CEY6CXJhbmtpBjoLbG9jYWxlSSIKZW4tdXMGOwhUOgpxdWVyeUkiHmRvd25sb2FkIGNvdXJzZSBtYXRlcmlhbHMGOwhUOhJyZXN1bHRzX2NvdW50aU8%3D--c2264e097400dbcefa473b479a30d14f8d91af61",
+          "section": "Learn One FAQ",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://help.offsec.com/hc/en-us/articles/18993701799572-Course-Cert-Exam-Bundle-FAQ",
+          "section": "Learn One FAQ",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://help.offsec.com/hc/en-us/articles/4403407883156",
+          "section": "Learn One FAQ",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://offsec.com/register/products?pt=3",
+          "section": "Proving Grounds Practice",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://www.klarna.com/us/legal/",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://help.offsec.com/hc/en-us/?utm_source=offsec/",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://partnerportal.offsec.com/?utm_source=offsec/",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://www.twitch.tv/offsecofficial",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://discord.com/invite/offsec",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://trust.offsec.com/?utm_source=offsec/",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "offsec-learn-one",
+          "discovery_url": "https://www.offsec.com/products/learn-one/",
+          "offer_url": "https://offsec.com/rss.xml?utm_source=offsec/",
+          "section": "Pay smarter with Klarna.",
+          "page_heading": "Learn One",
+          "published_at": null,
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        }
+      ],
+      "status": "discovery",
+      "validated_digest": "8e9c95c8f84402a45d30112ae377241fa78c82a2381dc647d7fef9ec471ae279"
+    },
+    "totalsem-early-black-friday": {
+      "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+      "adapter": "html_discovery",
+      "adapter_version": 8,
+      "body_sha256": "f01ee46c8cb23e86a957460d4263b727e5a3dc676fc9ec80543fe152b1684ff0",
+      "etag": null,
+      "last_modified": "Wed, 11 Nov 2026 22:10:10 GMT",
+      "deals": [],
+      "candidates": [
+        {
+          "source_id": "totalsem-early-black-friday",
+          "discovery_url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+          "offer_url": "https://www.totalsem.com",
+          "section": "Everything You Need To Pass",
+          "page_heading": "Early Black Friday: 25% Off IT Training, Plus What’s New This Season",
+          "published_at": "2026-11-10T18:23:45+00:00",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "totalsem-early-black-friday",
+          "discovery_url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+          "offer_url": "https://www.totalsem.com/privacy-policy/",
+          "section": "From Service to Cybersecurity: How CompTIA Certs Translate Military Skills to IT Careers",
+          "page_heading": "Early Black Friday: 25% Off IT Training, Plus What’s New This Season",
+          "published_at": "2026-11-10T18:23:45+00:00",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        }
+      ],
+      "status": "discovery",
+      "validated_digest": "520f88540444de07db918809b164b6b82bfa6d4c5608eb1d4c8b285042805bc7"
     }
   },
   "candidates": [
@@ -10511,6 +11121,405 @@
       "section": "🔐 Security & Privacy",
       "reason": "needs_official_2026_evidence",
       "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "reason": "fetch_or_extraction_unavailable",
+      "detail": "PublicHTTPSPool(host='cipherssecurity.com', port=443): Read timed out. (read timeout=7)"
+    },
+    {
+      "source_id": "proton-black-friday",
+      "discovery_url": "https://proton.me/black-friday",
+      "offer_url": "https://account.proton.me/signup?plan=mail2022&billing=12&currency=USD&coupon=BF2026NEW",
+      "section": "Mail Plus",
+      "page_heading": "Proton Black Friday deals",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "proton-black-friday",
+      "discovery_url": "https://proton.me/black-friday",
+      "offer_url": "https://account.proton.me/signup?plan=bundle2022&billing=1&currency=USD&coupon=BF2026TRIAL",
+      "section": "Proton Unlimited",
+      "page_heading": "Proton Black Friday deals",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "proton-black-friday",
+      "discovery_url": "https://proton.me/black-friday",
+      "offer_url": "https://account.proton.me/signup?plan=bundle2022&billing=12&currency=USD&coupon=BF2026NEW",
+      "section": "Proton Unlimited",
+      "page_heading": "Proton Black Friday deals",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "proton-black-friday",
+      "discovery_url": "https://proton.me/black-friday",
+      "offer_url": "https://account.proton.me/login",
+      "section": "Frequently asked questions",
+      "page_heading": "Proton Black Friday deals",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://account.protonvpn.com/signup?plan=vpn2024&billing=12&currency=USD&coupon=BF2026NEW",
+      "section": "VPN Plus",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://account.protonvpn.com/signup?plan=bundle2022&billing=1&currency=USD&coupon=BF2026TRIAL",
+      "section": "Proton Unlimited",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://nordvpn.com/pricing/",
+      "section": "Why choose Proton VPN",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://www.cnet.com/tech/services-and-software/what-is-kape-technologies-what-you-need-to-know-about-the-parent-company-of-cyberghost-vpn/",
+      "section": "Why choose Proton VPN",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://www.zdnet.com/article/meet-nordsec-the-company-behind-nordvpn-wants-to-be-your-one-stop-privacy-suite/",
+      "section": "Why choose Proton VPN",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://account.proton.me/login",
+      "section": "Frequently asked questions",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://proton.me/drive/black-friday",
+      "section": "Frequently asked questions",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://proton.me/mail/black-friday",
+      "section": "Frequently asked questions",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://proton.me/pass/black-friday",
+      "section": "Frequently asked questions",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "protonvpn-black-friday",
+      "discovery_url": "https://protonvpn.com/black-friday",
+      "offer_url": "https://proton.me/legal/terms?ref=pvpn_lp_b2c_vpn_footer",
+      "section": "Frequently asked questions",
+      "page_heading": "Best Black Friday VPN deal",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "O.MG Gift Pack",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "🎁 O.MG Gift Pack from $215 $245"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "Ultimate Pentest Gift Pack",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "🎁 Ultimate Pentest Gift Pack from $799 $1,115"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "WiFi Pineapple Pager",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "WiFi Pineapple Pager from $300 $320"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "USB Rubber Ducky",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "USB Rubber Ducky from $100 $170"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "O.MG Cable",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "O.MG Cable from $150"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "LAN Turtle Hub",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "LAN Turtle Hub from $120 $200"
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "O.MG Plug",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "O.MG Plug from $85"
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://portal.offsec.com/sign-in/",
+      "section": "",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/064809ed-5dc5-4a88-8a1a-448d53d8c285",
+      "section": "Level 20",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/c920eb11-27c1-49b3-815c-882486ee6ed6",
+      "section": "Level 20",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://portal.offsec.com/checkout/?view=learn-one",
+      "section": "Learn One",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/4410261427732-Course-material-download-FAQ",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/search/click?data=BAh7DjoHaWRsKwgUNQELAgQ6D2FjY291bnRfaWRpA1hFkjoJdHlwZUkiDGFydGljbGUGOgZFVDoIdXJsSSIBfmh0dHBzOi8vaGVscC5vZmZlbnNpdmUtc2VjdXJpdHkuY29tL2hjL2VuLXVzL2FydGljbGVzLzQ0MDY4MjEwNzQxOTYtSG93LXRvLURvd25sb2FkLUNvdXJzZS1NYXRlcmlhbHMtZnJvbS10aGUtVHJhaW5pbmctTGlicmFyeQY7CFQ6DnNlYXJjaF9pZEkiKTVjOTYwOWVmLWM0MjktNGRhNy05ZDVmLTg4MGQwMjhlNTJjYwY7CEY6CXJhbmtpBjoLbG9jYWxlSSIKZW4tdXMGOwhUOgpxdWVyeUkiHmRvd25sb2FkIGNvdXJzZSBtYXRlcmlhbHMGOwhUOhJyZXN1bHRzX2NvdW50aU8%3D--c2264e097400dbcefa473b479a30d14f8d91af61",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/18993701799572-Course-Cert-Exam-Bundle-FAQ",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/4403407883156",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://offsec.com/register/products?pt=3",
+      "section": "Proving Grounds Practice",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://www.klarna.com/us/legal/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://partnerportal.offsec.com/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://www.twitch.tv/offsecofficial",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://discord.com/invite/offsec",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://trust.offsec.com/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://offsec.com/rss.xml?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "totalsem-early-black-friday",
+      "discovery_url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+      "offer_url": "https://www.totalsem.com",
+      "section": "Everything You Need To Pass",
+      "page_heading": "Early Black Friday: 25% Off IT Training, Plus What’s New This Season",
+      "published_at": "2026-11-10T18:23:45+00:00",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "totalsem-early-black-friday",
+      "discovery_url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
+      "offer_url": "https://www.totalsem.com/privacy-policy/",
+      "section": "From Service to Cybersecurity: How CompTIA Certs Translate Military Skills to IT Careers",
+      "page_heading": "Early Black Friday: 25% Off IT Training, Plus What’s New This Season",
+      "published_at": "2026-11-10T18:23:45+00:00",
+      "reason": "needs_official_2026_evidence",
       "campaign_year": null,
       "automatic_publication": false
     }
