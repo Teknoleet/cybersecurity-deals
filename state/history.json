@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T09:22:08Z",
+  "updated_at": "2026-11-11T17:28:04Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -2962,8 +2962,8 @@
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
       "adapter_version": 7,
-      "body_sha256": "b48de0aa026bc111bcac3d01c08749dca2318bbfa83ac63bd312a86a3a4264ca",
-      "etag": "W/\"e97f71458dc202e5910bae275763d27cf1ce419e2ea33fa1b1e72308b55c584f\"",
+      "body_sha256": "85e24cdccc752f0822632b5031faa38657130a9bd17a10a7d664b689ca2da3b4",
+      "etag": "W/\"b3bdbb26962dfbe107c57c6e1a35d205648ab1729e16f4b16b288d87ef36b607\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -3260,6 +3260,26 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://kveeky.com/blog/best-black-friday-ai-voiceover-deals",
+          "section": "🎬 Video, Audio & Podcasting",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://blitzreels.com/black-friday?utm_source=twf-nikhila",
+          "section": "🎬 Video, Audio & Podcasting",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://newyougo.com/pricing?promo=bf2026",
           "section": "📸 Photo, Image & Screenshot",
           "reason": "needs_official_2026_evidence",
@@ -3470,6 +3490,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://logicballs.com/blog/black-friday-deals",
+          "section": "📝 AI Assistants & Writing",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://citewing.com",
           "section": "🔍 SEO & AI Search Visibility",
           "reason": "needs_official_2026_evidence",
@@ -3511,6 +3541,16 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://getlinkbunny.com/pricing#black-friday-2026",
+          "section": "🔍 SEO & AI Search Visibility",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://gracker.ai/blog/black-friday-deals",
           "section": "🔍 SEO & AI Search Visibility",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -3640,6 +3680,26 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://social9.com/",
+          "section": "📣 Marketing, Social & Lead Gen",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://mailazy.com/blog/black-friday-deals",
+          "section": "📣 Marketing, Social & Lead Gen",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://apps.apple.com/us/app/finny-ai-money-manager/id6736472735",
           "section": "💼 Business, Finance & Operations",
           "reason": "needs_official_2026_evidence",
@@ -3711,6 +3771,26 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://nivon.ai/pricing",
+          "section": "💼 Business, Finance & Operations",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://voksha.com/",
+          "section": "💼 Business, Finance & Operations",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://www.motionops.com/black-friday?utm_source=awesome-bf-cm-deals-shortliste&utm_medium=deal_listing&utm_campaign=bfcm_2026",
           "section": "💼 Business, Finance & Operations",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -4590,6 +4670,26 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://ssojet.com/blog/black-friday-deals",
+          "section": "🔐 Security & Privacy",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://mojoauth.com/",
+          "section": "🔐 Security & Privacy",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://apps.apple.com/us/app/steps-workout-pedometer/id6746096378",
           "section": "📱 Lifestyle, Health & Travel",
           "reason": "needs_official_2026_evidence",
@@ -4749,7 +4849,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "f75c58e91a40bf8bb6e9d998fb999a1019f860954babf2d086017fe6f7f5a113"
+      "validated_digest": "92617249db21fb771edce2c1badc675943ddb1778565b56d4a661c7066a39df6"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
@@ -5014,9 +5114,9 @@
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
       "adapter_version": 7,
-      "body_sha256": "869c4eda2c5204469bf3df6e2127bf380a7fa82820f81915558ca87f99968434",
+      "body_sha256": "f4d0e62c52ea254e22e8b45150b773f601f07c28d06e160e04401615063e56ed",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 03:14:56 GMT",
+      "last_modified": "Wed, 11 Nov 2026 13:21:34 GMT",
       "deals": [],
       "candidates": [
         {
@@ -5087,15 +5187,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "dc7f49b6fd94c25f11ea7355f898bd29ef79bc14564e78c2e296cef7f560ff54"
+      "validated_digest": "36ecf90671a227654a492fb42ae50378638a743b45b2ac7e56bfc891ac3b6dbc"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
       "adapter_version": 7,
-      "body_sha256": "52a0ea6a773f72f6f88cdd25960f21afc2defd4c15433f0cc381508e26a7f07b",
+      "body_sha256": "03b80d750702868bf72d11b6cb8df00e34acda472c2e808641490d8234d6000c",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 05:54:03 GMT",
+      "last_modified": "Wed, 11 Nov 2026 13:39:17 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -6160,13 +6260,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "76a9c08da0e09be2e6a1d89f86bfd58d1053a0ca1beeec66008b500b1ace6e9d"
+      "validated_digest": "076554ad62c16150034d00f3d91c5417f28dd81974f6792b022c2110a9688675"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 7,
-      "body_sha256": "5d25e42b3c6388eb4b81e956ef0b48063a3d0a06ddbec1b79ea1067e8d94c6fe",
+      "body_sha256": "2a4dcc0be5f16552336ce1300215b6e5c3251fb321f1814237f5fc6ce1edc62a",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6240,7 +6340,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-security-starter-pack?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Security-Starter-Kit&sfcid=701Vh00000cn7aRIAQ&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Security-Bundle",
+          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -6261,7 +6361,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "87925998c9d03e413328ec887bcef4a49b1fab9147f47f21ddf9ac2413a293dc"
+      "validated_digest": "146a7a8ca32a076c750a098bc49d241d70785b9b5921b4c5d856f7a055a07a86"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -6279,7 +6379,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 7,
-      "body_sha256": "9e95b0d1d336c3b9b8830cf4b9e42c98350b7cf4834c46d0a812f2a60bcc14ad",
+      "body_sha256": "9fc86d2c2cdcf5d35f840b8a9cd097d7aa03347aa0ad9b3bb39ca2082d7e7e77",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6319,14 +6419,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "71c669d1bbe4305d5a46a2e66ee8ee9c31ac27dc44ace9612790eab280d68aba"
+      "validated_digest": "25f520d277b0d09f611dc24317fdaf2e13a8df62c58fdbca4cdea4e5172c5e10"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 7,
-      "body_sha256": "bc22f29f3d8f505f4b28783cbd0fa85f37e809a8fe7d06c528483993e1906910",
-      "etag": "W/\"bc22f29f3d8f505f4b28783cbd0fa85f\"",
+      "body_sha256": "0aa3ddfd9743dc9a98749a31d06e2dbdc8e294da8631b32159b558ad65c9ea09",
+      "etag": "W/\"0aa3ddfd9743dc9a98749a31d06e2dbd\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -6420,7 +6520,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "570a4d833abd370a945af3f250c827e5f9993b16017651905c8ebfc2172a1d66"
+      "validated_digest": "91ce382ac6404c778cd589e97e3db2b20463b4b806d7af2c2fe7e71c1e6213f5"
     }
   },
   "candidates": [
@@ -10309,6 +10409,106 @@
       "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
       "offer_url": "https://apps.apple.com/app/apple-store/id6816097524?pt=129027920&ct=bf26-awesome-twf&mt=8",
       "section": "📱 Lifestyle, Health & Travel",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://kveeky.com/blog/best-black-friday-ai-voiceover-deals",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://blitzreels.com/black-friday?utm_source=twf-nikhila",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://logicballs.com/blog/black-friday-deals",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://gracker.ai/blog/black-friday-deals",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://social9.com/",
+      "section": "📣 Marketing, Social & Lead Gen",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://mailazy.com/blog/black-friday-deals",
+      "section": "📣 Marketing, Social & Lead Gen",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://voksha.com/",
+      "section": "💼 Business, Finance & Operations",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.motionops.com/black-friday?utm_source=awesome-bf-cm-deals-shortliste&utm_medium=deal_listing&utm_campaign=bfcm_2026",
+      "section": "💼 Business, Finance & Operations",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://ssojet.com/blog/black-friday-deals",
+      "section": "🔐 Security & Privacy",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://mojoauth.com/",
+      "section": "🔐 Security & Privacy",
       "reason": "needs_official_2026_evidence",
       "entry_status": "discovered",
       "campaign_year": null,
