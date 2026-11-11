@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
-from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops, structured_offers
+from collector.adapters import trainsec, github_markdown, hak5, html_discovery, practical_devsecops, structured_offers
 from collector.http import FetchError, Response, SafeFetcher, public_addresses, validate_url, PublicHTTPSConnection
 from collector.import_evidence import corroborated, import_reviewed
 from collector.policy import (acceptable, apply_overrides, deduplicate, eligibility,
@@ -107,6 +107,16 @@ class EligibilityTests(unittest.TestCase):
     def test_scoped_campaign(self):
         self.assertEqual(eligibility({'campaign_text': '2026 Black Friday 40% sale'}), 'explicit_2026')
 
+    def test_vendor_seasonal_page_qualifies_only_inside_window(self):
+        evidence = {'campaign_text': 'Proton Black Friday deals. Our biggest sale of the year.', 'vendor_page': True}
+        self.assertEqual(eligibility(evidence, '2026-11-11T12:00:00Z'), 'vendor_campaign_window')
+        self.assertEqual(eligibility(evidence, '2026-11-01T00:00:00Z'), 'vendor_campaign_window')
+        self.assertIsNone(eligibility(evidence, '2026-10-31T23:59:59Z'))
+        self.assertIsNone(eligibility(evidence, '2026-12-08T00:00:00Z'))
+        # Roundups and discovery pages never get the window basis; only the vendor's own page does.
+        self.assertIsNone(eligibility({'campaign_text': 'Proton Black Friday deals'}, '2026-11-11T12:00:00Z'))
+        self.assertIsNone(eligibility({'campaign_text': 'Pricing', 'vendor_page': True}, '2026-11-11T12:00:00Z'))
+
     def test_footer_course_title_and_updated_date_ignored(self):
         self.assertIsNone(eligibility({'page_text': 'Copyright 2026 Black Friday', 'course_title': 'Cybersecurity 2026', 'date_modified': '2026-10-15T00:00:00Z'}))
 
@@ -201,6 +211,43 @@ class DiscoveryTests(unittest.TestCase):
         snap, _, _ = collect(registry(github, SOURCE), None, {}, f, now=NOW, selected=[github['id']])
         self.assertEqual(f.fetch.call_count, 1)
         self.assertEqual(snap['deals'], [])
+
+
+class Hak5Tests(unittest.TestCase):
+    FIXTURE = (ROOT / 'tests/fixtures/hak5-hacked-november.html').read_bytes()
+    SOURCE = next(x for x in REGISTRY['sources'] if x['id'] == 'hak5-hacked-november')
+
+    def test_exact_sale_prices_publish_ranges_and_regular_prices_do_not(self):
+        with patch('collector.policy.utcnow', return_value=NOW):
+            deals, candidates, status = hak5.parse(self.FIXTURE, self.SOURCE)
+        self.assertEqual(status, 'confirmed')
+        by_name = {x['product']: x for x in deals}
+        self.assertEqual(set(by_name), {'Essential Ducky Gift Pack', 'Glytch Crash Kit'})
+        pack = by_name['Essential Ducky Gift Pack']
+        self.assertEqual((pack['sale_price'], pack['regular_price'], pack['discount_percent'], pack['currency']), (99.0, 245.0, 59.59, 'USD'))
+        self.assertEqual(pack['offer_url'], 'https://shop.hak5.org/collections/holiday-gift-packs/products/essential-ducky-gift-pack')
+        self.assertEqual((pack['eligibility_basis'], pack['category'], pack['campaign_type']), ('vendor_campaign_window', 'hardware', 'general_promotion'))
+        self.assertIsNone(pack['coupon'])
+        self.assertTrue(any('H4CK3DN0V26' in x for x in pack['conditions']))
+        self.assertEqual({(x.get('product'), x['reason']) for x in candidates},
+                         {('O.MG Gift Pack', 'variant_price_range_needs_review'), ('O.MG Cable', 'variant_price_range_needs_review')})
+        self.assertTrue(all(acceptable(x, NOW)[0] for x in deals))
+
+    def test_outside_window_nothing_publishes(self):
+        with patch('collector.policy.utcnow', return_value='2026-12-08T00:00:00Z'):
+            deals, candidates, status = hak5.parse(self.FIXTURE, self.SOURCE)
+        self.assertEqual((deals, status), ([], 'discovery'))
+        self.assertEqual(candidates[0]['reason'], 'hak5_campaign_missing_or_changed')
+
+    def test_window_offer_lapses_when_window_closes(self):
+        with patch('collector.policy.utcnow', return_value=NOW):
+            deal = hak5.parse(self.FIXTURE, self.SOURCE)[0][0]
+        self.assertEqual(acceptable(deal, '2026-12-08T00:00:00Z'), (False, 'ineligible_date_evidence'))
+
+    def test_campaign_banner_removed_blocks_publication(self):
+        body = self.FIXTURE.replace(b'Holiday Gift Packs', b'Gear').replace(b'Hacked November - Hak5', b'Hak5')
+        with patch('collector.policy.utcnow', return_value=NOW):
+            self.assertEqual(hak5.parse(body, self.SOURCE)[0], [])
 
 
 class PracticalDevSecOpsTests(unittest.TestCase):

@@ -41,8 +41,14 @@ def clean(value):
     return re.sub(r'\s+', ' ', str(value)).strip()
 
 
-def eligibility(evidence):
-    """Only scoped campaign text or a substantiated ORIGINAL October publication.
+# ponytail: fixed 2026 seasonal window; make it registry policy if the edition rolls over.
+SALE_WINDOW = ('2026-11-01T00:00:00Z', '2026-12-08T00:00:00Z')
+SEASONAL = re.compile(r'black\s*friday|cyber\s*monday|bfcm|holiday\s+(?:sale|gift|deal)|november\s+(?:sale|deal)', re.I)
+
+
+def eligibility(evidence, now=None):
+    """Scoped campaign text, a vendor's own seasonal page inside the sale window,
+    or a substantiated ORIGINAL October publication.
 
     Footer text, product titles and general page text are deliberately not inputs.
     Adapters must supply a campaign excerpt from the relevant campaign container.
@@ -53,6 +59,13 @@ def eligibility(evidence):
     if (re.search(r'\b2026\b|\bBF2026\b', campaign, re.I)
             and re.search(r'black\s*friday|cyber\s*monday|sale|discount|promotion|BF2026', campaign, re.I)):
         return 'explicit_2026'
+    # Owner decision (11 Nov 2026): a vendor's own page whose campaign heading names
+    # the seasonal sale qualifies while the 2026 window is open, even without the
+    # literal year. The basis is re-evaluated every run, so it lapses with the window.
+    if evidence.get('vendor_page') and SEASONAL.search(campaign):
+        current = instant(now or utcnow())
+        if instant(SALE_WINDOW[0]) <= current < instant(SALE_WINDOW[1]):
+            return 'vendor_campaign_window'
     date = evidence.get('original_published_at')
     if date and evidence.get('original_date_verified') and evidence.get('original_date_source'):
         try:
@@ -85,7 +98,7 @@ def acceptable(deal, now):
     if not deal.get('vendor') or not deal.get('product'):
         return False, 'missing_product'
     evidence = deal.get('eligibility_evidence', {})
-    if eligibility(evidence) != deal.get('eligibility_basis'):
+    if eligibility(evidence, now) != deal.get('eligibility_basis'):
         return False, 'ineligible_date_evidence'
     if not evidence.get('official_corroboration'):
         return False, 'missing_current_official_corroboration'

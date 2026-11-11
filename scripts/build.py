@@ -97,7 +97,7 @@ def prepare_deals(snapshot, taxonomy):
         deal = dict(source_deal)
         if deal.get('campaign_year') != 2026 or deal.get('verification_status') not in {'vendor_published', 'marketplace_published'}:
             raise ValueError('Public snapshot contains an ineligible campaign/status')
-        if deal.get('eligibility_basis') not in {'explicit_2026', 'october_2026'} or not deal.get('eligibility_evidence'):
+        if deal.get('eligibility_basis') not in {'explicit_2026', 'october_2026', 'vendor_campaign_window'} or not deal.get('eligibility_evidence'):
             raise ValueError('Public snapshot lacks date eligibility evidence')
         if deal.get('category') not in categories or not deal.get('id') or deal['id'] in ids:
             raise ValueError('Invalid category or duplicate offer identity')

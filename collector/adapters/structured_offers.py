@@ -29,7 +29,7 @@ import re
 from urllib.parse import urljoin, urlsplit
 from bs4 import BeautifulSoup
 
-from collector.policy import CATEGORIES, TOPICS, clean, eligibility, identity, instant
+from collector.policy import CATEGORIES, SEASONAL, TOPICS, clean, eligibility, identity, instant
 
 ITEM_TYPES = {'Product', 'Course', 'SoftwareApplication', 'WebApplication', 'MobileApplication',
               'Service', 'Book', 'EducationalOccupationalProgram', 'ProductGroup'}
@@ -177,13 +177,13 @@ def parse(body, source):
         if value:
             intro.append(value)
     campaign = ' '.join([heading, *intro])[:1500]
-    evidence = {'campaign_text': campaign, 'official_corroboration': True, 'structured_data': True,
+    evidence = {'campaign_text': campaign, 'official_corroboration': True, 'structured_data': True, 'vendor_page': True,
                 'scope': f'schema.org offers on the {vendor} 2026 campaign page',
                 'checkout_tested': False}
     basis = eligibility(evidence)
     # The vendor's own page heading must name the 2026 campaign. Structured data
     # alone (often site-wide, cached or template-generated) is not campaign evidence.
-    if basis != 'explicit_2026' or not CAMPAIGN_HEADING.search(heading):
+    if not (basis == 'explicit_2026' and CAMPAIGN_HEADING.search(heading)) and not (basis == 'vendor_campaign_window' and SEASONAL.search(heading)):
         return [], [{'source_id': source['id'], 'source_url': source['url'],
                      'reason': 'structured_campaign_missing_or_changed',
                      'evidence_excerpt': campaign[:600]}], 'discovery'

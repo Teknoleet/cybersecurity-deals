@@ -9,7 +9,7 @@
     "deadline_seconds": 180,
     "robots": "Obey cached robots per run. Fail closed on network/403/5xx/redirect/HTML. 404/410 explicitly absent policy permits fetching.",
     "publication": "Maintained official adapter plus scoped eligible current evidence only. Discovery lists never publish directly.",
-    "supported_official_domains": ["www.practical-devsecops.com"]
+    "supported_official_domains": ["www.practical-devsecops.com", "shop.hak5.org"]
   },
   "sources": [
     {
@@ -164,11 +164,11 @@
       "name": "Hak5 Hacked November sale",
       "url": "https://shop.hak5.org/pages/hacked-november",
       "type": "official",
-      "adapter": "html_discovery",
-      "capability": "discovery_only",
+      "adapter": "hak5",
+      "capability": "supported",
       "enabled": true,
       "topics": ["hardware-physical", "offensive-security"],
-      "note": "Vendor's own November sale page with gift-pack prices and a stackable code; it names neither Black Friday nor 2026 in its campaign text, so discovery only."
+      "note": "Vendor's own Hacked November sale page (Shopify) with current and crossed-out prices in USD. Qualifies under the 2026 seasonal-window rule; variant price ranges stay candidates. Checkout not tested."
     },
     {
       "id": "offsec-learn-one",

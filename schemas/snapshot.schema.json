@@ -63,7 +63,7 @@
         "topics": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/topic"}},
         "campaign_type": {"enum": ["black_friday", "general_promotion"]},
         "campaign_year": {"const": 2026},
-        "eligibility_basis": {"enum": ["explicit_2026", "october_2026"]},
+        "eligibility_basis": {"enum": ["explicit_2026", "october_2026", "vendor_campaign_window"]},
         "eligibility_evidence": {
           "type": "object", "required": ["official_corroboration"],
           "properties": {

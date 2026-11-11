@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from collector.adapters import ADAPTER_VERSION
-from collector.adapters import trainsec, github_markdown, html_discovery, practical_devsecops, structured_offers
+from collector.adapters import trainsec, github_markdown, hak5, html_discovery, practical_devsecops, structured_offers
 from collector.http import SafeFetcher, FetchError, representation_url
 from collector.policy import (acceptable, apply_overrides, deduplicate, digest,
                               identity, instant, observe, utcnow)
@@ -22,7 +22,7 @@ from collector.state import atomic_json, load_json, validate_snapshot
 ROOT = Path(__file__).resolve().parent.parent
 ADAPTERS = {'trainsec': trainsec.parse, 'github_markdown': github_markdown.parse,
             'html_discovery': html_discovery.parse, 'practical_devsecops': practical_devsecops.parse,
-            'structured_offers': structured_offers.parse}
+            'structured_offers': structured_offers.parse, 'hak5': hak5.parse}
 
 
 def source_record(source, previous=None):

@@ -14,7 +14,7 @@ When adding a parser, confirm the source permits the proposed access method and 
 
 Many vendor campaign pages describe their products with schema.org `Offer` data in `<script type="application/ld+json">`. The `structured_offers` adapter publishes those offers from configuration alone. To add a vendor:
 
-1. Confirm the vendor's own page is a 2026 campaign page: its `<h1>` must name Black Friday, Cyber Monday or BFCM together with 2026. Check that robots rules and terms permit fetching it.
+1. Confirm the vendor's own page is a 2026 campaign page: its `<h1>` must name Black Friday, Cyber Monday or BFCM together with 2026, or (while the 2026 seasonal window in `collector/policy.py` is open) name the seasonal sale on its own. Check that robots rules and terms permit fetching it.
 2. View the page source and confirm its JSON-LD offers include a `price`. Being on the vendor's 2026 campaign page is what qualifies an offer; prices are not checked against history or a reference. A `priceSpecification` whose `priceType` is `ListPrice` or `StrikethroughPrice` above the price is shown as the crossed-out price; otherwise the offer shows its price alone. An invalid `priceCurrency` is shown as unspecified.
 3. Register it in `config/sources.json` with `"type": "official"`, `"adapter": "structured_offers"`, `"capability": "supported"` and a `structured` block, then add its exact hostname to `policy.supported_official_domains`:
 
