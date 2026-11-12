@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T12:49:49Z",
+  "updated_at": "2026-11-12T20:48:38Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -5178,9 +5178,9 @@
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "b9c6468da891300e329291ebac8de476e11f4ba6ee0967c21aa99635ac82b48b",
+      "body_sha256": "82aef87cff466dd07af93340f9d42255ed6633570a4ef167baf4905bdba78359",
       "etag": null,
-      "last_modified": "Thu, 12 Nov 2026 12:49:40 GMT",
+      "last_modified": "Thu, 12 Nov 2026 20:48:22 GMT",
       "deals": [],
       "candidates": [
         {
@@ -5328,7 +5328,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "97dfc1555add91700d848f50360b233ae26590568bdf46777bce1999cb8822cc"
+      "validated_digest": "24b085b3f20c7003dcb00cf389f4ceaf0225a48cb10f4b17704f17e9e5109a6c"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
@@ -6486,7 +6486,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "35bdbbebbe90dcfa64832afed783743bce0038794eff5819572ee2ba8d644627",
+      "body_sha256": "756dfcf93aedc3d72c546d0378af5e7743dded1df629d57234812c7cc8110e7c",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6560,7 +6560,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-security-starter-pack?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Security-Starter-Kit&sfcid=701Vh00000cn7aRIAQ&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Security-Bundle",
+          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -6581,7 +6581,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "22c67160b0ceee6a34258d0b5a426718332c3c04dd765f88d376adfec673c39a"
+      "validated_digest": "c89f9002556740b3a781b703d346478bfe6e813a28f91be827dfec4a812c4921"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -6599,7 +6599,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "a6003d9b37950fc57c240974d596dfc6d31c9dee7ecf7eefb3b4f68a54bb32e1",
+      "body_sha256": "b98d5d49f0ef85313a5a4a97706031b1b7647ae84643dd5721550abc355d47a4",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -6639,14 +6639,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "8260df16ed1abebac156c9b24a06f3503c1afcd1c956c5585dfeb1f34f49346b"
+      "validated_digest": "ef63c54e683ebe09b4c66397d15102daa62215a87274bd1bc5f929201cf6b297"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "d526118dfa08178d29b98dd5ef27caf601ac562139a785267cb6f0042bdfdf3d",
-      "etag": "W/\"d526118dfa08178d29b98dd5ef27caf6\"",
+      "body_sha256": "d62ee9c237c7a9e0883e121e9bf960f78336efd3b80d319041b7805ec2fc046a",
+      "etag": "W/\"d62ee9c237c7a9e0883e121e9bf960f7\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -6740,15 +6740,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "2c484ba64b2a29b1fc779b5c56212763f5cba86a6b261e64271033908254ac1d"
+      "validated_digest": "728b1bc58d8339fd56ad29a974599da662fd1d862dad7e8e4752938f97da8f5d"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "72147755181106f2fa46d62fdb883751b479d8e5ae2bf571974aca7c42c87eca",
-      "etag": "\"8c1b-660129626036b\"",
-      "last_modified": "Thu, 12 Nov 2026 11:26:45 GMT",
+      "etag": "\"8c1b-660128ae9ed6c\"",
+      "last_modified": "Thu, 12 Nov 2026 11:23:36 GMT",
       "deals": [],
       "candidates": [
         {
@@ -6804,8 +6804,8 @@
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "92a2d4221064cef2593e5e4e5990e95db4b382176b0fc599441bc347008e101e",
-      "etag": "\"74a7-66012137f7813\"",
-      "last_modified": "Thu, 12 Nov 2026 10:50:13 GMT",
+      "etag": "\"74a7-6601213577b6a\"",
+      "last_modified": "Thu, 12 Nov 2026 10:50:10 GMT",
       "deals": [],
       "candidates": [
         {
@@ -6926,7 +6926,7 @@
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "16d558f0ebd6703df88b0acbfade60a5f807471edcd46859062d1eec079c5f81",
+      "body_sha256": "8a17329c256e4f1365d8244ce46f226a34c45334684bf01e5034a1c28912bcbd",
       "etag": null,
       "last_modified": null,
       "deals": [
@@ -7126,15 +7126,15 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "248c6d222f90d71db3172f84442dab1905d3420f271d31278251a5ae09be30e5"
+      "validated_digest": "c6ae7b13e18f3528e79f4725ae81c0ba92f5f62e9e29f0b25001474a7218dcd4"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "c824cdf3e69754fd91cded2064f21ab614499555ffab07d11921a01a736398bd",
-      "etag": "W/\"17320-65ff09d5e39df\"",
-      "last_modified": "Tue, 10 Nov 2026 18:54:57 GMT",
+      "etag": "W/\"17320-66018d829d810\"",
+      "last_modified": "Thu, 12 Nov 2026 18:54:42 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7321,7 +7321,7 @@
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "aedfdeee3d2d5297f36a3047abf95c921dc27e28a48e20c890e0023475f923b0",
+      "body_sha256": "ceb2f0afc8101e345b33f6f6c5c0412fc76e706fa4b71ec7bc333197cc74c70e",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -7350,7 +7350,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "1ffae2afdd900139e934786c64773745d926e411f71f62e3a3b8f9bde0b98c64"
+      "validated_digest": "50b32e601683698c073b94edd1527d5bacedb1a4e7327db909abc7550cc51585"
     }
   },
   "candidates": [
