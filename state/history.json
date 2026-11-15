@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T07:50:10Z",
+  "updated_at": "2026-11-15T15:39:22Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -2962,8 +2962,8 @@
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
       "adapter_version": 8,
-      "body_sha256": "63fbe14c7e088004b19411990bb3b8c5f9bf42463b8429aec225b0abf99926bc",
-      "etag": "W/\"1c6e326ec0450d03229b8b0210c5f5819267239f5ab4103f1db6c18b7a4a98a9\"",
+      "body_sha256": "b6f7b1a4b5eb0f12c7538d6b9a6e63409714a54383a8ccc6cc205a9e7a4b2cec",
+      "etag": "W/\"5fd74e55aea25d04e75efdc0afb49c41db17e40618df1288650d3367aa74a5b4\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -4360,6 +4360,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://atatapp.com/black-friday?utm_source=bf-twf",
+          "section": "🧑‍💻 Developer Tools",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://shipahe.ad?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "🧱 Boilerplates & Starter Kits",
           "reason": "needs_official_2026_evidence",
@@ -5519,7 +5529,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "d5af512ce3b8567185930c93cdbef941b82a6ba356bc2b2d0cfb508ea95cdbfc"
+      "validated_digest": "e093bbe30c960e30c06158ce232761a1bed50b9757185c157b13ef0ae821dfdc"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
@@ -5628,9 +5638,9 @@
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "9994ae6ff7f42c939941f2f537b077b0e6b33334d1decbf97dbd4a32d5f4b45f",
+      "body_sha256": "9471aa18ea56fd006b63908b365d0e09cc058cac122df48b9b93e7b815931d2a",
       "etag": null,
-      "last_modified": "Sun, 15 Nov 2026 01:23:51 GMT",
+      "last_modified": "Sun, 15 Nov 2026 09:01:57 GMT",
       "deals": [],
       "candidates": [
         {
@@ -5778,15 +5788,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "70b176ff6a7d623b718c7ef3d91402bccaaef333123c67caf1eb49b4b90f4591"
+      "validated_digest": "01d4908d816e8076703f5fd0347544dcb60642879b9134934d8ca10140236694"
     },
     "practical-devsecops-2025": {
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "529ddc45bd13933bb3bf4fcd0662fdfb2f216c62cf4fcc850a120f8c5e23c39b",
+      "body_sha256": "8fdec687d4b55ea1c6940a60f8b9bcee316d7b5fb451e80c77730ddfcd0eacfd",
       "etag": null,
-      "last_modified": "Sun, 15 Nov 2026 01:52:34 GMT",
+      "last_modified": "Sun, 15 Nov 2026 12:52:25 GMT",
       "deals": [],
       "candidates": [
         {
@@ -5857,15 +5867,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "ff625ca8a9d8796094ea1be33747c8b9bd875a8069a9b4e9ef887586efcb1e03"
+      "validated_digest": "8a110c2040b9c1d52ad7ab20f6f2cbf38a28ed29777a470af88a9ea37030ae91"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
       "adapter_version": 8,
-      "body_sha256": "19a3aa6fd8df507bcc06941cab3c6cbec185165204e187b9a1c7d989bc3a19f3",
+      "body_sha256": "b353c27301c6e57ec09e5fbbd5ae2f8c03cfb11245f1d63e403bfec10efc3e7b",
       "etag": null,
-      "last_modified": "Sun, 15 Nov 2026 02:29:36 GMT",
+      "last_modified": "Sun, 15 Nov 2026 12:53:24 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -6930,13 +6940,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "4d782d2fa38ee1e81b17af24389969d2f392c249b189ea79652eaa37a2afa9ec"
+      "validated_digest": "d39b573a14b0b5892c864c4142e91fb52ce5d1a3a60fba3c75ae021bac5d3ce7"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "5eac319b9e91a63afe2ad788a278db06af7f4f5aaad14455b1e31c0872e33615",
+      "body_sha256": "7f3f16193774b15759415bd011ab1334a693801179216eb15ac2c48728aee4ae",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -7031,7 +7041,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "50bf37f3f94546d8f5f7a169e542c8ebd68439e68eac2eb50802a868739d31b5"
+      "validated_digest": "b0d11bf811638d20ecbbf96593c7749d07078d7f31264e673ab8785fae21957d"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
@@ -7049,7 +7059,7 @@
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "ba2016b3b702d3ba7976765ecb399bb69d35e54cedcedc7aae4f60333de86cd3",
+      "body_sha256": "8cc277e72b30a306d62d34a7c578180c4c99f5ca0582728ceb788741354992c4",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -7089,14 +7099,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "cd39793898fdd0d3e0a9ebe41eae7ae617ab01722d30cde8593ac9cad7d188cf"
+      "validated_digest": "bd985b8ae02092e65e1bffd22e8e48f15b4678cbd989cb6eaf6d2697b916e1b1"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "eff540e35112dbbd3df230322e44d90283ab4b18bc649328c757613e76cc4839",
-      "etag": "W/\"eff540e35112dbbd3df230322e44d902\"",
+      "body_sha256": "91982276f989b6d9be80786a2c52b0136f1fbc8aef61981aa9ff85af0b961e91",
+      "etag": "W/\"91982276f989b6d9be80786a2c52b013\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -7190,15 +7200,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "f53e7bc4d945f872b0be8338b77195878c1d476d717736bb999bf278307b715a"
+      "validated_digest": "57d2d06fe1c7cbfbc08819f934439e60919a3f9f944cc490f4cae43877fec297"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "22c15edc13b6552cf496796b45ca6728fb573dbc5c81095c0b6f639068c7e4c4",
-      "etag": "\"8b24-6602a7bdf25ae\"",
-      "last_modified": "Fri, 13 Nov 2026 15:57:23 GMT",
+      "etag": "\"8b24-6602a735c4409\"",
+      "last_modified": "Fri, 13 Nov 2026 15:55:00 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7254,8 +7264,8 @@
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "1b86890e6aea6e4da650e90b09d39ec737ade9e75f7a8448945b3bae326835ec",
-      "etag": "\"74a6-6602a707795b2\"",
-      "last_modified": "Fri, 13 Nov 2026 15:54:12 GMT",
+      "etag": "\"74a6-6602a6eb537c2\"",
+      "last_modified": "Fri, 13 Nov 2026 15:53:42 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7376,8 +7386,8 @@
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "42a5d5a081691c040b58f70010be4a1c1290ff20f68b63007ff26babeb078c82",
-      "etag": null,
+      "body_sha256": "c3f46bfd1f4de257acdc8161cb7c53abe3017fe183857ed618a3c8fc52398ab8",
+      "etag": "W/\"sfr:computation:v2:419ad8c0eabd4fbcc76440f0bcce1e45948b79207b9889540a729e2f4f186d7a:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null,
       "deals": [
         {
@@ -7632,7 +7642,7 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "baa1f9229730f683a4b5c76a3bd0ea253b2910059c32bc228ba6d802bb42f8b9"
+      "validated_digest": "bb47807ed1d219bf034ee3c8ce62325d07322acd47ebef466eed4f61d362ebda"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
@@ -7827,9 +7837,9 @@
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "f01ee46c8cb23e86a957460d4263b727e5a3dc676fc9ec80543fe152b1684ff0",
+      "body_sha256": "a45a27a1561321db0874e5f14e5c69e5e56cfe4a689d0d43f51a8b23f50ce50a",
       "etag": null,
-      "last_modified": "Wed, 11 Nov 2026 22:10:10 GMT",
+      "last_modified": null,
       "deals": [],
       "candidates": [
         {
@@ -7856,7 +7866,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "520f88540444de07db918809b164b6b82bfa6d4c5608eb1d4c8b285042805bc7"
+      "validated_digest": "a8384e898b934c77a6cddcd697e464eeabd8144a9aba98a3813833cc21e6f215"
     }
   },
   "candidates": [
@@ -14401,6 +14411,16 @@
       "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
       "offer_url": "https://usecopypasta.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
       "section": "💻 Mac & Desktop Utilities",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://atatapp.com/black-friday?utm_source=bf-twf",
+      "section": "🧑‍💻 Developer Tools",
       "reason": "needs_official_2026_evidence",
       "entry_status": "discovered",
       "campaign_year": null,
