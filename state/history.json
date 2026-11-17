@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T17:28:12Z",
+  "updated_at": "2026-11-17T01:04:40Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -6094,9 +6094,9 @@
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "0b48feb5794db335f1c291e6c504556d06dd9136dc9030eec011ae299fb917ea",
+      "body_sha256": "6e3e1a7170097fbd36219cc4faeab222ad5920c8c76430da5548ab676a35d85d",
       "etag": null,
-      "last_modified": "Mon, 16 Nov 2026 10:53:16 GMT",
+      "last_modified": "Mon, 16 Nov 2026 22:05:18 GMT",
       "deals": [],
       "candidates": [
         {
@@ -6167,15 +6167,15 @@
         }
       ],
       "status": "historical",
-      "validated_digest": "36f88763b7be72fb39cca1c16eb5d0fb60b648fb93f7bf2369fde86418ef4758"
+      "validated_digest": "0f38f7cdac26ecc5ee9997829e906c60a8ed953e69f7c9d27c26d18bc3f3b5f3"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
       "adapter_version": 8,
-      "body_sha256": "6613861674edda06e2d52f737bb2cd8f445af100e645136524f7162d952428a7",
+      "body_sha256": "fc84934f9663994179917ec00b4a105592657a6d7b0f550718e284469f1ed627",
       "etag": null,
-      "last_modified": "Mon, 16 Nov 2026 07:34:24 GMT",
+      "last_modified": "Mon, 16 Nov 2026 18:20:11 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -7240,13 +7240,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "8336fac612065c01d61abcb012138c93d1725b23a1a3288b695cc4ec5146c1fc"
+      "validated_digest": "91d2feb052d21c966fdbb6901f403c79d9e866bf788fad868aaaffbd408c1a44"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "679af15da88715a63a3c2a7115114760f366e8e1eddf8809ccbc76e87f0046eb",
+      "body_sha256": "2bc8a3865038a1102e008e088761edfb98a9c2e47af7e26a48ee14d59b4bec99",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -7320,7 +7320,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/securing-ai-agents-101?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY26Q3_INB_FORM_Securing-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Agents-101",
+          "offer_url": "https://www.wiz.io/lp/ai-security-starter-pack?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Security-Starter-Kit&sfcid=701Vh00000cn7aRIAQ&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Security-Bundle",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -7352,25 +7352,367 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "9caaf46deb41cddc157e8bcc7784b093e063cddcafcad29a2f45649efd5ea1a6"
+      "validated_digest": "53fa5106ec22e0b3714a2ce79fdc439b72e89c346183117c8c474335f22b6512"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
       "adapter": "html_discovery",
-      "adapter_version": 4,
-      "body_sha256": "e4ecb21b478bc103a0f10de5c6d0d45d75ea391e6bfd63dc597669ec66f0bdfa",
+      "adapter_version": 8,
+      "body_sha256": "95a24df58ea9f14fb20bb8459459ba47ba78c2718685891d7ee562490ccfab70",
       "etag": null,
       "last_modified": null,
       "deals": [],
-      "candidates": [],
+      "candidates": [
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "section": "Reading",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "section": "// 02 Featured deals",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://my.ine.com",
+          "section": "// 03 Hacking labs and security training",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://checkout.ine.com",
+          "section": "// 03 Hacking labs and security training",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+          "section": "// 03 Hacking labs and security training",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://ine.com/security",
+          "section": "// 04 Certifications",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+          "section": "// 04 Certifications",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+          "section": "// 04 Certifications",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://t.me/cipherssecurity",
+          "section": "Related coverage on Ciphers Security",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "ciphers-security-tracker",
+          "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+          "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "section": "⚡ Latest News",
+          "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+          "published_at": "2026-10-27T13:46:32+05:30",
+          "reason": "needs_official_2026_evidence",
+          "campaign_year": null,
+          "automatic_publication": false
+        }
+      ],
       "status": "discovery",
-      "validated_digest": "13269ef67daa53cec3b47473f5692c87497482366c4af3d76c958344c6b86bd6"
+      "validated_digest": "65ff212242b0a3d0d3bf5a8362f45432dd8a3f13d00546ba5df7f151917fced6"
     },
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "7564ace9d794bb4d186571cd9101174bf7436930aed771c9fff1b94a60d15cee",
+      "body_sha256": "4c0024f4f3e54f82e0daad563fd33aa4295ae778b1ef218b271a55b23d97cf53",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -7410,14 +7752,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "7849c9c0486e957066fb0d6e4d0bd03a62b3ba6e51429f5dbbe460e6d889753d"
+      "validated_digest": "d7856b5b2d8ebbbc77762f72d880201c6c2eb1c64e86721c6ceab6ef26c72a7e"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "c89aed103a6b9c0a78e7d149d741536d76daa2abd80f87f5b43db7fcecb566ae",
-      "etag": "W/\"c89aed103a6b9c0a78e7d149d741536d\"",
+      "body_sha256": "1acb966d6bbfeacbe6339eb3188721e137990455d9016abfff26634c9f1d8974",
+      "etag": "W/\"1acb966d6bbfeacbe6339eb3188721e1\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -7511,15 +7853,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "52a0f9790fde593bceaa9501503d976273466db34605c13b30b1a3948fdaccc3"
+      "validated_digest": "df3569d8c9198ce91e85b47cfb56ef21f71521f8261b68bac991001059c6640f"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "55f95e63e8f3abe857dda9b2c2d10d5891186051317c438598372d844b031c3f",
-      "etag": "\"8dd1-6606070104a0b\"",
-      "last_modified": "Mon, 16 Nov 2026 08:19:33 GMT",
+      "etag": "\"8dd1-6606077e727c0\"",
+      "last_modified": "Mon, 16 Nov 2026 08:21:45 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7575,8 +7917,8 @@
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "f0eb6ec43bfc37a382c940a1cd5094241cd89cc552eedf889809194463d58480",
-      "etag": "\"7648-66060782f92a4\"",
-      "last_modified": "Mon, 16 Nov 2026 08:21:49 GMT",
+      "etag": "\"7648-660607857a43f\"",
+      "last_modified": "Mon, 16 Nov 2026 08:21:52 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7697,8 +8039,8 @@
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "63ad960011b6e5e05f025e00954d29e27e965006f6f83b0459ffd34d9ff0b0b1",
-      "etag": "W/\"sfr:computation:v2:d9f51ab5d63bbc96cdb35d020e469f907561fc48c1320d064af4e365eb85f40d:62b1a0a3e6f38515e1ba729bee211379\"",
+      "body_sha256": "578418292de15b3c43e8ed23579da0dc2c0cee08df5b08edce080e3bcb890f9f",
+      "etag": "W/\"sfr:computation:v2:736fd9dcad22b7eb6f8c796217958c47cf19fbf5a1351031f156e26c829d50b6:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null,
       "deals": [
         {
@@ -7953,15 +8295,15 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "6974845f85292b5774dc4dbc213bf3024ace939257e8436d1d6d2b7d4f99758f"
+      "validated_digest": "6becf3430e5d98e9ab7ffd69e858e6e4c39b9cfe86cec45dff4cf19317cbed93"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "6365e10b99a1f1b3dfaae0f154a3dcccaacf5e5bf9c3efc6c018936b2afa5d6a",
-      "etag": "W/\"17320-66067b12e173c\"",
-      "last_modified": "Mon, 16 Nov 2026 16:58:50 GMT",
+      "etag": "W/\"17320-66068fe8c131e\"",
+      "last_modified": "Mon, 16 Nov 2026 18:32:03 GMT",
       "deals": [],
       "candidates": [
         {
@@ -8148,9 +8490,9 @@
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "767d60eb7284b340c807ab8b5c559844146d24ec2cd3d7258affb32a8b0b4d61",
+      "body_sha256": "b145ae7b0ce6859fb2dd4cbb4c191538e4064061445a25b2c949954b42d50738",
       "etag": null,
-      "last_modified": "Sun, 15 Nov 2026 20:35:35 GMT",
+      "last_modified": "Mon, 16 Nov 2026 22:38:12 GMT",
       "deals": [],
       "candidates": [
         {
@@ -8177,7 +8519,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "aebd242d856bfb44983ea73cced029b5c852ef6a85773a77d8f68cd9e4fc356c"
+      "validated_digest": "72395e358778667a24f351e653ad7e8930b0748354e50bd8eb3ab7236f9cdd73"
     }
   },
   "candidates": [
@@ -15066,6 +15408,347 @@
       "section": "🎁 Free Stuff",
       "reason": "needs_official_2026_evidence",
       "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://my.ine.com",
+      "section": "// 03 Hacking labs and security training",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://checkout.ine.com",
+      "section": "// 03 Hacking labs and security training",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+      "section": "// 03 Hacking labs and security training",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://ine.com/security",
+      "section": "// 04 Certifications",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+      "section": "// 04 Certifications",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=table",
+      "section": "// 04 Certifications",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://t.me/cipherssecurity",
+      "section": "Related coverage on Ciphers Security",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://vantagepoint.enciphers.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://pentestingexams.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.practical-devsecops.com/black-friday-sale-2026/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.whiteknightlabs.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://training.thexero.co.uk/blackfriday?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://www.modernsecurity.io/courses/ai-security-certification?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://hacktricks-training.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
       "campaign_year": null,
       "automatic_publication": false
     }
