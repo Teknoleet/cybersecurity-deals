@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T16:08:31Z",
+  "updated_at": "2026-11-20T22:40:09Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -7078,9 +7078,9 @@
       "url": "https://www.appsecengineer.com/individuals/pricing",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "91087da6554c05f33e7956d32c9e2d4f1d7139ebd9cc21326b5b571de08aecaf",
+      "body_sha256": "c5bd2c2c9cd1f9bf3b61cdfe541a77ca9ca8df419b7a736455519e6a0a0e9573",
       "etag": null,
-      "last_modified": "Fri, 20 Nov 2026 16:08:19 GMT",
+      "last_modified": "Fri, 20 Nov 2026 21:09:53 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7228,15 +7228,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "e1af228b8a8cbc677742a6273738e05cdbdea574d212a736816af8d6bbca7070"
+      "validated_digest": "69c93863256416f31f7c3d18d224c18e8a37ff22dbc0f1a92b090e1bb1e30150"
     },
     "practical-devsecops-2025": {
-      "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
+      "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2026/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "a955a8d80ea18c64cb4e5c948a913d96dac68235d833df7cc672d62b21c0d105",
+      "body_sha256": "cebdc32fdb8e7ab3b490b0b6196c93808d6ca0f94d52c88fac9a3eefe07c46ba",
       "etag": null,
-      "last_modified": "Fri, 20 Nov 2026 10:41:09 GMT",
+      "last_modified": "Fri, 20 Nov 2026 10:22:12 GMT",
       "deals": [],
       "candidates": [
         {
@@ -7244,9 +7244,9 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "https://trust.practical-devsecops.com/",
           "section": "Application Security Courses",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         },
@@ -7255,9 +7255,9 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "https://jobs.gohire.io/mNz5j0qA/",
           "section": "Application Security Courses",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         },
@@ -7266,9 +7266,9 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "https://careers.practical-devsecops.com/",
           "section": "Company",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         },
@@ -7277,9 +7277,9 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "https://portal.practical-devsecops.training/pricing/",
           "section": "Resources",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         },
@@ -7288,9 +7288,9 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "http://careers.practical-devsecops.com/",
           "section": "Company",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         },
@@ -7299,15 +7299,15 @@
           "discovery_url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2025/",
           "offer_url": "https://podcasts.apple.com/us/podcast/practical-devsecops/id1813726062",
           "section": "Company",
-          "page_heading": "Black Friday Cybersecurity Certification Deals 2025 – Practical DevSecOps",
-          "published_at": "2025-11-23T19:58:50+00:00",
-          "reason": "historical_campaign",
+          "page_heading": "Black Friday Cybersecurity Certification Deals 2026",
+          "published_at": "2026-11-17T08:32:11+00:00",
+          "reason": "needs_official_2026_evidence",
           "campaign_year": null,
           "automatic_publication": false
         }
       ],
-      "status": "historical",
-      "validated_digest": "7421a62033ade42e427d732440d816f867e8c17793e2e2e6ca02908e22661f68"
+      "status": "discovery",
+      "validated_digest": "6797fbc2b1d4751153841c5842a8c1d9a78371273ddcb0422cdec6cb7f9c7c12"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
@@ -8386,7 +8386,7 @@
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "0d12ed6a02b9ef5ae4f3d08e308a2b93460888ed341649b05f431252bd301978",
+      "body_sha256": "fd25ac135c99c657e2aa2d5adb762638a70ebff35b56a7bd9cec965fc59aaa25",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8460,7 +8460,7 @@
         {
           "source_id": "bleepingcomputer-offers",
           "discovery_url": "https://www.bleepingcomputer.com/offer/",
-          "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
+          "offer_url": "https://www.wiz.io/lp/claude-code-security-best-practices-cheat-sheet?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q3_INB_FORM_Claude-Code-Security-Best-Practices&sfcid=701Vh00000gJQZuIAO&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=Claude-Code-Best-Practices",
           "section": "",
           "page_heading": "All Offers",
           "published_at": null,
@@ -8492,13 +8492,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "413fb34615260ae876d38e7806683cc5c616fe6b467649b10fc3ed3cea3200d0"
+      "validated_digest": "77b5c000cdf1eaf358eed6ff010a411ee3c871e4dfc18bb69c53603bb8e1f528"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "8293df58d3b9f88037b9b4c80757a47bc519254d57f05c93946c6a3d410980e6",
+      "body_sha256": "f73366e3240240ae3a0c0dec4862b5423616e74a231cf93221dd3034da994e8a",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8517,7 +8517,7 @@
         {
           "source_id": "ciphers-security-tracker",
           "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
-          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+          "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
           "section": "Reading",
           "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
           "published_at": "2026-10-27T13:46:32+05:30",
@@ -8616,7 +8616,7 @@
         {
           "source_id": "ciphers-security-tracker",
           "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
-          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+          "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
           "section": "// 02 Featured deals",
           "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
           "published_at": "2026-10-27T13:46:32+05:30",
@@ -8704,7 +8704,7 @@
         {
           "source_id": "ciphers-security-tracker",
           "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
-          "offer_url": "https://checkout.ine.com",
+          "offer_url": "https://learn.ine.com/2026-black-friday-promotions",
           "section": "// 03 Hacking labs and security training",
           "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
           "published_at": "2026-10-27T13:46:32+05:30",
@@ -8781,7 +8781,7 @@
         {
           "source_id": "ciphers-security-tracker",
           "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
-          "offer_url": "https://checkout.ine.com/?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+          "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
           "section": "⚡ Latest News",
           "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
           "published_at": "2026-10-27T13:46:32+05:30",
@@ -8868,13 +8868,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "df353b0395f4c8a45d9ba80724e935184095891189f186f3844dcf9b8bd1ab21"
+      "validated_digest": "babc68a68af1d0fad4df3b4999e906aa80605dbdf9ae340aeced0480c8473049"
     },
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "c96ef17fec7be544465c0f5ba9b42c4d7157464722ba3052825127eafae754c8",
+      "body_sha256": "e2f9905dcac0b15b5850ccbb2a9ebabaf545b90a8b052cb147d0c062a2683b56",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8914,14 +8914,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "49fee8fc4f7a8f7872309a9d87627310959373c1d7be76af8325d3580a8cb158"
+      "validated_digest": "134203e8ec55c2e0c1c7634924194ebb79be442027cde6564d897a1fdd28577a"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "86fe7c626a503faaab0c83416be5adc3e0b88b169fc2f930f974992a8b63c969",
-      "etag": "W/\"86fe7c626a503faaab0c83416be5adc3\"",
+      "body_sha256": "1bdeb38104b3f7961848cea09a10435a372f4e996f25661e08d48d457ad9f2e2",
+      "etag": "W/\"1bdeb38104b3f7961848cea09a10435a\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -9004,15 +9004,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "52d3907106ccbe199319c7fdc63056c1bf74b4e3685e1d98ec9957d60d02d14d"
+      "validated_digest": "9e33f896fe0398340f3de499f1cec677323644027be4d95c73d8bd220c630d64"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "ca689b7f4dfbd5a0aab12284d16a209963d3ee4fe76333b460afd48d856e996b",
-      "etag": "\"8e24-660b2915c1fb1\"",
-      "last_modified": "Fri, 20 Nov 2026 10:18:39 GMT",
+      "etag": "\"8e24-660b29134c7bc\"",
+      "last_modified": "Fri, 20 Nov 2026 10:18:36 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9068,8 +9068,8 @@
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "4d22fadab0915178a3373f9419ce326ebe74431951c6ad1403fa4b272548d491",
-      "etag": "\"76c7-660b29541466b\"",
-      "last_modified": "Fri, 20 Nov 2026 10:19:44 GMT",
+      "etag": "\"76c7-660b29599a3a9\"",
+      "last_modified": "Fri, 20 Nov 2026 10:19:50 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9190,8 +9190,8 @@
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "345f008334bb5bc718e42b0ce72b804f7b9ead45a0fb9673ab32519c94259233",
-      "etag": "W/\"sfr:computation:v2:7145947a6d82c165e615914be2165af4c6bb538e1b00eeea2f788632ee987db2:96621a4a958737cca7268ec79441dfd9\"",
+      "body_sha256": "518a18abf6cf2550ea19f7cb64eb3436bd4b36e66606316d42e0c89ddb94c2a9",
+      "etag": null,
       "last_modified": null,
       "deals": [
         {
@@ -9448,11 +9448,11 @@
           "source_id": "hak5-hacked-november",
           "product": "GTA6 Rubber Johnny",
           "reason": "variant_price_range_needs_review",
-          "evidence_excerpt": "GTA6 Rubber Johnny from $100 $170"
+          "evidence_excerpt": "GTA6 Rubber Johnny from $99 $109"
         }
       ],
       "status": "confirmed",
-      "validated_digest": "78438c64fe1bc1dafbeeecf2f0d84dda3f4209cd21bead6f3150328dbde1bd5d"
+      "validated_digest": "9252b72c4e2faee3ee1d01c57d5d1d1cdb66df0ed0d4580366f75b0fffc8b56c"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
@@ -9647,7 +9647,7 @@
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "2cdf1baac550dcef449aa0b4dbf45d4b9674052087e8f904fc30f29c12fafa17",
+      "body_sha256": "be1cee1e357d27148de0255b08efdd424c3b8d970bb98d1e8fb00bc5c7ca501b",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -9676,412 +9676,10 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "9b6054847b48f2e016a4312fd4c330318b5927dfc82d55b2fec3a7070b60d194"
+      "validated_digest": "09cb503ee32ddfdc1f596eb488d03aad5f9808a50ebb2011c856b288bce167c2"
     }
   },
   "candidates": [
-    {
-      "source_id": "bleepingcomputer-offers",
-      "discovery_url": "https://www.bleepingcomputer.com/offer/",
-      "offer_url": "https://www.kaseya.com/lp/next-gen-rmm?utm_source=701Rp00000y8fGN&utm_medium=Other",
-      "section": "",
-      "page_heading": "All Offers",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://www.sans.edu/",
-      "section": "SEC536: Adversarial AI - Penetration Testing AI Systems",
-      "page_heading": "Specials on Cyber Training in Europe, Middle East, and Africa Regions",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://isc.sans.edu/",
-      "section": "SEC536: Adversarial AI - Penetration Testing AI Systems",
-      "page_heading": "Specials on Cyber Training in Europe, Middle East, and Africa Regions",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://www.tiktok.com/@sansinstituteofficial",
-      "section": "Get Involved",
-      "page_heading": "Specials on Cyber Training in Europe, Middle East, and Africa Regions",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://stacksocial.com/terms",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.studentbeans.com/en-us/us/beansid-connect/hosted/stacksocial",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.stackcommerce.com/about",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.stackcommerce.com/publishers",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://partners.stackcommerce.com/affiliates/new",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.stackcommerce.com/vendors",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.stackcommerce.com/careers",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "stacksocial",
-      "discovery_url": "https://www.stacksocial.com",
-      "offer_url": "https://www.bbb.org/losangelessiliconvalley/business-reviews/online-retailer/stackcommerce-in-venice-ca-1013267",
-      "section": "Your Cart",
-      "page_heading": "StackSocial: The Hottest Tech Deals, Delivered Daily",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "bleepingcomputer-offers",
-      "discovery_url": "https://www.bleepingcomputer.com/offer/",
-      "offer_url": "https://www.wiz.io/lp/ai-security-starter-pack?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Security-Starter-Kit&sfcid=701Vh00000cn7aRIAQ&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AI-Security-Bundle",
-      "section": "",
-      "page_heading": "All Offers",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "ciphers-security-tracker",
-      "reason": "fetch_or_extraction_unavailable",
-      "detail": "HTTP 403"
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://www.sans.edu/",
-      "section": "SEC536: Adversarial AI - Penetration Testing AI Systems",
-      "page_heading": "Specials on Cyber Training",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://isc.sans.edu/",
-      "section": "SEC536: Adversarial AI - Penetration Testing AI Systems",
-      "page_heading": "Specials on Cyber Training",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "sans-specials-na",
-      "discovery_url": "https://www.sans.org/specials/north-america",
-      "offer_url": "https://www.tiktok.com/@sansinstituteofficial",
-      "section": "Get Involved",
-      "page_heading": "Specials on Cyber Training",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://facescreen.app",
-      "section": "🎬 Video, Audio & Podcasting",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://json2video.com/pricing/blackfriday-2026/?c=twf",
-      "section": "🎬 Video, Audio & Podcasting",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://atmos.style/?utm_source=twf-nikhila&utm_campaign=bf2026",
-      "section": "📸 Photo, Image & Screenshot",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://getbirdframe.com/?utm_source=bf26-twf#black-friday",
-      "section": "📸 Photo, Image & Screenshot",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.abareplace.com",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://layerwise.app/pricing",
-      "section": "🌐 Website Builders, No-Code & WordPress",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://presentifyapp.com",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://keyscreen.app",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://wins.cool/",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://fluentmac.app/?ref=twf-nikhila",
-      "section": "📝 AI Assistants & Writing",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://syncsignature.com/?utm_source=twf-github&utm_medium=bf-listicle&utm_campaign=bfcm26",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://dynotable.com/?utm_source=twf-nikhila",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://hextaui.com/pricing?utm_source=bf-twf",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "bleepingcomputer-offers",
-      "discovery_url": "https://www.bleepingcomputer.com/offer/",
-      "offer_url": "https://www.wiz.io/lp/ai-threat-readiness-playbook?utm_source=bleepingcomputer&utm_medium=display&utm_campaign=FY27Q2_INB_FORM_AI-Threat-Readiness-Playbook&sfcid=701Vh00000cnU0lIAE&utm_term=FY27Q4-bleepingcomputer-970x250-Nov&utm_content=AITR-Playbook",
-      "section": "",
-      "page_heading": "All Offers",
-      "published_at": null,
-      "reason": "needs_official_2026_evidence",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://podwise.ai",
-      "section": "🎬 Video, Audio & Podcasting",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://outpublished.com/black-friday",
-      "section": "🔍 SEO & AI Search Visibility",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://clientish.co/black-friday-client-management-portal-deal/?utm_source=github&utm_medium=deal-list&utm_campaign=twf-bfcm",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://poedit.com/?utm_source=twf-nikhila",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://extradock.app",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://dockflowapp.io",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://cooldock.app",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://extrabar.app",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
     {
       "source_id": "github-twf-nikhila",
       "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
@@ -17527,6 +17125,405 @@
       "product": "GTA6 Rubber Johnny",
       "reason": "variant_price_range_needs_review",
       "evidence_excerpt": "GTA6 Rubber Johnny from $100 $170"
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://ui.mingcute.com/?utm_source=twf",
+      "section": "🎨 UI Kits, Icons & Design Assets",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.mingcute.com/animation?utm_source=twf",
+      "section": "🎨 UI Kits, Icons & Design Assets",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://mgcweather.framer.website/?utm_source=twf",
+      "section": "🎨 UI Kits, Icons & Design Assets",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://gutslider.com/black-friday/?utm_source=github&utm_medium=deal-list&utm_campaign=bf2026",
+      "section": "🌐 Website Builders, No-Code & WordPress",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-devsecops-professional/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-ai-security-professional/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-cloud-native-security-expert/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-threat-modeling-professional/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-api-security-professional/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-container-security-expert/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-devsecops-expert/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-software-supply-chain-security-expert/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-hysnsec",
+      "discovery_url": "https://github.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals",
+      "offer_url": "https://www.practical-devsecops.com/certified-security-champion/",
+      "section": "9 Best Practical DevSecOps Certification Courses - Black Friday Sale 2025 - Save up to USD 500, (Enroll now, Study Later)",
+      "reason": "historical_campaign",
+      "entry_status": "discovered",
+      "campaign_year": 2025,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://learning.appsecengineer.com/",
+      "section": "",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/free-trial",
+      "section": "7-days Free Trial",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/individual/monthly/pro_plus",
+      "section": "Pro Plus",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/individual/annual/pro_plus",
+      "section": "Pro Plus",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/individual/monthly/pro",
+      "section": "Pro",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/individual/annual/pro",
+      "section": "Pro",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/devsecops_certification_pro_access",
+      "section": "$599",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://checkout.appsecengineer.com/devsecops_certification_pro_plus_access",
+      "section": "$699",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://www.g2.com/products/appsecengineer/reviews",
+      "section": "FAQ",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://www.gartner.com/peer-insights/login/reviews?TARGET=https%3A%2F%2Fwww.gartner.com%2Fapi%2Fauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3Dpi-reviews-web%26state%3DxUEX27Hm9qc8GOkUH4btJ5_-MNTJiTDqpHBkXeCCZBA%26redirect_uri%3Dhttps%3A%2F%2Fwww.gartner.com%2Freviews%2Fauth%2Fauthorize-completed%3FrefVal%3Dundefined%26regActivity%3Dwrite_a_review%26regChannel%3Dorganic%26code_challenge%3Dm0UtZjL9Zw_BxRYLMoYVK5WFONVHLMUlG5Mt7Mgmago%26code_challenge_method%3Ds256%26step%3D",
+      "section": "FAQ",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://help.appsecengineer.com/",
+      "section": "Ready to Elevate Your Security Training?",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://discord.com/invite/apF25mSwKH",
+      "section": "Ready to Elevate Your Security Training?",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "appsecengineer-pricing",
+      "discovery_url": "https://www.appsecengineer.com/individuals/pricing",
+      "offer_url": "https://www.tiktok.com/@appsecengineer",
+      "section": "Ready to Elevate Your Security Training?",
+      "page_heading": "Hack Your Skills. Save 40%.",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "practical-devsecops-2026",
+      "product": "Certified Agentic AI Security Expert (CAASE)",
+      "reason": "course_not_yet_available"
+    },
+    {
+      "source_id": "dfir-diva-discounts",
+      "reason": "fetch_or_extraction_unavailable",
+      "detail": "HTTP 403"
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://infosec.exchange/@BleepingComputer",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://deals.bleepingcomputer.com/",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://deals.bleepingcomputer.com/deals/elearning?utm_source=bleepingcomputer.com&utm_medium=dd_cat",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://deals.bleepingcomputer.com/deals/certifications?utm_source=bleepingcomputer.com&utm_medium=dd_cat",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://deals.bleepingcomputer.com/deals/gear-gadgets?utm_source=bleepingcomputer.com&utm_medium=dd_cat",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "bleepingcomputer-offers",
+      "discovery_url": "https://www.bleepingcomputer.com/offer/",
+      "offer_url": "https://deals.bleepingcomputer.com/collections/tag-cyber-security?utm_source=bleepingcomputer.com&utm_medium=dd_cat",
+      "section": "",
+      "page_heading": "All Offers",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=top-strip",
+      "section": "Reading",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026",
+      "section": "// 02 Featured deals",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://learn.ine.com/2026-black-friday-promotions",
+      "section": "// 03 Hacking labs and security training",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "ciphers-security-tracker",
+      "discovery_url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
+      "offer_url": "https://learn.ine.com/2026-black-friday-promotions?utm_source=cipherssecurity&utm_medium=referral&utm_campaign=bf2026&utm_content=sidebar",
+      "section": "⚡ Latest News",
+      "page_heading": "Cybersecurity Black Friday Deals 2026: Training, VPNs, Password Managers",
+      "published_at": "2026-10-27T13:46:32+05:30",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "GTA6 Rubber Johnny",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "GTA6 Rubber Johnny from $99 $109"
     }
   ],
   "reviewed_evidence": [
