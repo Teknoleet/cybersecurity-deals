@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T21:02:28Z",
+  "updated_at": "2026-11-23T01:40:37Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -7234,7 +7234,7 @@
       "url": "https://www.practical-devsecops.com/black-friday-cybersecurity-certification-deals-2026/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "641bac39c34b1d430f62a037b301f9864d262973e5960715e0dcd8c4fc3213b8",
+      "body_sha256": "7639ada843e055bdcd01e8d64fab6a936e6f0130ffc698560c27192a9372b6c5",
       "etag": null,
       "last_modified": "Sun, 22 Nov 2026 16:51:30 GMT",
       "deals": [],
@@ -7307,15 +7307,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "6d74380ee5b97d99ca31ed22d4c47ea3538252e53db2d6bf663f1b98b69b71fc"
+      "validated_digest": "090effb03b0809763377b428ceecc483c7c2a27d43cd776df82ecc07e885b5f2"
     },
     "practical-devsecops-2026": {
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
       "adapter_version": 8,
-      "body_sha256": "769278c397fbda77b63ba358922aeea2455ca59af0b866150a54302c731aa992",
+      "body_sha256": "f6d76f7ba431c67fb769aa83d8b63f28aceb81726a5d6fa041fed62386bf3a0d",
       "etag": null,
-      "last_modified": "Sun, 22 Nov 2026 11:02:41 GMT",
+      "last_modified": "Sun, 22 Nov 2026 21:52:11 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -8380,7 +8380,7 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "58c156cada90f636ef9a7efde44ff97d2d482528aa75f7ec4be8cd149e2ec09b"
+      "validated_digest": "3d43fdaede4d86f7f6c11ee34a66368f23144750f42980fbdb6309921805549a"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
@@ -8498,7 +8498,7 @@
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "88ecf8872a4c167d19d3f2edf4b4ea94be28074f1bb979912163cdb86d3e2c32",
+      "body_sha256": "a49603ecb099fd06417aad6b8bdd15a8604775c16040993e3701d360a5d7ede6",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8868,13 +8868,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "adefd278564f3cd5d61af7cdea87cc8dbfb52d1b0b702b3f9db0bf95bc0d1c7b"
+      "validated_digest": "d64f03cbd680281d2125f7fc0468d0281ec0f78c016f48b66a37e367da75e2fe"
     },
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "b4f5cc46ae9ac7a5bcad4252e1d08b2a4c0a52fd3a0e9f9c48227ba709f3dac1",
+      "body_sha256": "987091f6b675c003bba9e38bf3cabd0832c1cc5abb1b7be27afcef838161a260",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8914,14 +8914,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "5a45623150b6e2a9d6999145940686530e8eacdd1c449492f8c3d77eca4c3754"
+      "validated_digest": "211db727bbaa9573ad1bebbeed9fbc1e6fe12554b8c430773acdc81e064c0643"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "325bbbe81e5619d4cc6ec427601f25025bf183b8525089f246996bd089e2a678",
-      "etag": "W/\"325bbbe81e5619d4cc6ec427601f2502\"",
+      "body_sha256": "a1224ecd0bba9b2c2dbc208ac8076b6b4e2876bf37a17c6cb60f92cdc992655f",
+      "etag": "W/\"a1224ecd0bba9b2c2dbc208ac8076b6b\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -9004,15 +9004,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "f56f8f37f0fdef10fefe7cb7aa63eb7fe821f9486af8d7c8b7337d092b901778"
+      "validated_digest": "3c4e70757b0bc72d6dd8ac73b7c32d398089e775c9c40e29014128d76841964e"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "ca689b7f4dfbd5a0aab12284d16a209963d3ee4fe76333b460afd48d856e996b",
-      "etag": "\"8e24-660b29134c7bc\"",
-      "last_modified": "Fri, 20 Nov 2026 10:18:36 GMT",
+      "etag": "\"8e24-660b291548a02\"",
+      "last_modified": "Fri, 20 Nov 2026 10:18:38 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9068,8 +9068,8 @@
       "adapter": "html_discovery",
       "adapter_version": 8,
       "body_sha256": "4d22fadab0915178a3373f9419ce326ebe74431951c6ad1403fa4b272548d491",
-      "etag": "\"76c7-660b29541466b\"",
-      "last_modified": "Fri, 20 Nov 2026 10:19:44 GMT",
+      "etag": "\"76c7-660b77ba15f7b\"",
+      "last_modified": "Fri, 20 Nov 2026 16:10:29 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9190,8 +9190,8 @@
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "2223ceedd6e9a0a18290328d2b6c1dd8a3d1a4f813119dae83c811f6236762fc",
-      "etag": "W/\"sfr:computation:v2:67acd4e0613840abae489b09ceed13f9af0f2bf044011866b5fc2c60bd1b51f1:c4efa6565f29c3491aa0ba2370ca3807\"",
+      "body_sha256": "0b9f81bc12d9bcd2da0b1baa39131caf0741e6b53f4cd588ca6965ce25e984e9",
+      "etag": "W/\"sfr:computation:v2:2afd68c61c97153d963e28b8aefd8b2ad2dbe9cdc65462d4b2bfde92cc77677c:f591b051e22431fb0cc49126979541f3\"",
       "last_modified": null,
       "deals": [
         {
@@ -9402,7 +9402,7 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "b14c79497c8ce5796fd063f609aea10fc3f74d320303651f5237d119b399934d"
+      "validated_digest": "9d5734f7085ace5e0325d890da8f176898e3c0f5c3152163642234e13975cbbf"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
@@ -9597,9 +9597,9 @@
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "adb51d215a0397a544abe876c5994dc96d5d1dfa57b58bfe381342a2f0f9fe4b",
+      "body_sha256": "4895004c91cee83d95379be618a19c9fe9266556e08782f7281cd7eeab0ef321",
       "etag": null,
-      "last_modified": null,
+      "last_modified": "Sun, 22 Nov 2026 21:02:28 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9626,7 +9626,7 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "bac303235699182237d6a4508b972c196b99eff50b71e5fa09befe8a134da10b"
+      "validated_digest": "b5920c617a191ee08de37863431a6eb46e254afdc76b358b1fb27567aa80cc36"
     }
   },
   "candidates": [
