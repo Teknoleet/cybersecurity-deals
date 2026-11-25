@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T10:29:53Z",
+  "updated_at": "2026-11-25T20:11:58Z",
   "http_cache": {
     "github-0x90n": {
       "url": "https://raw.githubusercontent.com/0x90n/Infosec-Black-Friday/master/README.md",
@@ -2962,8 +2962,8 @@
       "url": "https://raw.githubusercontent.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals/main/README.md",
       "adapter": "github_markdown",
       "adapter_version": 8,
-      "body_sha256": "f51f5c3822aa3df76246b13aba2e0f978be2f9716f432db1640d953334b87edd",
-      "etag": "W/\"39f2c20e27d50c3d8c65796fa0331c5b6efa6c1ea1d20add263628db35202b2b\"",
+      "body_sha256": "a33924a556e3726772df39477fe967d284367ddad71e24c88dab3e9f725e8a2f",
+      "etag": "W/\"8618cf727f03937b5ffc5be7eabd0b28871a64fccc162bbf267639a456403441\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -3060,7 +3060,7 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://lifemathmoney.gumroad.com/",
+          "offer_url": "https://blackfriday.lifemathmoney.com/",
           "section": "Sponsors",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -3781,6 +3781,16 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://blendcue.com/?ref=bf-twf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "🎬 Video, Audio & Podcasting",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://apps.apple.com/us/app/audiobo-m4b-audiobook-maker/id6754019673?ct=bf26_twf&mt=12&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "🎬 Video, Audio & Podcasting",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -4540,6 +4550,16 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://screenpipe.com/black-friday?utm_content=twf-nikhila",
+          "section": "📝 AI Assistants & Writing",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://citewing.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "🔍 SEO & AI Search Visibility",
           "reason": "needs_official_2026_evidence",
@@ -4791,6 +4811,16 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://gbpseotools.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "🔍 SEO & AI Search Visibility",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://listmy.site/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "🔍 SEO & AI Search Visibility",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -5261,6 +5291,26 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://loudwell.app/black-friday/?s=bf-twf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "📣 Marketing, Social & Lead Gen",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://surl.li/en?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "📣 Marketing, Social & Lead Gen",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://utobo.com/email/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "📣 Marketing, Social & Lead Gen",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -5781,6 +5831,26 @@
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://faxio.app/pricing?utm_source=awesome_bfcm_twf&utm_medium=deal_listing&utm_campaign=black_friday_2026",
+          "section": "💼 Business, Finance & Operations",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://bugsmash.io/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "💼 Business, Finance & Operations",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://www.autentique.com.br/en?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "💼 Business, Finance & Operations",
           "reason": "needs_official_2026_evidence",
           "entry_status": "discovered",
@@ -6450,6 +6520,36 @@
         {
           "source_id": "github-twf-nikhila",
           "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://miget.com/plans?utm_source=twf-nikhila&utm_medium=deal-list&utm_campaign=bf2026",
+          "section": "🧑‍💻 Developer Tools",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://uptimecheck.com/pricing/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=black-week-2026",
+          "section": "🧑‍💻 Developer Tools",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+          "offer_url": "https://vibeisland.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+          "section": "🧑‍💻 Developer Tools",
+          "reason": "needs_official_2026_evidence",
+          "entry_status": "discovered",
+          "campaign_year": null,
+          "automatic_publication": false
+        },
+        {
+          "source_id": "github-twf-nikhila",
+          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
           "offer_url": "https://shipahe.ad?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
           "section": "🧱 Boilerplates & Starter Kits",
           "reason": "needs_official_2026_evidence",
@@ -6866,110 +6966,10 @@
           "entry_status": "discovered",
           "campaign_year": null,
           "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://shadcnspace.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-          "section": "🎨 UI Kits, Icons & Design Assets",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://shadcnstore.com/pricing?utm_source=twf&utm_medium=deal-list&utm_campaign=cyber-week-2026",
-          "section": "🎨 UI Kits, Icons & Design Assets",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://www.threedee.design/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-          "section": "🎨 UI Kits, Icons & Design Assets",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://www.a1.gallery/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bf2026",
-          "section": "🎨 UI Kits, Icons & Design Assets",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://reui.io/pricing?utm_source=twf-bfcm&utm_medium=directory&utm_campaign=reui-nov26",
-          "section": "🎨 UI Kits, Icons & Design Assets",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://gutslider.com/black-friday/?utm_source=github&utm_medium=deal-list&utm_campaign=bf2026",
-          "section": "🌐 Website Builders, No-Code & WordPress",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://layerwise.app/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-          "section": "🌐 Website Builders, No-Code & WordPress",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://wordify.com/black-friday/?utm_source=github-twf&utm_medium=deals-list&utm_campaign=black-friday-2026",
-          "section": "🌐 Website Builders, No-Code & WordPress",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://quotion.co/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026#pricing",
-          "section": "🌐 Website Builders, No-Code & WordPress",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
-        },
-        {
-          "source_id": "github-twf-nikhila",
-          "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-          "offer_url": "https://wppopupmaker.com/black-friday-sale-2026/?utm_source=awesome-bfcm&utm_medium=deal-list&utm_campaign=bfcm2026",
-          "section": "🌐 Website Builders, No-Code & WordPress",
-          "reason": "needs_official_2026_evidence",
-          "entry_status": "discovered",
-          "campaign_year": null,
-          "automatic_publication": false
         }
       ],
       "status": "discovery",
-      "validated_digest": "426bb0a780950c8bbee1b0ca54e036e213d129dff0c5f6adc5a461aa2c2ee6d5"
+      "validated_digest": "ab309a4d365185b87777af89d5478d4026fb612f7d4dc7a99230d18fd7066271"
     },
     "github-hysnsec": {
       "url": "https://raw.githubusercontent.com/hysnsec/InfoSec-Black-Friday-Cyber-Monday-Deals/main/README.md",
@@ -7313,9 +7313,9 @@
       "url": "https://www.practical-devsecops.com/infosec-black-friday-deals-2026/",
       "adapter": "practical_devsecops",
       "adapter_version": 8,
-      "body_sha256": "a02dd66f8c839d706c9feb290383ecdc990d4c8d9c3488e6da91c28392c2cb74",
+      "body_sha256": "ddb8b49da4486aa386109e3457693b2b0d94f38054e82098c3b6cdd4cfbc1368",
       "etag": null,
-      "last_modified": "Wed, 25 Nov 2026 05:36:46 GMT",
+      "last_modified": "Wed, 25 Nov 2026 16:08:33 GMT",
       "deals": [
         {
           "id": "22a670c1f241218608ab4875",
@@ -8380,13 +8380,13 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "c2e5ac581d0a213c5f740df8bd02107dcad0750fb63604b04cd328b79aecf6a3"
+      "validated_digest": "33223bd32ae9c3632a85837bafec2601ef3ce286cda22515981be6d5db376c4f"
     },
     "bleepingcomputer-offers": {
       "url": "https://www.bleepingcomputer.com/offer/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "ba690b14d4a5c14862e2986b785e8f44923ac24bcbe26720b94f24edb64d4d95",
+      "body_sha256": "959cfd38220e1b323e3a5a3b8a68c8dc73a97cdcd05391254211f0123afb7e71",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8492,13 +8492,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "4df7cf1e71cec5ff5e9a69e625bd484083e39837faaea49c69e68740c35e40c2"
+      "validated_digest": "f176c0bf10eb179190245dd8cebc3dcef54388dcd2ffda35e4b7c3067f9facd0"
     },
     "ciphers-security-tracker": {
       "url": "https://cipherssecurity.com/cybersecurity-black-friday-deals/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "b7fc14ea3fd2e8e2c01a38c899e8cc7ba2b903eac85c9784f4aa52c8ae3cc2ec",
+      "body_sha256": "934f6c70b9bf132452aa2f5647da644cc56338aa158ac0854419d7ac63cbd1cf",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8868,13 +8868,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "d51620c3b60441df9ad15f226cf31369a8d117e851e077f67d0e37f319ede508"
+      "validated_digest": "e6d06e114b2732276dea775e59a526bec5be6e7d9f131372db648536b68af70c"
     },
     "sans-specials-na": {
       "url": "https://www.sans.org/specials/north-america",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "f6eb1d9af5c1dee58b8ff17a80af50c063fe33d6fbe3d3afeb37779c1c45715b",
+      "body_sha256": "b27def5698c37411cce7af0202c748ab159045c8023864936ed9c8303901c33f",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -8914,14 +8914,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "0458c9fe486a68e99adb0dc50e47fb9b6a5a9194507ae7cc9ec81be19b070fda"
+      "validated_digest": "9b1d85290c78f9af51ee6ea608a0220994230bdbd80b0f1cf6d1141f89cf0703"
     },
     "stacksocial": {
       "url": "https://www.stacksocial.com",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "446e7bc98a096b4770230deb0e65c9b2fef10674a67eb17ae4ffa0ee447066aa",
-      "etag": "W/\"446e7bc98a096b4770230deb0e65c9b2\"",
+      "body_sha256": "bdcb2593d7e227869baa19fd9414d216b4692f3e1112b3a7bd62c54e1dfee23d",
+      "etag": "W/\"bdcb2593d7e227869baa19fd9414d216\"",
       "last_modified": null,
       "deals": [],
       "candidates": [
@@ -9004,15 +9004,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "42afca003431aa25974890c5fce807db05bbdeca4a96870bfbf9736366d7b63e"
+      "validated_digest": "db67b8dc37423db1f671fc5757c30c086d0f9be84d3eaa7044f772bff53f998c"
     },
     "proton-black-friday": {
       "url": "https://proton.me/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "2eec741c54e2a28a9238a78909d9d441540654659d07ff5e43ad79ce37f90659",
-      "etag": "\"8d84-66115ba1774f3\"",
-      "last_modified": "Wed, 25 Nov 2026 08:36:44 GMT",
+      "body_sha256": "73788c06f32880d12e8c339cc37e569be66d6a45f101d8c22cfe8d4f9e0d444f",
+      "etag": "\"8d84-6611c72cd100f\"",
+      "last_modified": "Wed, 25 Nov 2026 16:37:53 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9061,15 +9061,15 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "53119edfa017fb912abbd730b6dca9bbd8ec89966185a16fa674adf29c0269fe"
+      "validated_digest": "a50ab47dffa4f73a31dd5dd8830681c5bed74b14ec01cb95a9272bc20471f737"
     },
     "protonvpn-black-friday": {
       "url": "https://protonvpn.com/black-friday",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "4a7b374510adb4b31dd7a3b405353509ad1a1fd81d5ac5c74567680250cfbc95",
-      "etag": "\"7685-66116aee2d0c1\"",
-      "last_modified": "Wed, 25 Nov 2026 09:45:11 GMT",
+      "body_sha256": "4bcfd9044d63585189295e8404ea06eb5e83c65d3db703819b6456b79a3a9763",
+      "etag": "\"768c-6611c7529fd6e\"",
+      "last_modified": "Wed, 25 Nov 2026 16:38:32 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9184,14 +9184,14 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "bdd047348ed5cf136e1ca10dae5f6ac6ad2d32b1e1227e5f1767c87f10a96377"
+      "validated_digest": "765a730dc96c704cbf504613b188d46170b0cec18c85b19f434f8e162f7de83d"
     },
     "hak5-hacked-november": {
       "url": "https://shop.hak5.org/pages/hacked-november",
       "adapter": "hak5",
       "adapter_version": 8,
-      "body_sha256": "b80ce52cc177feb946b97239fed9d886e67152474fd288e1c58df8dc4b0c182e",
-      "etag": null,
+      "body_sha256": "268e4b293297f81ade33e59724ee04b6d91ff3615411826e59fac5036841001f",
+      "etag": "W/\"sfr:computation:v2:08eeb3cfe03ed03907f237d2c10b5ca6c916e59ec5b3fc321ab21f06401fa47b:62b1a0a3e6f38515e1ba729bee211379\"",
       "last_modified": null,
       "deals": [
         {
@@ -9354,6 +9354,12 @@
         },
         {
           "source_id": "hak5-hacked-november",
+          "product": "WiFi Wardrive Gift Pack",
+          "reason": "variant_price_range_needs_review",
+          "evidence_excerpt": "🎁 WiFi Wardrive Gift Pack from $369 $475"
+        },
+        {
+          "source_id": "hak5-hacked-november",
           "product": "Best Sellers Gift Pack",
           "reason": "variant_price_range_needs_review",
           "evidence_excerpt": "🎁 Best Sellers Gift Pack from $674 $1,020"
@@ -9402,15 +9408,15 @@
         }
       ],
       "status": "confirmed",
-      "validated_digest": "97bbca1e658b509542bbaa39ab8bcc86ec51bfa13fec9b7a1c7e750cb34da30d"
+      "validated_digest": "9efe88ddae504e390516d31f0ebc66068eaa7f48aa0a2edf7fee1ea1f7eefd21"
     },
     "offsec-learn-one": {
       "url": "https://www.offsec.com/products/learn-one/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "82b835e049809191e5e2b083a9ec7e8be78515bacdcdc0ef5a2b7ae5a5f0ea3e",
-      "etag": "W/\"17198-661081ed9e334\"",
-      "last_modified": "Tue, 24 Nov 2026 16:22:45 GMT",
+      "body_sha256": "f5e235bd5702071230a8393abb6cff5ef74682da79ea830024b8eaa0874b2ff7",
+      "etag": "W/\"1717b-6611cc0cd2a00\"",
+      "last_modified": "Wed, 25 Nov 2026 16:59:41 GMT",
       "deals": [],
       "candidates": [
         {
@@ -9591,13 +9597,13 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "004fcdc7c8024a978a913c3647b89426b868adfba7ba4a655567df15da7734b2"
+      "validated_digest": "fc4cae338c2fb37cf99959ee3bc8820124a6b2622e09e64d265d23dec7250750"
     },
     "totalsem-early-black-friday": {
       "url": "https://totalsem.com/early-black-friday-25-off-it-training-through-nov-30/",
       "adapter": "html_discovery",
       "adapter_version": 8,
-      "body_sha256": "8d9d1e543d8700862bee3f0ae10365227c3a584899537e55adb1e3c864d4e316",
+      "body_sha256": "a469565621e9647e72eb72c9dc8fa9dc1a48b0a598a3bb8bc4ba19289fd86110",
       "etag": null,
       "last_modified": null,
       "deals": [],
@@ -9626,650 +9632,10 @@
         }
       ],
       "status": "discovery",
-      "validated_digest": "822b73aa7b30935fb3ae09525cc4b4810b6e31a33850eebf2a6cbf6ea415e63d"
+      "validated_digest": "08ab3fc6d5cab12ef271c94d6d00b6d55b16fb520b935df8e0a308efc278049e"
     }
   },
   "candidates": [
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://gracker.ai/blog/black-friday-deals?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🔍 SEO & AI Search Visibility",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.citationrocket.com/pricing?utm_source=twf-nikhila&utm_medium=bf_list&utm_campaign=bf2026",
-      "section": "🔍 SEO & AI Search Visibility",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://swifterm.com/black-friday/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://tools.landin.page/advertise?ref=Awesome-Black-Friday-Cyber-Monday-deals&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://updately.ai?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://sponsonizer.com/?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://scalelist.com/black-friday/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://sendbroadcast.net/black-friday?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://social9.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://mailazy.com/blog/black-friday-deals?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://fomotoast.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "📣 Marketing, Social & Lead Gen",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://apps.apple.com/us/app/finny-ai-money-manager/id6736472735?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://syncmygroup.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://userjot.com/?ref=twf-bf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://evendeals.com/?ref=Awesome-Black-Friday-Cyber-Monday-deals&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://submanager.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://getkira.com/black-friday?promo=BF-DIRECTORY&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://nivon.ai/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://fidiora.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://voksha.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://opskeet.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://bardachtechnologies.gumroad.com/l/larderly-full-menu-costing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💼 Business, Finance & Operations",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://juxtacode.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://pagerly.io?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://lockitbot.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://pixelvault.dev/blackfriday/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://apps.apple.com/us/app/asc-analytics-connectwizard/id6747314580?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://apps.apple.com/us/app/docker-manager-gui-whaledeck/id1581548562?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.abareplace.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://panel.esnoffical.com/plans?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://getyoutubetranscript.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.piloterr.com/blackfriday?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://formbold.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://static.run/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://perch.run/black-friday?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://devworkspacepro.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧑‍💻 Developer Tools",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://shipahe.ad?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://nextjstemplates.com/all-access?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://saasbold.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://cozycommerce.dev/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://nextmerce.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://dirstarter.com/?discountCode=BF2026&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://agentwright.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🧱 Boilerplates & Starter Kits",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://astrobuildkit.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://codedvisuals.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://tailkit.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://sportyblocks.com/?discount=BLACKFRIDAY&ref=bf-twf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.ls.graphics/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://adminkit.io/pricing/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://www.framer.com/@miguel-recio/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://lineicons.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://tailgrids.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://tailadmin.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://tailtemplates.com/all-access?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://uideck.com/all-access?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://nextadmin.co/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://artnap.com/pro?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🎨 UI Kits, Icons & Design Assets",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://layerwise.app/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🌐 Website Builders, No-Code & WordPress",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://quotion.co/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026#pricing",
-      "section": "🌐 Website Builders, No-Code & WordPress",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://meku.dev/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🌐 Website Builders, No-Code & WordPress",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://kinsta.com/black-friday/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "🌐 Website Builders, No-Code & WordPress",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://appsbymo.app/?ref=twf-bf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://noteifyapp.com/apps/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
-    {
-      "source_id": "github-twf-nikhila",
-      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
-      "offer_url": "https://supasidebar.com?r=twf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
-      "section": "💻 Mac & Desktop Utilities",
-      "reason": "needs_official_2026_evidence",
-      "entry_status": "discovered",
-      "campaign_year": null,
-      "automatic_publication": false
-    },
     {
       "source_id": "github-twf-nikhila",
       "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
@@ -17652,6 +17018,658 @@
       "section": "Everything You Need To Pass",
       "page_heading": "Early Black Friday: 25% Off IT Training, Plus What’s New This Season",
       "published_at": "2026-11-10T18:23:45+00:00",
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://blackfriday.lifemathmoney.com/",
+      "section": "Sponsors",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.smoothcapture.app/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://gracehuang.gumroad.com/l/facecam/BLACKFRIDAY26?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://compresto.app/?ref=Awesome-Black-Friday-Cyber-Monday-deals&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://rocketscribe.ai?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://facescreen.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://json2video.com/pricing/blackfriday-2026/?c=twf&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://podwise.ai?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://screensage.pro/bf2026?ref=twf-nikhila-bf2026&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://smoothcut.studio/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://transcrybe.app/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://pimosa.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://multitrim.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://kveeky.com/blog/best-black-friday-ai-voiceover-deals?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://extensions.loopspec.com/roomtape?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://apps.apple.com/us/app/audiobo-m4b-audiobook-maker/id6754019673?ct=bf26_twf&mt=12&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🎬 Video, Audio & Podcasting",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://newyougo.com/pricing?promo=bf2026&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://gracehuang.gumroad.com/l/resizegenius/BLACKFRIDAY26?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://gracehuang.gumroad.com/l/redac/BLACKFRIDAY26?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.shotomatic.com/pricing?discount_code=BF2026&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://digitalphotoframeapp.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://thephotoboothapp.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://ourfamilyalbum.com/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://renderpixels.com/?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://snaptidyapp.github.io/snaptidy-site/blackfriday/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.screensnap.pro/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📸 Photo, Image & Screenshot",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://rewritebar.com?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.rezi.ai/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://fluentmac.app/?ref=twf-nikhila&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://aymo.ai/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://logicballs.com/blog/black-friday-deals?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://wovo.one/?ref=twf2026&utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026#pricing",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://orwellix.com/lifetime-deal?utm_source=twf-awesome-bfcm&utm_medium=deal-directory&utm_campaign=lifetime-deal-2026",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://screenpipe.com/black-friday?utm_content=twf-nikhila",
+      "section": "📝 AI Assistants & Writing",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://citewing.com?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://citewing.com/directory-submission-service?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://autx.ai/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://outpublished.com/black-friday?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://getlinkbunny.com/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026#black-friday-2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://listmy.site/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🔍 SEO & AI Search Visibility",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://surl.li/en?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📣 Marketing, Social & Lead Gen",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://utobo.com/email/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "📣 Marketing, Social & Lead Gen",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://bugsmash.io/pricing?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "💼 Business, Finance & Operations",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://www.autentique.com.br/en?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "💼 Business, Finance & Operations",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://miget.com/plans?utm_source=twf-nikhila&utm_medium=deal-list&utm_campaign=bf2026",
+      "section": "🧑‍💻 Developer Tools",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://uptimecheck.com/pricing/?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=black-week-2026",
+      "section": "🧑‍💻 Developer Tools",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "github-twf-nikhila",
+      "discovery_url": "https://github.com/twf-nikhila/Awesome-Black-Friday-Cyber-Monday-deals",
+      "offer_url": "https://vibeisland.app?utm_source=awesome-black-friday-deals&utm_medium=github&utm_campaign=bfcm2026",
+      "section": "🧑‍💻 Developer Tools",
+      "reason": "needs_official_2026_evidence",
+      "entry_status": "discovered",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "hak5-hacked-november",
+      "product": "WiFi Wardrive Gift Pack",
+      "reason": "variant_price_range_needs_review",
+      "evidence_excerpt": "🎁 WiFi Wardrive Gift Pack from $369 $475"
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://portal.offsec.com/sign-in/",
+      "section": "",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/064809ed-5dc5-4a88-8a1a-448d53d8c285",
+      "section": "Level 20",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://cta-redirect.hubspot.com/cta/redirect/51524431/c920eb11-27c1-49b3-815c-882486ee6ed6",
+      "section": "Level 20",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://portal.offsec.com/checkout/?view=learn-one",
+      "section": "Learn One",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/4410261427732-Course-material-download-FAQ",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/search/click?data=BAh7DjoHaWRsKwgUNQELAgQ6D2FjY291bnRfaWRpA1hFkjoJdHlwZUkiDGFydGljbGUGOgZFVDoIdXJsSSIBfmh0dHBzOi8vaGVscC5vZmZlbnNpdmUtc2VjdXJpdHkuY29tL2hjL2VuLXVzL2FydGljbGVzLzQ0MDY4MjEwNzQxOTYtSG93LXRvLURvd25sb2FkLUNvdXJzZS1NYXRlcmlhbHMtZnJvbS10aGUtVHJhaW5pbmctTGlicmFyeQY7CFQ6DnNlYXJjaF9pZEkiKTVjOTYwOWVmLWM0MjktNGRhNy05ZDVmLTg4MGQwMjhlNTJjYwY7CEY6CXJhbmtpBjoLbG9jYWxlSSIKZW4tdXMGOwhUOgpxdWVyeUkiHmRvd25sb2FkIGNvdXJzZSBtYXRlcmlhbHMGOwhUOhJyZXN1bHRzX2NvdW50aU8%3D--c2264e097400dbcefa473b479a30d14f8d91af61",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/18993701799572-Course-Cert-Exam-Bundle-FAQ",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/articles/4403407883156",
+      "section": "Learn One FAQ",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://offsec.com/register/products?pt=3",
+      "section": "Proving Grounds Practice",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://www.klarna.com/us/legal/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://help.offsec.com/hc/en-us/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://partnerportal.offsec.com/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://www.twitch.tv/offsecofficial",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://discord.com/invite/offsec",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://trust.offsec.com/?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
+      "reason": "needs_official_2026_evidence",
+      "campaign_year": null,
+      "automatic_publication": false
+    },
+    {
+      "source_id": "offsec-learn-one",
+      "discovery_url": "https://www.offsec.com/products/learn-one/",
+      "offer_url": "https://offsec.com/rss.xml?utm_source=offsec/",
+      "section": "Pay smarter with Klarna.",
+      "page_heading": "Learn One",
+      "published_at": null,
       "reason": "needs_official_2026_evidence",
       "campaign_year": null,
       "automatic_publication": false
